@@ -7,3 +7,10 @@
 * ascii_unit.md      asciiコードにおけるコード表記に関するドキュメント
 * vital_sign_def.md  バイタル検査結果通知に関する定義
 * cp932_JIS_convart.md  環境依存文字　変換テーブル
+
+##sampleフォルダ内の構成
+* standard_root 標準化ストレージのルートディレクトリ
+
+* extended_root 拡張ストレージのルートディレクトリ
+    * 0123456789_20160101_L-OBSERVATIONS^OBSERVATIONS^99ZL01_000000020160101_201601011500321_1: 1日1ファイルのサンプル
+    * 0123456789_20160101_L-OBSERVATIONS^OBSERVATIONS^99ZL01_000002016010115_201601011500321_1: 1日複数ファイルのサンプル
