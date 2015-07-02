@@ -6,7 +6,7 @@ JAHIS臨床検査データ交換規約Ver.3.1では、 _『数値型の検査結
 
 ## 正規表現について
 
-Extended Regular Expressionで記載する。
+Extended Regular Expressionで記載する。前後のスペースを除去したものに適用させることを想定している。
 [regexper.com](http://regexper.com/) 等で視覚的に確認することが出来る。
 
 ## パターンファイル
