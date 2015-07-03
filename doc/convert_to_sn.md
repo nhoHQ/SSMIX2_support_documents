@@ -14,7 +14,7 @@ Extended Regular Expressionで記載する。前後のスペースを除去し�
 [regexper.com](http://regexper.com/) 等で視覚的に確認することが出来る。
 
 ## パターンファイル
-[sn.ptn](ここにリンク)
+[convert_to_sn.ptn](../master/convert_to_sn.ptn)
 
 ## 数値について
 HL7 ver.2.5のNM型から正の記号を除いたものを【数値】とする。適宜読み替えること。
