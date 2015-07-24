@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2015/07/03
+更新日: 2015/07/24
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -10,7 +10,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 
 |ASCII単位|表示用単位の例|ISO|
 |----|-----|-----|
-|%|％, %, 100WBC, %ソガイリツ, コヒ゜-/テスト, コピー/テスト|+|
+|%|％, %, 100WBC, %ソガイリツ|+|
 |si%|S.I(%), SI|+|
 |inh%|Inh%, %INH|+|
 |.10*2/uL|X10＾2/μl, x10 2/ul, X10 2, ×10^2/μL, ×10\S\2/, x10\S\2, x10\S\2/μL|+|
@@ -21,7 +21,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |/(lpf)|/LPF, LPF|+|
 |/mL|/ml, /1mL|+|
 |ch50/mL|CH50/ml, CH50U/ml||
-|/uL|/μl, /mm3, /ul, /μL|+|
+|/uL|/μl, /ul, /μL|+|
 |/(3.uL)|/3μl, /3|+|
 |iu/L|IU/ｌ, IU/l/37℃, IU/L, IU/l, IU/L/37, IU/L/37゜, IU/L/37゜|+|
 |u/L|U/l, U/ｌ, U/l/37℃, U/L|+|
@@ -86,8 +86,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |LGeq/mL|LGE/ml, LGE/mL||
 |copies/mL|コピー/ml, cp/mL||
 |copies/ug|コピ-/μg, コピー/μg, /μgRNA, c/μgRNA, copy/μgR, コヒ゜ー/μgRNA||
-|copies/10*6cells|コピー||
-|ng/10*7cells|ng/10\S\7Cel, 新単位, ng/10\S\7cells, ng/10\S\7, ng/10^7PLT, ng/10*7PLT||
+|ng/10*7cells|ng/10\S\7Cel, ng/10\S\7cells, ng/10\S\7, ng/10^7PLT, ng/10*7PLT||
 |copies/assay|コピー/アッセイ, コピ-/アツセ, コヒ゜-/アツセイ||
 |kg|Kg, ｋｇ, kg|+|
 |mL|ml, ｍＬ, mL|+|
@@ -129,10 +128,10 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |.|バイ, 倍, ハ゛イ|+|
 |.10*6/mL|10\S\6/mL, x10^6/mL||
 |eiu|EIU||
-|kiu/mL|KIU/ml||
-|mL/d|mL/day||
-|nu/mL|nU/mL||
+|kiu/mL|KIU/ml|+|
+|mL/d|mL/day|+|
+|nu/mL|nU/mL|+|
 |vol%|Vol%||
-|.10*5/mL|X100000/||
+|.10*5/mL|X100000/|+|
 |nil(spot)|スポット||
 |/(5.10*4(wbc))|個/15万W||
