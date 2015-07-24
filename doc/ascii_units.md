@@ -22,7 +22,6 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |/mL|/ml, /1mL|+|
 |ch50/mL|CH50/ml, CH50U/ml||
 |/uL|/μl, /ul, /μL|+|
-|/(3.uL)|/3μl, /3|+|
 |iu/L|IU/ｌ, IU/l/37℃, IU/L, IU/l, IU/L/37, IU/L/37゜, IU/L/37゜|+|
 |u/L|U/l, U/ｌ, U/l/37℃, U/L|+|
 |iu/mL|IU/ml, IU/mL, ＩＵ/ｍＬ|+|
