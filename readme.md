@@ -10,6 +10,7 @@
 * convert_to_sn.md 定性結果・不等号の表現
 * jlac10_units.md JLAC10ごとの単位
 * sample_value.md 複合検査結果値の分離
+* ssmix_specification.md SS-MIX2を用いた診療情報データベース構築の為のSS-MIX2モジュール技術仕様書
 
 ##masterフォルダ内の構成
 * convert_to_sn.ptn 定性結果・不等号の変換用正規表現パターンファイル
