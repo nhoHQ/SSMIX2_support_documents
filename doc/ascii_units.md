@@ -6,7 +6,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
     < 単位(ASCII)(ST) > ^ < 単位名称(漢字可)(ST) > ^ < コード体系名(ID) >
 
 本事業では、先頭成分をHL7 標準 ver.2.5の表7-9 共通ISO単位 & ISO+拡張に倣い、ASCII文字で記載することを求めている。
-変換例を以下に示す。なお『/S/』はHL7の表記で『^』を表現する際に使用する文字列である。
+変換例を以下に示す。なお『/S/』はHL7の表記で『^』を表現する際に使用する文字列である。また、表示用単位の例のうち『,』を含むものは『""』で囲っている。
 
 |ASCII単位|表示用単位の例|ISO|
 |----|-----|-----|
@@ -22,7 +22,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |/mL|/ml, /1mL|+|
 |ch50/mL|CH50/ml, CH50U/ml||
 |/uL|/μl, /ul, /μL|+|
-|iu/L|IU/ｌ, IU/l/37℃, IU/L, IU/l, IU/L/37, IU/L/37゜, IU/L/37゜, IU/L・37℃|+|
+|iu/L|IU/ｌ, IU/l/37℃, IU/L, IU/l, IU/L/37, IU/L/37゜, IU/L・37℃|+|
 |u/L|U/l, U/ｌ, U/l/37℃, U/L|+|
 |iu/mL|IU/ml, IU/mL, ＩＵ/ｍＬ|+|
 |u/mL|U/ml, U/ｍｌ, U/mL, Ｕ/ｍＬ|+|
@@ -79,7 +79,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mosm/kg_h2o|mOsm/KgH2O, MOSM/KGH, mOsm/kg, mOsm/Kg, mOsm/l, mOsm/L, mOsm/kg・H2O|+|
 |L/min|L/min|+|
 |mL/min|ml/min|+|
-|ｍL/min(bsa)|ml/min, ml/分, ｍｌ/分・1,73㎡, ml/min/, ｍｌ/分・1,73㎡, mL/min/1.73m\S\2|+|
+|mL/min(bsa)|ml/min, ml/分, "ｍｌ/分・1,73㎡", ml/min/, mL/min/1.73m\S\2|+|
 |logiu/mL|LogIU/ml, LogIU/mL, Log IU/mL, Log IU/m, L.IU/ml, LOGU/ML||
 |logcopies/mL|Logコピー/m, Logコヒ゜ー/, Log/ml, LC/ml, Lgコピ/mL, LOGコピー/ml||
 |LGeq/mL|LGE/ml, LGE/mL||
@@ -101,7 +101,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |fl|fl, μm3|+|
 |pg|pg|+|
 |hr min|時　分, 時、分||
-|min sec|分　秒, 分、秒, 分,秒, 分 秒||
+|min sec|分　秒, 分、秒, "分,秒", 分 秒||
 |hr|時間|+|
 |min|分|+|
 |sec|秒, SEC., SEC|+|
