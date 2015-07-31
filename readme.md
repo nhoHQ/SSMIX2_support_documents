@@ -12,7 +12,7 @@
 * ascii_unit.md 単位のASCII文字変換
 * jlac10_units.md JLAC10ごとの単位
 * convert_unit.md 単位変換
-* sample_value.md 複合検査結果値の分離
+* split_value.md 複合検査結果値の分離
 * convert_to_sn.md 定性結果・不等号の表現
 
 ##masterフォルダ内の構成
