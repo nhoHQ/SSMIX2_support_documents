@@ -120,8 +120,8 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mL|ml, ｍｌ, ｍＬ, mL|+||
 |mL/d|mL/day|+||
 |mL/dL|ml/dl|+||
-|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分|+|全てJLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。|
-|mL/min(bsa)|ML/MIN, ml/min/, mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡"|+|全てJLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。|
+|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分|+|JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。|
+|mL/min(bsa)|ML/MIN, ml/min/, mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡"|+|JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。|
 |mm|mm, ＭＭ|+||
 |mm(hg)|mmHg, Torr|+||
 |mm/(2.hr)|mm/2h|+||
@@ -211,4 +211,3 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |uu/mL|μU/ml, μＵ/ｍｌ, μU／mL, μU/mL|+||
 |vol%|Vol%|||
 |単位なし|53, 54, 55, 56, 57, 58, 59, （比率）, ×31.2/, ■／■, aa, D, dils, EIAUnits, HPT, ＭＭＡＬ, NULL, SD, μs, ｺﾋﾟｰ\*, ｺﾋﾟｰ\*\*, ﾍﾝｲｽｳ, 以下, 咽頭, 個/mm2, 細胞数, 細胞数, 指数, 色, 定性, 定性, 比, 変異数, 未満, 無, 喀痰|||
-
