@@ -85,7 +85,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |inh%|%INH, IH%, INH%, ＩＮＨ％|||
 |iu/d|IU/day|+||
 |iu/dL|IU/dl, IU/dL|+||
-|Iu/g(hgb)|IU/g･Hb, IU/gHb|+||
+|iu/g(hgb)|IU/g･Hb, IU/gHb|+||
 |iu/hr|IU/h|+||
 |iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ|+||
 |iu/mL|IU/ml, IU/ｍL, ＩＵ/ｍＬ, IU／mL, IU/mL, IU/mＬ|+||
@@ -121,8 +121,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mL|ml, ｍｌ, ｍＬ, mL|+||
 |mL/d|mL/day|+||
 |mL/dL|ml/dl|+||
-"|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分|+|JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。
-【特記事項あり】|"
+|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分|+|JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】|
 |mL/min(bsa)|mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡"|+|【特記事項あり】|
 |mm|mm, ＭＭ|+||
 |mm(hg)|mmHg, Torr|+||
