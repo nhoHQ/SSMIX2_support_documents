@@ -20,7 +20,8 @@
 
 ##masterフォルダ内の構成
 * convert_to_sn.ptn 定性結果・不等号の変換用正規表現パターンファイル
-
+* iso_units.md HL7標準 第7章 表7-9 共通ISO単位&ISO+拡張
+* ascii_unit.tsv doc\ascii_unit.mdの表ｗ縦積みにしたもの
 
 ##sampleフォルダ内の構成
 * standard_root 標準化ストレージのルートディレクトリ
