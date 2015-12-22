@@ -32,15 +32,13 @@ ASCII単位	表示用単位の例	ISO	備考
 (jdf_u)	JDF UNITS		
 (jdf_u)	JDFU		
 (jdf_u)	JDFunits		
-(knk_u)	U	+	"JLAC10が3A025000002329201(TTT)、 
-3A030000002329201(ZTT)の場合"
-(knk_u)	Ｕ	+	"JLAC10が3A025000002329201(TTT)、 
-3A030000002329201(ZTT)の場合"
-(knk_u)	K.U	+	
-(knk_u)	K.U.	+	
-(knk_u)	KU	+	
-(knk_u)	K-U	+	
-(knk_u)	U(Kunkel)	+	
+(knk_u)	K.U	+	【特記事項あり】
+(knk_u)	K.U.	+	【特記事項あり】
+(knk_u)	KU	+	【特記事項あり】
+(knk_u)	K-U	+	【特記事項あり】
+(knk_u)	U(Kunkel)	+	【特記事項あり】
+(knk_u)	U	+	JLAC10が3A025000002329201(TTT)、 3A030000002329201(ZTT)の場合のみ『(knk_u)』とする。
+(knk_u)	Ｕ	+	JLAC10が3A025000002329201(TTT)、 3A030000002329201(ZTT)の場合のみ『(knk_u)』とする。
 (mpa.sec)	mPa.s		
 (ppb)	ppb	+	
 (rpr_u)	R.U		
@@ -51,11 +49,11 @@ ASCII単位	表示用単位の例	ISO	備考
 (tit_u)	TITER		
 (tit_u)	titer		
 (tit_u)	TU		
-(u)	unit		JLAC10が3F170000002327101(LCAT)の場合
-(u)	UNIT		JLAC10が3F170000002327101(LCAT)の場合
-(u)	Unit		JLAC10が3F170000002327101(LCAT)の場合
-(u)	Units		JLAC10が3F170000002327101(LCAT)の場合
-(u)	UNITS		JLAC10が3F170000002327101(LCAT)の場合
+(u)	unit		JLAC10が3F170000002327101(LCAT)の場合のみ『(u)』とする。
+(u)	UNIT		JLAC10が3F170000002327101(LCAT)の場合のみ『(u)』とする。
+(u)	Unit		JLAC10が3F170000002327101(LCAT)の場合のみ『(u)』とする。
+(u)	Units		JLAC10が3F170000002327101(LCAT)の場合のみ『(u)』とする。
+(u)	UNITS		JLAC10が3F170000002327101(LCAT)の場合のみ『(u)』とする。
 .	ﾊﾞｲ	+	
 .	倍	+	
 .(10*2)	×100倍	+	
@@ -160,8 +158,8 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*9/bag	10^9/bag		
 .10*9/mL	10^9/mｌ	+	
 .10copies/mL	×10 ｺﾋﾟ		
-/(15.10*4(wbc))	個/1.5X10の5乗WBC		JLAC10が5F194142201917451(pp65抗原(C7ＨＲＰ)[サイトメガロウイルス])の場合
-/(15.10*4(wbc))	個/15万W		JLAC10が5F194142201917451(pp65抗原(C7ＨＲＰ)[サイトメガロウイルス])の場合
+/(15.10*4(wbc))	個/1.5X10の5乗WBC		JLAC10が5F194142201917451(pp65抗原(C7ＨＲＰ)[サイトメガロウイルス])の場合のみ『/(15.10*4(wbc))』とする。
+/(15.10*4(wbc))	個/15万W		JLAC10が5F194142201917451(pp65抗原(C7ＨＲＰ)[サイトメガロウイルス])の場合のみ『/(15.10*4(wbc))』とする。
 /(hpf)	/1HPF	+	
 /(hpf)	/HPF	+	
 /(hpf)	/ＨＰＦ	+	
@@ -226,15 +224,15 @@ COI	Cut off
 COI	Cut off Index		
 COI	CutOffInde		
 copies/10*4cells	ｺﾋﾟｰ/1万		
-copies/10*6cells	Kｺﾋﾟｰ/ml		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合
-copies/10*6cells	copy		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
-copies/10*6cells	ｺﾋﾟ-		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
-copies/10*6cells	ｺﾋﾟｰ		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
-copies/10*6cells	10^6cell		
-copies/10*6cells	ｺﾋﾟｰ/10^6cells		
-copies/10*6cells	コピー/10^6cells		
-copies/10*6cells	ｺﾋﾟｰ/106ce		
-copies/10*6cells	ｺﾋﾟｰ/106cells		
+copies/10*6cells	10^6cell		【特記事項あり】
+copies/10*6cells	ｺﾋﾟｰ/10^6cells		【特記事項あり】
+copies/10*6cells	コピー/10^6cells		【特記事項あり】
+copies/10*6cells	ｺﾋﾟｰ/106ce		【特記事項あり】
+copies/10*6cells	ｺﾋﾟｰ/106cells		【特記事項あり】
+copies/10*6cells	copy		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	Kｺﾋﾟｰ/ml		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	ｺﾋﾟ-		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	ｺﾋﾟｰ		JLAC10が5F201144102386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
 copies/assay	ｺﾋﾟ-/ｱﾂｾ		
 copies/assay	ｺﾋﾟ-/ｱﾂｾｲ		
 copies/assay	ｺﾋﾟｰ/assay		
@@ -252,22 +250,12 @@ copies/mL	ｺﾋﾟｰ/ml
 copies/mL	コピｰ/ml		
 copies/mL	ｺﾋﾟｰ/mL		
 copies/mL	コピー/mL		
-copies/ug	コピー		JLAC10が5F194144109986201(CMV定量)、5F201144109986201(EBV定量)、5F190144109986201(HSV定量)、5F193144109986201(VZV定量)、5F212144109986201(HHV定量)、5F150144109986201(ADV定量)の場合。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
-copies/ug	ｺﾋﾟ-/ﾃｽﾄ		JLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合
-copies/ug	ｺﾋﾟｰ/ﾃｽﾄ		JLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合
-copies/ug	/μgRNA		
-copies/ug	c/μgRNA		
-copies/ug	copy/μgR		
-copies/ug	copy/μgRNA		
-copies/ug	ｺﾋﾟ-/MCGRN		
-copies/ug	ｺﾋﾟ-/MCGRNA		
-copies/ug	ｺﾋﾟ-/μg		
-copies/ug	ｺﾋﾟｰ/MMG		
-copies/ug	コピー/μg		
-copies/ug	ｺﾋﾟｰ/μg		
-copies/ug	ｺﾋﾟｰ/μg RNA		
-copies/ug	ｺﾋﾟｰ/μgDN		
-copies/ug	ｺﾋﾟｰ/μgRNA		
+copies/ug	ｺﾋﾟ-/ﾃｽﾄ		【特記事項あり】
+copies/ug	ｺﾋﾟｰ/ﾃｽﾄ		【特記事項あり】
+copies/ug	コピー		【特記事項あり】
+copies/ug	ｺﾋﾟ-/ﾃｽﾄ		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144109986201(CMV定量)、5F201144109986201(EBV定量)、5F190144109986201(HSV定量)、5F193144109986201(VZV定量)、5F212144109986201(HHV定量)、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
+copies/ug	ｺﾋﾟｰ/ﾃｽﾄ		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144109986201(CMV定量)、5F201144109986201(EBV定量)、5F190144109986201(HSV定量)、5F193144109986201(VZV定量)、5F212144109986201(HHV定量)、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
+copies/ug	コピー		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144109986201(CMV定量)、5F201144109986201(EBV定量)、5F190144109986201(HSV定量)、5F193144109986201(VZV定量)、5F212144109986201(HHV定量)、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
 cp	CP		
 cpm	CPM		
 cpm	ＣＰＭ		
@@ -313,10 +301,10 @@ g/g(creat)	g/g・CRE	+
 g/g(creat)	g/gCre	+	
 g/kg	g/kg	+	
 g/L	g/l	+	
-group	型		JLAC10が5F3601406023???14(HCV血清型)の場合
-group	ｸﾞﾙｰﾌﾟ		
-group	グループ		
-group	ｸﾞﾙ-ﾌﾟ		
+group	ｸﾞﾙｰﾌﾟ		【特記事項あり】
+group	グループ		【特記事項あり】
+group	ｸﾞﾙ-ﾌﾟ		【特記事項あり】
+group	型		JLAC10が5F3601406023???14(HCV血清型)の場合のみ『group』とする。
 hr	hours	+	
 hr	時間	+	
 hr min	時　分		
@@ -338,8 +326,8 @@ inh%	ＩＮＨ％
 iu/d	IU/day	+	
 iu/dL	IU/dl	+	
 iu/dL	IU/dL	+	
-Iu/g(hgb)	IU/g･Hb	+	
-Iu/g(hgb)	IU/gHb	+	
+iu/g(hgb)	IU/g･Hb	+	
+iu/g(hgb)	IU/gHb	+	
 iu/hr	IU/h	+	
 iu/L	IU/l	+	
 iu/L	IU/ｌ	+	
@@ -410,19 +398,19 @@ logiu/mL	LOGIU/mL
 logiu/mL	LogIU/mL		
 logiu/mL	LogIU/ml		
 logiu/mL	LoglU/mL		
-logu/mL	Log		JLAC10が5F0181410023???01(B型肝炎ウイルスコア関連抗原定量)の場合
-logu/mL	Log U/mL		
-logu/mL	LogU/ml		
-logu/mL	LOGU/ML		
-logu/mL	LogU/mL		
+logu/mL	Log U/mL		【特記事項あり】
+logu/mL	LogU/ml		【特記事項あり】
+logu/mL	LOGU/ML		【特記事項あり】
+logu/mL	LogU/mL		【特記事項あり】
+logu/mL	Log		JLAC10が5F0181410023???01(B型肝炎ウイルスコア関連抗原定量)の場合のみ『logu/mL』とする。
 m	m	+	
 m(arb_u)/mL	MAU/ML	+	
 m(arb_u)/mL	mAU/ml	+	
 m(arb_u)/mL	mAU/mL	+	
 m(arb_u)/mL	mAu/ml	+	
-maeq/mL	mEq/ml	+	JLAC10が5F0151441023???01(HBV核酸定量：プローブ法)の場合
-maeq/mL	Meq／mL	+	
-maeq/mL	Meq/ml	+	
+maeq/mL	Meq／mL	+	【特記事項あり】
+maeq/mL	Meq/ml	+	【特記事項あり】
+maeq/mL	mEq/ml	+	JLAC10が5F0151441023???01(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。
 meq/d	mEq/day	+	
 meq/L	mEg/l	+	
 meq/L	mEp/l	+	
@@ -508,63 +496,61 @@ mL	ｍＬ	+
 mL	mL	+	
 mL/d	mL/day	+	
 mL/dL	ml/dl	+	
-mL/min	ml/min	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合
-mL/min	ｍL/min	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合
-mL/min	mL/min	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合
-mL/min	mL/分	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合
-mL/min	ml/分	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合
-mL/min(bsa)	ML/MIN	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	ml/min/	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	mL/min/1	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	ml/min/1.7	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	ml/min/1.73m^2	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	mL/min/1.73m^2	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	mL/min/1.73m2	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	ml/分/1.73㎡	+	JLAC10が8A066000002391901(推算GFRcys)の場合
-mL/min(bsa)	ｍｌ/分・1,73㎡	+	JLAC10が8A066000002391901(推算GFRcys)の場合
+mL/min	ml/min	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	ｍL/min	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	mL/min	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	mL/分	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	ml/分	+	JLAC10が8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】
+mL/min(bsa)	mL/min/1	+	【特記事項あり】
+mL/min(bsa)	ml/min/1.7	+	【特記事項あり】
+mL/min(bsa)	ml/min/1.73m^2	+	【特記事項あり】
+mL/min(bsa)	mL/min/1.73m^2	+	【特記事項あり】
+mL/min(bsa)	mL/min/1.73m2	+	【特記事項あり】
+mL/min(bsa)	ml/分/1.73㎡	+	【特記事項あり】
+mL/min(bsa)	ｍｌ/分・1,73㎡	+	【特記事項あり】
+mL/min(bsa)	ML/MIN	+	JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。
+mL/min(bsa)	ml/min/	+	JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。
 mm	mm	+	
 mm	ＭＭ	+	
+mm	mm/1H	+	
+mm	mm/h	+	
+mm	mm/hr	+	
+mm	mm/hr.	+	
+mm	mm/2h	+	
 mm(hg)	mmHg	+	
 mm(hg)	Torr	+	
-mm/(2.hr)	mm/2h	+	
-mm/hr	mm	+	JLAC10が2Z010000001992052(血沈1時間値)の場合
-mm/hr	ｍｍ	+	JLAC10が2Z010000001992052(血沈1時間値)の場合
-mm/hr	mm/1H	+	
-mm/hr	mm/h	+	
-mm/hr	mm/hr	+	
-mm/hr	mm/hr.	+	
 mm_h2o	mmH2O	+	
 mmol/L	m mol/L	+	
 mmol/L	mm/l	+	
 mmol/L	mmol/l	+	
 mmol/L	mmol／L	+	
-mmol/mol	mmol/mL	+	JLAC10が3D0450000022???01(HbA1c IFCC値) の場合
-mmol/mol	mmol/mol	+	
-mmol/mol	mmoｌ/moL	+	
+mmol/mol	mmol/mol	+	【特記事項あり】
+mmol/mol	mmoｌ/moL	+	【特記事項あり】
+mmol/mol	mmol/mL	+	JLAC10が3D0450000022???01(HbA1c IFCC値) の場合のみ『mmol/mol』とする。
 mmol/mol(creat)	mmol/mol･CRE	+	
 mmol/mol(creat)	Mﾓﾙ/ﾓﾙ.CRE	+	
 mmol/mol(creat)	ｍﾓﾙ/ﾓﾙC	+	
 molecules/cell	molecules/		
 molecules/cell	molecules/cell		
-mosm/kg_h2o	mOsm	+	JLAC10が3H045000002390201(浸透圧) の場合
-mosm/kg_h2o	mosm/l	+	JLAC10が3H045000002390201(浸透圧) の場合
-mosm/kg_h2o	mOsm/ｌ	+	JLAC10が3H045000002390201(浸透圧) の場合
-mosm/kg_h2o	mOsm/kg	+	
-mosm/kg_h2o	mosm/ｋg	+	
-mosm/kg_h2o	mOsm/Kg	+	
-mosm/kg_h2o	mOsm/Kg･	+	
-mosm/kg_h2o	mOsm/Kg･H2O	+	
-mosm/kg_h2o	mOsm/Kg・H2O	+	
-mosm/kg_h2o	mOsm/kg･H2O	+	
-mosm/kg_h2o	mOSM/KgH	+	
-mosm/kg_h2o	mOsm/kgH20	+	
-mosm/kg_h2o	mOsm/kgH2O	+	
-mosm/kg_h2o	MOSM/KGH2O	+	
-mosm/kg_h2o	mOsm/KgH2O	+	
-mosm/kg_h2o	mOsm／L	+	
-mosm/kg_h2o	mOsm/l	+	
-mosm/kg_h2o	mOsm/L	+	
-mosm/kg_h2o	mOSM/l	+	
+mosm/kg_h2o	mOsm/kg	+	【特記事項あり】
+mosm/kg_h2o	mosm/ｋg	+	【特記事項あり】
+mosm/kg_h2o	mOsm/Kg	+	【特記事項あり】
+mosm/kg_h2o	mOsm/Kg･	+	【特記事項あり】
+mosm/kg_h2o	mOsm/Kg･H2O	+	【特記事項あり】
+mosm/kg_h2o	mOsm/Kg・H2O	+	【特記事項あり】
+mosm/kg_h2o	mOsm/kg･H2O	+	【特記事項あり】
+mosm/kg_h2o	mOSM/KgH	+	【特記事項あり】
+mosm/kg_h2o	mOsm/kgH20	+	【特記事項あり】
+mosm/kg_h2o	mOsm/kgH2O	+	【特記事項あり】
+mosm/kg_h2o	MOSM/KGH2O	+	【特記事項あり】
+mosm/kg_h2o	mOsm/KgH2O	+	【特記事項あり】
+mosm/kg_h2o	mOsm／L	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	mOsm/l	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	mOsm/L	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	mOSM/l	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	mOsm	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	mosm/l	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	mOsm/ｌ	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
 mosm/L	mOms/L	+	
 mu/dL	mU/dl	+	
 mu/dL	mU／dL	+	
@@ -787,9 +773,10 @@ si%	S.I(%)	+
 si%	S.I.	+	
 si%	SI	+	
 spot	ｽﾎﾟｯﾄ		
-type	DQﾛｰｶｽ		
-type	ｶﾀ		
-type	ﾀｲﾌﾟ		
+type	DQﾛｰｶｽ		【特記事項あり】
+type	ｶﾀ		【特記事項あり】
+type	ﾀｲﾌﾟ		【特記事項あり】
+type	型		【特記事項あり】
 u/d	U/day	+	
 u/d	Ｕ/日	+	
 u/g(creat)	U/g.Cr	+	
@@ -805,17 +792,17 @@ u/L	U／L	+
 u/L	U/L	+	
 u/L	U/l/37℃	+	
 u/mg(creat)	U/mg･Cr	+	
-u/mL	M	+	JLAC10が5G5310000022???01(HIT-IgG抗体)の場合
-u/mL	U/ml	+	
-u/mL	Ｕ/ＭＬ	+	
-u/mL	Ｕ／ｍｌ	+	
-u/mL	U／mL	+	
-u/mL	Ｕ／mL	+	
-u/mL	U/ML	+	
-u/mL	U/mL	+	
-u/mL	Ｕ/ｍＬ	+	
-u/mL	U/mＬ	+	
-u/mL	μ/ml	+	
+u/mL	U/ml	+	【特記事項あり】
+u/mL	Ｕ/ＭＬ	+	【特記事項あり】
+u/mL	Ｕ／ｍｌ	+	【特記事項あり】
+u/mL	U／mL	+	【特記事項あり】
+u/mL	Ｕ／mL	+	【特記事項あり】
+u/mL	U/ML	+	【特記事項あり】
+u/mL	U/mL	+	【特記事項あり】
+u/mL	Ｕ/ｍＬ	+	【特記事項あり】
+u/mL	U/mＬ	+	【特記事項あり】
+u/mL	μ/ml	+	【特記事項あり】
+u/mL	M	+	JLAC10が5G5310000022???01(HIT-IgG抗体)の場合のみ『u/mL』とする。
 uA/mL	UA/ML		
 uA/mL	UA/ml		
 uA/mL	UA/mL		
@@ -872,15 +859,15 @@ ug/g(creat)	μｇ/ｇCr	+
 ug/g(creat)	μg/g-Cr	+	
 ug/g(creat)	μg/gcre	+	
 ug/g(creat)	μg/gCRE	+	
-ug/L	μ	+	JLAC10が5C120000002305301(Ⅰ型プロコラーゲン-N末端プロペプチド)の場合
-ug/L	MCG/L	+	
-ug/L	ug/l	+	
-ug/L	ug/L	+	
-ug/L	μg/l	+	
-ug/L	μg/Ｌ	+	
-ug/L	μｇ/L	+	
-ug/L	μg／L	+	
-ug/L	μg/L	+	
+ug/L	MCG/L	+	【特記事項あり】
+ug/L	ug/l	+	【特記事項あり】
+ug/L	ug/L	+	【特記事項あり】
+ug/L	μg/l	+	【特記事項あり】
+ug/L	μg/Ｌ	+	【特記事項あり】
+ug/L	μｇ/L	+	【特記事項あり】
+ug/L	μg／L	+	【特記事項あり】
+ug/L	μg/L	+	【特記事項あり】
+ug/L	μ	+	JLAC10が5C120000002305301(Ⅰ型プロコラーゲン-N末端プロペプチド)の場合のみ『ug/L』とする。
 ug/mg(creat)	MCG/MG.CRE	+	
 ug/mg(creat)	μg/mg.C	+	
 ug/mg(creat)	μg/mg.Cr	+	
@@ -941,8 +928,8 @@ umol/mg(creat)	μmol/mg	+
 umol/mg(creat)	μmol/mg.C	+	
 umol/mg(creat)	μmol/mgCR	+	
 umol/mg(creat)	μmol/mgCr.	+	
-umol/mL	μＭ	+	JLAC10が3M7250000023???01(メトトレキサート)の場合
-umol/mL	μmol/ml	+	
+umol/mL	μＭ	+	【特記事項あり】
+umol/mL	μＭ	+	JLAC10が3M7250000023???01(メトトレキサート)の場合のみ『umol/mL』とする。
 umol/mol(creat)	MCﾓﾙ/ﾓﾙ.CR	+	
 umol/mol(creat)	μmol/mo	+	
 umol/mol(creat)	μmol/mol･CRE	+	
