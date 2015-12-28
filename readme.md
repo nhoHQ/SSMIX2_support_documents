@@ -15,10 +15,14 @@
 * split_value.md 複合検査結果値の分離
 * convert_to_sn.md 定性結果・不等号の表現
 * late_order.md 過去日付のオーダー
+* bacteria_test.md 細菌検査オーダー/結果
+* doc/dietary_order.md OMD(食事オーダー)
+* doctor_info.md ADT-01(担当医の変更/担当医の取り消し)
 
 ##masterフォルダ内の構成
 * convert_to_sn.ptn 定性結果・不等号の変換用正規表現パターンファイル
-
+* iso_units.md HL7標準 第7章 表7-9 共通ISO単位&ISO+拡張
+* ascii_unit.tsv doc\ascii_unit.mdの表ｗ縦積みにしたもの
 
 ##sampleフォルダ内の構成
 * standard_root 標準化ストレージのルートディレクトリ
