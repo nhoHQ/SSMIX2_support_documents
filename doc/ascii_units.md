@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/03/22
+更新日: 2016/04/11
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -41,8 +41,8 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |.10\*9/mL|10^9/mｌ|+||
 |.10copies/mL|×10 ｺﾋﾟ|||
 |/(15.10\*4(wbc))|個/1.5X10の5乗WBC, 個/15万W||JLAC10が5F194142201917451(pp65抗原(C7ＨＲＰ)[サイトメガロウイルス])の場合のみ『/(15.10\*4(wbc))』とする。|
-|/(hpf)|/1HPF, /HPF, /ＨＰＦ, /HPF(×400), HPF, 個/HPF, /1-5個/H|+||
-|/(lpf)|/1LPF, /LPF, /LPF(×100), LPF|||
+|/(hpf)|/1HPF, /HPF, /ＨＰＦ, /HPF(×400), HPF, 個/HPF, /1-5個/H, /ＨPF|+||
+|/(lpf)|/1LPF, /LPF, /LPF(×100), LPF, /100LPF|||
 |/(wf)|/ＷF, WF, 個/WF|||
 |/3uL|/3, /3　μｌ, /3/mm^3, /3/μl, /3/μL, /3μl, /3μL, 個/3|||
 |/mL|/1mL, /ml|+||
@@ -157,13 +157,14 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |nmolBCeq/mmol(creat)|nM BCE/m, nM BCE/mM･Cre, nMBCE, NMBCE, nMBCE/mM, nMBCE/mM・Cre, nMBCE/mM･Cre, nMBCE/mMCr, NMBCE/MMCR, nmol BCE, nmol BCE/mmol･Cr, nmolBCE/mmol･CRE, nmolBCE/mmol・CRE|||
 |nmolBCeq/nmol(creat)|nmbce/l|||
 |nu/mL|nU/mL, ｎＵ/mL, nU/ml|+||
-|pcs|ｺ, 個|||
+|pcs|ｺ, コ, 個|||
 |pcs/10\*2(wbc)|/100, /100WBC, /100個, 100WBC, ｺ/100WBC, 個/WBC100|||
 |permil|△13cパー, △13cﾊﾟｰﾐﾙ, ‰, ‰(ﾊﾟｰﾐﾙ, ‰(ﾊﾟｰﾐﾙ), 0/00, PER MIL, ﾊﾟｰﾐﾙ, パーミル, ﾊﾟｰﾐﾙ△1, ﾊﾟｰﾐﾙΔ1, ﾊﾟ-ﾐﾙ|||
 |pg|pg|+||
 |pg/dL|pg/dL|+||
 |pg/mg(creat)|pg/mg cre, pg/mg.CR, pg/mg.Cre, PG/MG.CRE, pg/mg･Cr, pg/mg･CRE, pg/mg・Crn, pg/mgCr, pg/mg-Cr, pg/mgCr., pg/mgCRE, PG-MG.CR|+||
 |pg/mL|pg/ml, pg/ｍｌ, ｐｇ／ｍｌ, ｐｇ/ml, pg／mL, PG/ML, pg/mL, pg/mＬ, PG/ml, Pg/mL, pg/mL(参考, pg/mL(参考値), pg/ml以下|+||
+|ph|ｐｈ|+||
 |pmol/dL|pmol/dL|+||
 |pmol/L|pM, pmol/L, pmol/l, pMOL/l, Pﾓﾙ/L|+||
 |pmol/mg(creat)|pmol/mg･Cr|+||

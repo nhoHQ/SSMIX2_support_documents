@@ -167,10 +167,12 @@ ASCII単位	表示用単位の例	ISO	備考
 /(hpf)	HPF	+	
 /(hpf)	個/HPF	+	
 /(hpf)	/1-5個/H	+	
+/(hpf)	/ＨPF	+	
 /(lpf)	/1LPF		
 /(lpf)	/LPF		
 /(lpf)	/LPF(×100)		
 /(lpf)	LPF		
+/(lpf)	/100LPF		
 /(wf)	/ＷF		
 /(wf)	WF		
 /(wf)	個/WF		
@@ -691,6 +693,7 @@ nu/mL	nU/mL	+
 nu/mL	ｎＵ/mL	+	
 nu/mL	nU/ml	+	
 pcs	ｺ		
+pcs	コ		
 pcs	個		
 pcs/10*2(wbc)	/100		
 pcs/10*2(wbc)	/100WBC		
@@ -737,6 +740,7 @@ pg/mL	Pg/mL	+
 pg/mL	pg/mL(参考	+	
 pg/mL	pg/mL(参考値)	+	
 pg/mL	pg/ml以下	+	
+ph	ｐｈ	+	
 pmol/dL	pmol/dL	+	
 pmol/L	pM	+	
 pmol/L	pmol/L	+	
