@@ -173,6 +173,8 @@ ASCII単位	表示用単位の例	ISO	備考
 /(lpf)	/LPF(×100)		
 /(lpf)	LPF		
 /(lpf)	/100LPF		
+/(lpf)	個/LPF		
+/(lpf)	個/10LPF		
 /(wf)	/ＷF		
 /(wf)	WF		
 /(wf)	個/WF		
