@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/04/15
+更新日: 2016/04/18
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -131,7 +131,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mmol/mol(creat)|mmol/mol･CRE, Mﾓﾙ/ﾓﾙ.CRE, ｍﾓﾙ/ﾓﾙC|+||
 |molecules/cell|molecules/, molecules/cell|||
 |mosm/kg\_h2o|mOsm/kg, mosm/ｋg, mOsm/Kg, mOsm/Kg･, mOsm/Kg･H2O, mOsm/Kg・H2O, mOsm/kg･H2O, mOSM/KgH, mOsm/kgH20, mOsm/kgH2O, MOSM/KGH2O, mOsm/KgH2O|+|【特記事項あり】|
-|mosm/L|mOms/L|+||
+|mosm/L|mOms/L|+|【特記事項あり】|
 |mu/dL|mU/dl, mU／dL, MU/DL, mU/dL|+||
 |mu/mL|mU/ml, mU/mL|+||
 |neq/L|nEq/l|+||
@@ -177,7 +177,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |sec|SEC, Sec, SEC., sec., SECOND, 秒, 秒|+||
 |si%|S.I(%), S.I., SI|+||
 |spot|ｽﾎﾟｯﾄ|||
-|type|DQﾛｰｶｽ, ｶﾀ, ﾀｲﾌﾟ, 型||【特記事項あり】|
+|type|DQﾛｰｶｽ, ｶﾀ, ガタ, ﾀｲﾌﾟ, 型||【特記事項あり】|
 |u/d|U/day, Ｕ/日|+||
 |u/g(creat)|U/g.Cr, U/g・Cr, U／g・Cr, U/g･Cr, U/g・Cre, U/g･CRE|+||
 |u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃|+||
