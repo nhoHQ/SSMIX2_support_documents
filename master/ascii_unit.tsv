@@ -168,6 +168,8 @@ ASCII単位	表示用単位の例	ISO	備考
 /(hpf)	個/HPF	+	
 /(hpf)	/1-5個/H	+	
 /(hpf)	/ＨPF	+	
+/(hpf)	/1-5HPF	+	
+/(hpf)	/6-9HPF	+	
 /(lpf)	/1LPF		
 /(lpf)	/LPF		
 /(lpf)	/LPF(×100)		
@@ -557,7 +559,7 @@ mosm/kg_h2o	mOSM/l	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o�
 mosm/kg_h2o	mOsm	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
 mosm/kg_h2o	mosm/l	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
 mosm/kg_h2o	mOsm/ｌ	+	3H045000002390201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
-mosm/L	mOms/L	+	
+mosm/L	mOms/L	+	【特記事項あり】
 mu/dL	mU/dl	+	
 mu/dL	mU／dL	+	
 mu/dL	MU/DL	+	
@@ -776,13 +778,13 @@ sec	SEC.	+
 sec	sec.	+	
 sec	SECOND	+	
 sec	秒	+	
-sec	秒	+	
 si%	S.I(%)	+	
 si%	S.I.	+	
 si%	SI	+	
 spot	ｽﾎﾟｯﾄ		
 type	DQﾛｰｶｽ		【特記事項あり】
 type	ｶﾀ		【特記事項あり】
+type	ガタ		【特記事項あり】
 type	ﾀｲﾌﾟ		【特記事項あり】
 type	型		【特記事項あり】
 u/d	U/day	+	
@@ -973,10 +975,8 @@ vol%	Vol%
 単位なし	咽頭		
 単位なし	個/mm2		
 単位なし	細胞数		
-単位なし	細胞数		
 単位なし	指数		
 単位なし	色		
-単位なし	定性		
 単位なし	定性		
 単位なし	比		
 単位なし	変異数		

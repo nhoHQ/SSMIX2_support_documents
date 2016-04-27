@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/04/15
+更新日: 2016/04/27
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -41,7 +41,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |.10\*9/mL|10^9/mｌ|+||
 |.10copies/mL|×10 ｺﾋﾟ|||
 |/(15.10\*4(wbc))|個/1.5X10の5乗WBC, 個/15万W||JLAC10が5F194142201917451(pp65抗原(C7ＨＲＰ)[サイトメガロウイルス])の場合のみ『/(15.10\*4(wbc))』とする。|
-|/(hpf)|/1HPF, /HPF, /ＨＰＦ, /HPF(×400), HPF, 個/HPF, /1-5個/H, /ＨPF|+||
+|/(hpf)|/1HPF, /HPF, /ＨＰＦ, /HPF(×400), HPF, 個/HPF, /1-5個/H, /ＨPF, /1-5HPF, /6-9HPF|+||
 |/(lpf)|/1LPF, /LPF, /LPF(×100), LPF, /100LPF, 個/LPF, 個/10LPF|||
 |/(wf)|/ＷF, WF, 個/WF|||
 |/3uL|/3, /3　μｌ, /3/mm^3, /3/μl, /3/μL, /3μl, /3μL, 個/3|||
@@ -131,7 +131,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mmol/mol(creat)|mmol/mol･CRE, Mﾓﾙ/ﾓﾙ.CRE, ｍﾓﾙ/ﾓﾙC|+||
 |molecules/cell|molecules/, molecules/cell|||
 |mosm/kg\_h2o|mOsm/kg, mosm/ｋg, mOsm/Kg, mOsm/Kg･, mOsm/Kg･H2O, mOsm/Kg・H2O, mOsm/kg･H2O, mOSM/KgH, mOsm/kgH20, mOsm/kgH2O, MOSM/KGH2O, mOsm/KgH2O|+|【特記事項あり】|
-|mosm/L|mOms/L|+||
+|mosm/L|mOms/L|+|【特記事項あり】|
 |mu/dL|mU/dl, mU／dL, MU/DL, mU/dL|+||
 |mu/mL|mU/ml, mU/mL|+||
 |neq/L|nEq/l|+||
@@ -177,7 +177,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |sec|SEC, Sec, SEC., sec., SECOND, 秒, 秒|+||
 |si%|S.I(%), S.I., SI|+||
 |spot|ｽﾎﾟｯﾄ|||
-|type|DQﾛｰｶｽ, ｶﾀ, ﾀｲﾌﾟ, 型||【特記事項あり】|
+|type|DQﾛｰｶｽ, ｶﾀ, ガタ, ﾀｲﾌﾟ, 型||【特記事項あり】|
 |u/d|U/day, Ｕ/日|+||
 |u/g(creat)|U/g.Cr, U/g・Cr, U／g・Cr, U/g･Cr, U/g・Cre, U/g･CRE|+||
 |u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃|+||
