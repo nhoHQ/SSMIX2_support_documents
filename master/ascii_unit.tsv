@@ -259,9 +259,6 @@ copies/mL	ｺﾋﾟｰ/ml
 copies/mL	コピｰ/ml		
 copies/mL	ｺﾋﾟｰ/mL		
 copies/mL	コピー/mL		
-copies/ug	ｺﾋﾟ-/ﾃｽﾄ		【特記事項あり】
-copies/ug	ｺﾋﾟｰ/ﾃｽﾄ		【特記事項あり】
-copies/ug	コピー		【特記事項あり】
 copies/ug	ｺﾋﾟ-/ﾃｽﾄ		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144109986201(CMV定量)、5F201144109986201(EBV定量)、5F190144109986201(HSV定量)、5F193144109986201(VZV定量)、5F212144109986201(HHV定量)、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
 copies/ug	ｺﾋﾟｰ/ﾃｽﾄ		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144109986201(CMV定量)、5F201144109986201(EBV定量)、5F190144109986201(HSV定量)、5F193144109986201(VZV定量)、5F212144109986201(HHV定量)、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
 copies/ug	コピー		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144109986201(CMV定量)、5F201144109986201(EBV定量)、5F190144109986201(HSV定量)、5F193144109986201(VZV定量)、5F212144109986201(HHV定量)、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
@@ -937,7 +934,6 @@ umol/mg(creat)	μmol/mg	+
 umol/mg(creat)	μmol/mg.C	+	
 umol/mg(creat)	μmol/mgCR	+	
 umol/mg(creat)	μmol/mgCr.	+	
-umol/mL	μＭ	+	【特記事項あり】
 umol/mL	μＭ	+	JLAC10が3M7250000023???01(メトトレキサート)の場合のみ『umol/mL』とする。
 umol/mol(creat)	MCﾓﾙ/ﾓﾙ.CR	+	
 umol/mol(creat)	μmol/mo	+	
