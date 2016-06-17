@@ -16,8 +16,9 @@
 * convert_to_sn.md 定性結果・不等号の表現
 * late_order.md 過去日付のオーダー
 * bacteria_test.md 細菌検査オーダー/結果
-* doc/dietary_order.md OMD(食事オーダー)
+* dietary_order.md OMD(食事オーダー)
 * doctor_info.md ADT-01(担当医の変更/担当医の取り消し)
+* exponential_notation.md(指数表記)
 
 ##masterフォルダ内の構成
 * convert_to_sn.ptn 定性結果・不等号の変換用正規表現パターンファイル
