@@ -232,7 +232,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |maeq/mL|mEq/ml|JLAC10が5F0151440023???01、5F0151441023???01(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。|
 |mL/min(bsa)|ML/MIN, ml/min/|JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。|
 |mmol/mol|mmol/mL|JLAC10が3D045000002220401、3D0450000022???01(HbA1c IFCC値) の場合のみ『mmol/mol』とする。|
-|mosm/kg\_h2o|mOsm／L, mOsm/l, mOsm/L, mOSM/l, mOsm, mosm/l, mOsm/ｌ|3H045000002390201(浸透圧) の場合のみ『mosm/kg\_h2o』とする。|
+|mosm/kg\_h2o|mOsm／L, mOsm/l, mOsm/L, mOSM/l, mOsm, mosm/l, mOsm/ｌ|JLAC10が3H045000002390201、3H045000000190201(浸透圧) の場合のみ『mosm/kg\_h2o』とする。|
 |u/mL|M|JLAC10が5G5310000022???01(HIT-IgG抗体)の場合のみ『u/mL』とする。|
 |ug/L|μ|JLAC10が5C120000002305301(Ⅰ型プロコラーゲン-N末端プロペプチド)の場合のみ『ug/L』とする。|
 |umol/mL|μＭ|JLAC10が3M7250000023???01(メトトレキサート)の場合のみ『umol/mL』とする。|
