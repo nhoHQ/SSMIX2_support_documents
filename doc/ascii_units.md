@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/06/17
+更新日: 2016/06/23
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -15,6 +15,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |(arb\_u)/mL|AU/ml, AU／mL, AU/mL|+||
 |(beth\_u)/mL|B.E/ml, B.U/ml, BU/ml, BU／mL, BU/mL, ﾍﾞｾｽﾀﾞU/, ﾍﾞｾｽﾀﾞU/ml, ベセスダU/mL, ﾍﾞｾｽﾀﾞU/ML, ﾍﾞｾｽﾀﾞU/mL, ﾍﾟｾｽﾀﾞU/ml|||
 |(bsa)|cm2|+||
+|(cf_u)/mL|CFU/ml|+||
 |(end\_u)/mL|EU, EU/ml, EU/mL|||
 |(hb)|bpm|+||
 |(jdf\_u)|JDF UNIT, JDF UNITS, JDFU, JDFunits|||
@@ -173,6 +174,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |RLU|RLU|||
 |S/CO|S/CO, S/co, s/co, S/COﾐﾏﾝ, S/CO値, Sample/c, Sample/cut off(S/Co), S-CO|||
 |S/N|S/N比|||
+|scale|号|||
 |score|SCORE, ｽｺｱ, 点|||
 |sec|SEC, Sec, SEC., sec., SECOND, 秒, 秒|+||
 |si%|S.I(%), S.I., SI|+||
