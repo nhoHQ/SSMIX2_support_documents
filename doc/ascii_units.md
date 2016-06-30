@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/06/17
+更新日: 2016/06/23
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -15,6 +15,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |(arb\_u)/mL|AU/ml, AU／mL, AU/mL|+||
 |(beth\_u)/mL|B.E/ml, B.U/ml, BU/ml, BU／mL, BU/mL, ﾍﾞｾｽﾀﾞU/, ﾍﾞｾｽﾀﾞU/ml, ベセスダU/mL, ﾍﾞｾｽﾀﾞU/ML, ﾍﾞｾｽﾀﾞU/mL, ﾍﾟｾｽﾀﾞU/ml|||
 |(bsa)|cm2|+||
+|(cf\_u)/mL|CFU/ml|+||
 |(end\_u)/mL|EU, EU/ml, EU/mL|||
 |(hb)|bpm|+||
 |(jdf\_u)|JDF UNIT, JDF UNITS, JDFU, JDFunits|||
@@ -173,6 +174,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |RLU|RLU|||
 |S/CO|S/CO, S/co, s/co, S/COﾐﾏﾝ, S/CO値, Sample/c, Sample/cut off(S/Co), S-CO|||
 |S/N|S/N比|||
+|scale|号|||
 |score|SCORE, ｽｺｱ, 点|||
 |sec|SEC, Sec, SEC., sec., SECOND, 秒, 秒|+||
 |si%|S.I(%), S.I., SI|+||
@@ -230,7 +232,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |maeq/mL|mEq/ml|JLAC10が5F0151440023???01、5F0151441023???01(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。|
 |mL/min(bsa)|ML/MIN, ml/min/|JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。|
 |mmol/mol|mmol/mL|JLAC10が3D045000002220401、3D0450000022???01(HbA1c IFCC値) の場合のみ『mmol/mol』とする。|
-|mosm/kg\_h2o|mOsm／L, mOsm/l, mOsm/L, mOSM/l, mOsm, mosm/l, mOsm/ｌ|3H045000002390201(浸透圧) の場合のみ『mosm/kg\_h2o』とする。|
+|mosm/kg\_h2o|mOsm／L, mOsm/l, mOsm/L, mOSM/l, mOsm, mosm/l, mOsm/ｌ|JLAC10が3H045000002390201、3H045000000190201(浸透圧) の場合のみ『mosm/kg\_h2o』とする。|
 |u/mL|M|JLAC10が5G5310000022???01(HIT-IgG抗体)の場合のみ『u/mL』とする。|
 |ug/L|μ|JLAC10が5C120000002305301(Ⅰ型プロコラーゲン-N末端プロペプチド)の場合のみ『ug/L』とする。|
 |umol/mL|μＭ|JLAC10が3M7250000023???01(メトトレキサート)の場合のみ『umol/mL』とする。|
