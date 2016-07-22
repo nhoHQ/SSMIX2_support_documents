@@ -60,7 +60,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |copies/10\*6cells|10^6cell, ｺﾋﾟｰ/10^6cells, コピー/10^6cells, ｺﾋﾟｰ/106ce, ｺﾋﾟｰ/106cells||【特記事項あり】|
 |copies/assay|ｺﾋﾟ-/ｱﾂｾ, ｺﾋﾟ-/ｱﾂｾｲ, ｺﾋﾟｰ/assay, ｺﾋﾟｰ/ｱｯｾ, ｺﾋﾟｰ/ｱｯｾｲ|||
 |copies/mL|copy/ML, copy/mL, CP/ml, CP／mL, cp/mL, ｺﾋﾟ-/mL, ｺﾋﾟ-/ml, コピー/ml, ｺﾋﾟｰ/ml, コピｰ/ml, ｺﾋﾟｰ/mL, コピー/mL|||
-|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー,コピー/μg RNA||【特記事項あり】|
+|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー, コピー/μg RNA||【特記事項あり】|
 |cp|CP|||
 |cpm|CPM, ＣＰＭ|||
 |delta(ph)|ΔpH|||
