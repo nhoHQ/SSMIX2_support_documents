@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/06/23
+更新日: 2016/07/22
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -60,7 +60,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |copies/10\*6cells|10^6cell, ｺﾋﾟｰ/10^6cells, コピー/10^6cells, ｺﾋﾟｰ/106ce, ｺﾋﾟｰ/106cells||【特記事項あり】|
 |copies/assay|ｺﾋﾟ-/ｱﾂｾ, ｺﾋﾟ-/ｱﾂｾｲ, ｺﾋﾟｰ/assay, ｺﾋﾟｰ/ｱｯｾ, ｺﾋﾟｰ/ｱｯｾｲ|||
 |copies/mL|copy/ML, copy/mL, CP/ml, CP／mL, cp/mL, ｺﾋﾟ-/mL, ｺﾋﾟ-/ml, コピー/ml, ｺﾋﾟｰ/ml, コピｰ/ml, ｺﾋﾟｰ/mL, コピー/mL|||
-|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー||【特記事項あり】|
+|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー, コピー/μg RNA||【特記事項あり】|
 |cp|CP|||
 |cpm|CPM, ＣＰＭ|||
 |delta(ph)|ΔpH|||
@@ -164,7 +164,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |pg|pg|+||
 |pg/dL|pg/dL|+||
 |pg/mg(creat)|pg/mg cre, pg/mg.CR, pg/mg.Cre, PG/MG.CRE, pg/mg･Cr, pg/mg･CRE, pg/mg・Crn, pg/mgCr, pg/mg-Cr, pg/mgCr., pg/mgCRE, PG-MG.CR|+||
-|pg/mL|pg/ml, pg/ｍｌ, ｐｇ／ｍｌ, ｐｇ/ml, pg／mL, PG/ML, pg/mL, pg/mＬ, PG/ml, Pg/mL, pg/mL(参考, pg/mL(参考値), pg/ml以下|+||
+|pg/mL|pg/ml, pg/ｍｌ, ｐｇ／ｍｌ, ｐｇ/ml, pg／mL, PG/ML, pg/mL, pg/mＬ, PG/ml, Pg/mL, pg/mL(参考, pg/mL(参考値), pg/ml以下, ＰＧ／ＭＬ|+||
 |ph|ｐｈ|+||
 |pmol/dL|pmol/dL|+||
 |pmol/L|pM, pmol/L, pmol/l, pMOL/l, Pﾓﾙ/L|+||
