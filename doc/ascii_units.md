@@ -121,7 +121,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |min sec|分 秒, 分　秒, "分,秒", 分、秒, 分．秒, 分・秒, 分･秒, 分秒|||
 |miu/L|mlu/l|+||
 |miu/mL|m IU/ml, mIU/ml, ｍＩＵ/ml, ｍIU/ml, mIU／mL, mIU/mL, MIU/ml, mlU/ml, mlU/mL|+||
-|mL|ml, ｍｌ, ｍＬ, mL|+||
+|mL|cc, CC, ml, ｍｌ, ｍＬ, mL|+||
 |mL/d|mL/day|+||
 |mL/dL|ml/dl|+||
 |mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分|+|JLAC10が8A025000009891929、8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】|
