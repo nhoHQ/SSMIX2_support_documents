@@ -192,6 +192,7 @@ ASCII単位	表示用単位の例	ISO	備考
 /3uL	/3μl		
 /3uL	/3μL		
 /3uL	個/3		
+/3uL	／3μL		
 /mL	/1mL	+	
 /mL	/ml	+	
 /uL	/MCL	+	
@@ -467,6 +468,7 @@ mg/g(creat)	mg/gCr	+
 mg/g(creat)	mg/g-Cr	+	
 mg/g(creat)	mg/g-Cr.	+	
 mg/g(creat)	mg/gCRE	+	
+mg/g(creat)	mg/g．CR	+	
 mg/kg	mg/kg	+	
 mg/L	mg/l	+	
 mg/L	ｍg/l	+	
@@ -793,6 +795,7 @@ type	ﾀｲﾌﾟ		【特記事項あり】
 type	型		【特記事項あり】
 u/d	U/day	+	
 u/d	Ｕ/日	+	
+u/d	U／日	+	
 u/g(creat)	U/g.Cr	+	
 u/g(creat)	U/g・Cr	+	
 u/g(creat)	U／g・Cr	+	
@@ -893,6 +896,7 @@ ug/mg(creat)	μg/mg･CRE	+
 ug/mg(creat)	μg/mgCr	+	
 ug/min	MCG/MIN	+	
 ug/min	μg/分	+	
+ug/min	μg／分	+	
 ug/mL	MCG/ML	+	
 ug/mL	micg/ml	+	
 ug/mL	mlcg/ml	+	
