@@ -80,7 +80,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*2/uL	X10^2/μl	+	【特記事項あり】
 .10*2/uL	X10^2/μL	+	【特記事項あり】
 .10*2copies/mL	×100 ｺﾋ		
-.10*3(cfu)/mL	10^3CFU/ml		
+.10*3(cfu)/mL	10^3CFU/ml	+	
 .10*3/uL	*10^3/μl	+	【特記事項あり】
 .10*3/uL	×10^3	+	病院によっては他の単位を意味する場合もあるので個別に確認すること。
 .10*3/uL	×10^3/	+	病院によっては他の単位を意味する場合もあるので個別に確認すること。
@@ -173,17 +173,19 @@ ASCII単位	表示用単位の例	ISO	備考
 /(hpf)	/ＨPF	+	
 /(hpf)	/1-5HPF	+	
 /(hpf)	/6-9HPF	+	
-/(lpf)	/1LPF		
-/(lpf)	/LPF		
-/(lpf)	/LPF(×100)		
-/(lpf)	LPF		
-/(lpf)	/100LPF		
-/(lpf)	/100		
-/(lpf)	個/LPF		
-/(lpf)	個/10LPF		
-/(wf)	/ＷF		
-/(wf)	WF		
-/(wf)	個/WF		
+/(hpf)	/H	+	
+/(lpf)	/1LPF	+	
+/(lpf)	/LPF	+	
+/(lpf)	/LPF(×100)	+	
+/(lpf)	LPF	+	
+/(lpf)	/100LPF	+	
+/(lpf)	/100	+	
+/(lpf)	個/LPF	+	
+/(lpf)	個/10LPF	+	
+/(lpf)	/L	+	
+/(wf)	/ＷF	+	
+/(wf)	WF	+	
+/(wf)	個/WF	+	
 /3uL	/3		
 /3uL	/3　μｌ		
 /3uL	/3/mm^3		
@@ -224,7 +226,7 @@ class	クラス
 class	ｸﾗｽ0		
 cm	cm	+	
 cm	ｃｍ	+	
-cm/s	cm/s		
+cm/s	cm/s	+	
 COI	(-)．C.O		
 COI	C.O.I		
 COI	C.O.Ｉ		
@@ -263,9 +265,9 @@ copies/mL	ｺﾋﾟｰ/ml
 copies/mL	コピｰ/ml		
 copies/mL	ｺﾋﾟｰ/mL		
 copies/mL	コピー/mL		
-copies/ug	ｺﾋﾟ-/ﾃｽﾄ		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144009986201、5F194144109986201(CMV定量)、5F201144009986201、5F201144109986201(EBV定量)、5F190144009986201、5F190144109986201(HSV定量)、5F193144009986201、5F193144109986201(VZV定量)、5F212144009986201、5F212144109986201(HHV定量)、5F150144009986201、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
-copies/ug	ｺﾋﾟｰ/ﾃｽﾄ		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144009986201、5F194144109986201(CMV定量)、5F201144009986201、5F201144109986201(EBV定量)、5F190144009986201、5F190144109986201(HSV定量)、5F193144009986201、5F193144109986201(VZV定量)、5F212144009986201、5F212144109986201(HHV定量)、5F150144009986201、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
-copies/ug	コピー		『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144009986201、5F194144109986201(CMV定量)、5F201144009986201、5F201144109986201(EBV定量)、5F190144009986201、5F190144109986201(HSV定量)、5F193144009986201、5F193144109986201(VZV定量)、5F212144009986201、5F212144109986201(HHV定量)、5F150144009986201、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。
+copies/ug	ｺﾋﾟ-/ﾃｽﾄ		"『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144009986201、5F194144109986201(CMV定量)、5F201144009986201、5F201144109986201(EBV定量)、5F190144009986201、5F190144109986201(HSV定量)、5F193144009986201、5F193144109986201(VZV定量)、5F212144009986201、5F212144109986201(HHV定量)、5F150144009986201、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。"
+copies/ug	ｺﾋﾟｰ/ﾃｽﾄ		"『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144009986201、5F194144109986201(CMV定量)、5F201144009986201、5F201144109986201(EBV定量)、5F190144009986201、5F190144109986201(HSV定量)、5F193144009986201、5F193144109986201(VZV定量)、5F212144009986201、5F212144109986201(HHV定量)、5F150144009986201、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。"
+copies/ug	コピー		"『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144009986201、5F194144109986201(CMV定量)、5F201144009986201、5F201144109986201(EBV定量)、5F190144009986201、5F190144109986201(HSV定量)、5F193144009986201、5F193144109986201(VZV定量)、5F212144009986201、5F212144109986201(HHV定量)、5F150144009986201、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。"
 copies/ug	コピー/μg RNA		【特記事項あり】
 cp	CP		
 cpm	CPM		
@@ -330,10 +332,10 @@ index	INDX
 index	M.I		
 index	MI		
 index	ndex		
-inh%	%INH		
-inh%	IH%		
-inh%	INH%		
-inh%	ＩＮＨ％		
+inh%	%INH	+	
+inh%	IH%	+	
+inh%	INH%	+	
+inh%	ＩＮＨ％	+	
 iu/d	IU/day	+	
 iu/dL	IU/dl	+	
 iu/dL	IU/dL	+	
@@ -486,7 +488,7 @@ min	min.	+
 min	分	+	
 min sec	分 秒		
 min sec	分　秒		
-min sec	分,秒		
+min sec	"分,秒"		
 min sec	分、秒		
 min sec	分．秒		
 min sec	分・秒		
@@ -521,7 +523,7 @@ mL/min(bsa)	ml/min/1.73m^2	+	【特記事項あり】
 mL/min(bsa)	mL/min/1.73m^2	+	【特記事項あり】
 mL/min(bsa)	mL/min/1.73m2	+	【特記事項あり】
 mL/min(bsa)	ml/分/1.73㎡	+	【特記事項あり】
-mL/min(bsa)	ｍｌ/分・1,73㎡	+	【特記事項あり】
+mL/min(bsa)	"ｍｌ/分・1,73㎡"	+	【特記事項あり】
 mL/min(bsa)	ML/MIN	+	JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。
 mL/min(bsa)	ml/min/	+	JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。
 mm	mm	+	
@@ -627,16 +629,16 @@ ng/mL	ng/mＬ	+
 ng/mL	ｎｇ/ｍＬ	+	
 ng/mL	ng／ml	+	
 ng/mL	ng/ml以下	+	
-nmol/(L.hr)	nmol/l/h		
+nmol/(L.hr)	nmol/l/h	+	
 nmol/(mg(prot).hr)	nmol/mg　protein/時		
 nmol/(mg(prot).hr)	nmol/mg protein/時間		
 nmol/(mg(prot).hr)	nmol/mgp		
 nmol/(mg(prot).hr)	NMOL/MGP/H		
 nmol/(mg(prot).hr)	nmol/mgp/h		
 nmol/(mg(prot).hr)	nmol/mgprotein/h		
-nmol/(mL.hr)	nmol/mL/hr/37℃		
-nmol/(mL.hr)	nmol/mLh		
-nmol/dL	nmol/dl		
+nmol/(mL.hr)	nmol/mL/hr/37℃	+	
+nmol/(mL.hr)	nmol/mLh	+	
+nmol/dL	nmol/dl	+	
 nmol/L	nM/l	+	
 nmol/L	nM/L	+	
 nmol/L	nmol/l	+	
@@ -830,7 +832,7 @@ ueq/L	μEq/L	+
 ueq/L	μEq/l	+	
 ug	μg	+	
 ug/(24.hr)	μg/24h	+	
-ug/(dL.hr)	μg/dl/h		
+ug/(dL.hr)	μg/dl/h	+	
 ug/d	MCG/DAY	+	
 ug/d	ug/day	+	
 ug/d	μg/day	+	
@@ -876,6 +878,8 @@ ug/g(creat)	μｇ/ｇCr	+
 ug/g(creat)	μg/g-Cr	+	
 ug/g(creat)	μg/gcre	+	
 ug/g(creat)	μg/gCRE	+	
+ug/g(creat)	μg/gCre	+	
+ug/kg	μg/kg	+	
 ug/L	MCG/L	+	【特記事項あり】
 ug/L	ug/l	+	【特記事項あり】
 ug/L	ug/L	+	【特記事項あり】
@@ -970,6 +974,7 @@ vol%	Vol%
 単位なし	D		
 単位なし	dils		
 単位なし	EIAUnits		
+単位なし	EIA価		
 単位なし	HPT		
 単位なし	ＭＭＡＬ		
 単位なし	NULL		
