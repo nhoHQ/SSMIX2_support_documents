@@ -38,6 +38,7 @@ ASCII単位	表示用単位の例	ISO	備考
 (knk_u)	KU	+	【特記事項あり】
 (knk_u)	K-U	+	【特記事項あり】
 (knk_u)	U(Kunkel)	+	【特記事項あり】
+(knk_u)	K単位	+	【特記事項あり】
 (knk_u)	U	+	JLAC10が3A025000002329201(TTT)、 3A030000002329201(ZTT)の場合のみ『(knk_u)』とする。
 (knk_u)	Ｕ	+	JLAC10が3A025000002329201(TTT)、 3A030000002329201(ZTT)の場合のみ『(knk_u)』とする。
 (mpa.sec)	mPa.s		
@@ -79,6 +80,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*2/uL	x10^2/μL	+	【特記事項あり】
 .10*2/uL	X10^2/μl	+	【特記事項あり】
 .10*2/uL	X10^2/μL	+	【特記事項あり】
+.10*2/uL	x10^2/μ	+	【特記事項あり】
 .10*2copies/mL	×100 ｺﾋ		
 .10*3(cfu)/mL	10^3CFU/ml	+	
 .10*3/uL	*10^3/μl	+	【特記事項あり】
@@ -96,6 +98,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*3/uL	x10＾3/μｌ	+	【特記事項あり】
 .10*3/uL	x10^3/μl	+	【特記事項あり】
 .10*3/uL	干/μl	+	【特記事項あり】
+.10*3/uL	x10^3/μ	+	【特記事項あり】
 .10*4/mL	×10^4個/ml	+	
 .10*4/mL	万/ml	+	
 .10*4/uL	*10^4/μl	+	【特記事項あり】
@@ -127,6 +130,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*4/uL	X10^4/μl	+	【特記事項あり】
 .10*4/uL	X10000/MCL	+	【特記事項あり】
 .10*4/uL	万/μl	+	【特記事項あり】
+.10*4/uL	x10^4/μ	+	【特記事項あり】
 .10*5/mL	×10＾5/ｍL	+	
 .10*5/mL	×100万/	+	
 .10*5/mL	10^5/ml	+	
@@ -402,6 +406,7 @@ logcopies/mL	Logコピー/m
 logcopies/mL	LOGｺﾋﾟｰ/ml		
 logcopies/mL	Logｺﾋﾟｰ/mL		
 logcopies/mL	Logｺﾋﾟｰ/ml		
+logcopies/mL	Logコピ-/		
 logeq/mL	LEG/mL		
 logeq/mL	LGE/mL		
 logeq/mL	LGE/ml		
@@ -417,6 +422,7 @@ logiu/mL	LOGIU/mL
 logiu/mL	LogIU/mL		
 logiu/mL	LogIU/ml		
 logiu/mL	LoglU/mL		
+logiu/mL	Log　IU/mL		
 logu/mL	Log U/mL		【特記事項あり】
 logu/mL	LogU/ml		【特記事項あり】
 logu/mL	LOGU/ML		【特記事項あり】
@@ -567,6 +573,7 @@ mosm/kg_h2o	mOsm/kgH20	+	【特記事項あり】
 mosm/kg_h2o	mOsm/kgH2O	+	【特記事項あり】
 mosm/kg_h2o	MOSM/KGH2O	+	【特記事項あり】
 mosm/kg_h2o	mOsm/KgH2O	+	【特記事項あり】
+mosm/kg_h2o	mOsm/kg・H2O	+	【特記事項あり】
 mosm/kg_h2o	mOsm／L	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
 mosm/kg_h2o	mOsm/l	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
 mosm/kg_h2o	mOsm/L	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
@@ -621,6 +628,7 @@ ng/mg(creat)	ng/mg・cr	+
 ng/mg(creat)	ng/mg･Cr	+	
 ng/mg(creat)	ng/mg･CRE	+	
 ng/mg(creat)	ng/mg-Cr	+	
+ng/mg(creat)	ng/mg・Cre	+	
 ng/mL	ng./ml	+	
 ng/mL	ng/m	+	
 ng/mL	ng/ml	+	
@@ -819,6 +827,7 @@ u/L	U/ｌ	+
 u/L	U／L	+	
 u/L	U/L	+	
 u/L	U/l/37℃	+	
+u/L	U/L/37℃	+	
 u/mg(creat)	U/mg･Cr	+	
 u/mL	U/ml	+	【特記事項あり】
 u/mL	Ｕ/ＭＬ	+	【特記事項あり】
