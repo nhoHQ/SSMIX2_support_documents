@@ -561,27 +561,27 @@ mmol/mol(creat)	Mﾓﾙ/ﾓﾙ.CRE	+
 mmol/mol(creat)	ｍﾓﾙ/ﾓﾙC	+	
 molecules/cell	molecules/		
 molecules/cell	molecules/cell		
-mosm/kg_h2o	mOsm/kg	+	【特記事項あり】
-mosm/kg_h2o	mosm/ｋg	+	【特記事項あり】
-mosm/kg_h2o	mOsm/Kg	+	【特記事項あり】
-mosm/kg_h2o	mOsm/Kg･	+	【特記事項あり】
-mosm/kg_h2o	mOsm/Kg･H2O	+	【特記事項あり】
-mosm/kg_h2o	mOsm/Kg・H2O	+	【特記事項あり】
-mosm/kg_h2o	mOsm/kg･H2O	+	【特記事項あり】
-mosm/kg_h2o	mOSM/KgH	+	【特記事項あり】
-mosm/kg_h2o	mOsm/kgH20	+	【特記事項あり】
-mosm/kg_h2o	mOsm/kgH2O	+	【特記事項あり】
-mosm/kg_h2o	MOSM/KGH2O	+	【特記事項あり】
-mosm/kg_h2o	mOsm/KgH2O	+	【特記事項あり】
-mosm/kg_h2o	mOsm/kg・H2O	+	【特記事項あり】
-mosm/kg_h2o	mOsm／L	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
-mosm/kg_h2o	mOsm/l	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
-mosm/kg_h2o	mOsm/L	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
-mosm/kg_h2o	mOSM/l	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	MOSM/KGH2O	+	
+mosm/kg_h2o	mOSM/KgH	+	
+mosm/kg_h2o	mOSM/l	+	
+mosm/kg_h2o	mOsm/Kg	+	
+mosm/kg_h2o	mOsm/KgH2O	+	
+mosm/kg_h2o	mOsm/Kg・H2O	+	
+mosm/kg_h2o	mOsm/Kg･	+	
+mosm/kg_h2o	mOsm/Kg･H2O	+	
+mosm/kg_h2o	mOsm/L	+	
+mosm/kg_h2o	mOsm/kg	+	
+mosm/kg_h2o	mOsm/kgH20	+	
+mosm/kg_h2o	mOsm/kgH2O	+	
+mosm/kg_h2o	mOsm/kg・H2O	+	
+mosm/kg_h2o	mOsm/kg･H2O	+	
+mosm/kg_h2o	mOsm/l	+	
+mosm/kg_h2o	mOsm/ｌ	+	
+mosm/kg_h2o	mOsm／L	+	
+mosm/kg_h2o	mosm/kg\_h2o	+	
+mosm/kg_h2o	mosm/l	+	
+mosm/kg_h2o	mosm/ｋg	+	
 mosm/kg_h2o	mOsm	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
-mosm/kg_h2o	mosm/l	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
-mosm/kg_h2o	mOsm/ｌ	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
-mosm/L	mOms/L	+	【特記事項あり】
 mu/dL	mU/dl	+	
 mu/dL	mU／dL	+	
 mu/dL	MU/DL	+	
