@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/08/19
+更新日: 2016/08/29
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -19,7 +19,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |(end\_u)/mL|EU, EU/ml, EU/mL|||
 |(hb)|bpm|+||
 |(jdf\_u)|JDF UNIT, JDF UNITS, JDFU, JDFunits|||
-|(knk\_u)|K.U, K.U., KU, K-U, U(Kunkel)|+|【特記事項あり】|
+|(knk\_u)|K.U, K.U., KU, K-U, U(Kunkel), K単位|+|【特記事項あり】|
 |(mpa.sec)|mPa.s|||
 |(ppb)|ppb|+||
 |(rpr\_u)|R.U, R.U., RU|||
@@ -28,17 +28,17 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |.|ﾊﾞｲ, 倍|+||
 |.(10\*2)|×100倍, ２乗倍|+||
 |.(10\*5)|10^5|+||
-|.10\*2/uL|×10^2, ×10^2/, ×10^2/ul, ×10^2/uL, ×10^2/μl, ×10^2/μL, ×百/μl, 10\*2/mm\*3, 10^2/ul, 10^2/μl, 10＾2/μl, 100/μＬ, x10 2/ul, x10^2, x10^2/ul, x10＾2/μl, x10^2/μL, X10^2/μl, X10^2/μL|+|【特記事項あり】|
+|.10\*2/uL|×10^2, ×10^2/, ×10^2/ul, ×10^2/uL, ×10^2/μl, ×10^2/μL, ×百/μl, 10\*2/mm\*3, 10^2/ul, 10^2/μl, 10＾2/μl, 100/μＬ, x10 2/ul, x10^2, x10^2/ul, x10＾2/μl, x10^2/μL, X10^2/μl, X10^2/μL, x10^2/μ|+|【特記事項あり】|
 |.10\*2copies/mL|×100 ｺﾋ|||
 |.10\*3(cfu)/mL|10^3CFU/ml|+||
-|.10\*3/uL|\*10^3/μl, ×10^3, ×10^3/, ×10＾3/μl, ×10^3/μl, 10^3/μL, 10＾3/μl, 10^3/μｌ, 10^3/μl, X10\*3/μl, x10^3, X10^3/μ, x10＾3/μｌ, x10^3/μl, 干/μl|+|【特記事項あり】|
+|.10\*3/uL|\*10^3/μl, ×10^3, ×10^3/, ×10＾3/μl, ×10^3/μl, 10^3/μL, 10＾3/μl, 10^3/μｌ, 10^3/μl, X10\*3/μl, x10^3, X10^3/μ, x10＾3/μｌ, x10^3/μl, 干/μl, x10^3/μ, x10＾3/|+|【特記事項あり】|
 |.10\*4/mL|×10^4個/ml, 万/ml|+||
-|.10\*4/uL|\*10^4/μl, ×10\*4/μL, ×10^4, ×10^4/, ×10^4/ul, ×10^4/uL, ×10＾4/μl, ×10^4/μl, ×10^4/μL, ×万/μl, 10\*4/mm\*3, 10^4/μl, 10^4/μｌ, 10＾4/μl, 10^4/μL, 10^4μｌ, 10000/μＬ, 10x4/μl, x10 4/ul, X10\*4/μＬ, x10^4, x10^4/ul, X10^4/μ, x10＾4/μl, x10^4/μL, x10＾4/μｌ, X10^4/μl, X10000/MCL, 万/μl|+|【特記事項あり】|
-|.10\*5/mL|×10＾5/ｍL, ×100万/, 10^5/ml, X100000/|+||
+|.10\*4/uL|\*10^4/μl, ×10\*4/μL, ×10^4, ×10^4/, ×10^4/ul, ×10^4/uL, ×10＾4/μl, ×10^4/μl, ×10^4/μL, ×万/μl, 10\*4/mm\*3, 10^4/μl, 10^4/μｌ, 10＾4/μl, 10^4/μL, 10^4μｌ, 10000/μＬ, 10x4/μl, x10 4/ul, X10\*4/μＬ, x10^4, x10^4/ul, X10^4/μ, x10＾4/μl, x10^4/μL, x10＾4/μｌ, X10^4/μl, X10000/MCL, 万/μl, x10^4/μ|+|【特記事項あり】|
+|.10\*5/mL|×10＾5/ｍL, ×100万/, 10^5/ml, X100000/, ×10^5/m|+||
 |.10\*6/bag|10^6/bag|||
 |.10\*6/kg|10^6/kg|+||
 |.10\*6/mL|\*10^6/ml, ×10^6, ×10^6/m, ×10＾6/ｍ, ×10＾6/ｍｌ, ×10^6/ml, ×10^6個/ml, 10^6, 10^6/mL, 10＾6/ｍｌ, 10^6/ml, X10\*6/ml, x10^6/mL, X10^6/ml|+|【特記事項あり】|
-|.10\*6/uL|\*10^6/μl, ×10＾6/μl, ×10^6/μl, 10^6/μl, 10＾6/μl, 10^6/μL, X10^6/μ, x10＾6/μｌ, x10^6/μl, 百万/μl|+||
+|.10\*6/uL|\*10^6/μl, ×10＾6/μl, ×10^6/μl, 10^6/μl, 10＾6/μl, 10^6/μL, X10^6/μ, x10＾6/μｌ, x10^6/μl, 百万/μl, x10＾6/|+||
 |.10\*8/kg|10^8/kg|+||
 |.10\*9/bag|10^9/bag|||
 |.10\*9/mL|10^9/mｌ|+||
@@ -62,7 +62,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |copies/10\*6cells|10^6cell, ｺﾋﾟｰ/10^6cells, コピー/10^6cells, ｺﾋﾟｰ/106ce, ｺﾋﾟｰ/106cells||【特記事項あり】|
 |copies/assay|ｺﾋﾟ-/ｱﾂｾ, ｺﾋﾟ-/ｱﾂｾｲ, ｺﾋﾟｰ/assay, ｺﾋﾟｰ/ｱｯｾ, ｺﾋﾟｰ/ｱｯｾｲ|||
 |copies/mL|copy/ML, copy/mL, CP/ml, CP／mL, cp/mL, ｺﾋﾟ-/mL, ｺﾋﾟ-/ml, コピー/ml, ｺﾋﾟｰ/ml, コピｰ/ml, ｺﾋﾟｰ/mL, コピー/mL|||
-|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー, コピー/μg RNA||【特記事項あり】|
+|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー, コピー/μg RNA, c/μgRNA, コピー/μgRNA, コピー/μ||【特記事項あり】|
 |cp|CP|||
 |cpm|CPM, ＣＰＭ|||
 |delta(ph)|ΔpH|||
@@ -78,7 +78,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |g/(5.hr)|g/5時間|+||
 |g/d|g/day, ｇ/day, G/DAY, g／日|+||
 |g/dL|g/dl, g/ｄｌ, g／dL, g/ｄL, g/dＬ|+||
-|g/g(creat)|G/G CREA, g/g.Cr, g/g・Cr, g/g･Cr, ｇ/ｇ・CRE, g/g・CRE, g/gCre|+||
+|g/g(creat)|G/G CREA, g/g.Cr, g/g・Cr, g/g･Cr, ｇ/ｇ・CRE, g/g・CRE, g/gCre, g/gcre|+||
 |g/kg|g/kg|+||
 |g/L|g/l|+||
 |group|ｸﾞﾙｰﾌﾟ, グループ, ｸﾞﾙ-ﾌﾟ||【特記事項あり】|
@@ -90,7 +90,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |iu/dL|IU/dl, IU/dL|+||
 |iu/g(hgb)|IU/g･Hb, IU/gHb|+||
 |iu/hr|IU/h|+||
-|iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ|+||
+|iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ, IU／Ｌ|+||
 |iu/mL|IU/ml, IU/ｍL, ＩＵ/ｍＬ, IU／mL, IU/mL, IU/mＬ|+||
 |kg|kg, ｋｇ, Kg|+||
 |kiu/mL|KIU/ml, KIU/mL|+||
@@ -99,10 +99,10 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |L/min|L/min|+||
 |LC|×100LMC, 100LC, LC, LC(ﾙﾐｶｳﾝﾄ), ﾙﾐｶｳﾝﾄ|||
 |LC(class)|100LC(ｸﾗｽ)|||
-|logcopies/mL|CL/ml, LC/ml, LC/mL, Log ｺﾋﾟｰ/ml, Log/ml, LogCopy/ml, LogCopy/mL, Logcopy/ml, LogCP/mL, LOGｺﾋﾟ-/, logｺﾋﾟ-/, logｺﾋﾟ/m, LOGｺﾋﾟ-/mL, Logｺﾋﾟ-/mL, Logｺﾋﾟｰ/, Logコピー/m, LOGｺﾋﾟｰ/ml, Logｺﾋﾟｰ/mL, Logｺﾋﾟｰ/ml|||
+|logcopies/mL|CL/ml, LC/ml, LC/mL, Log ｺﾋﾟｰ/ml, Log/ml, LogCopy/ml, LogCopy/mL, Logcopy/ml, LogCP/mL, LOGｺﾋﾟ-/, logｺﾋﾟ-/, logｺﾋﾟ/m, LOGｺﾋﾟ-/mL, Logｺﾋﾟ-/mL, Logｺﾋﾟｰ/, Logコピー/m, LOGｺﾋﾟｰ/ml, Logｺﾋﾟｰ/mL, Logｺﾋﾟｰ/ml, Logコピ-/|||
 |logeq/mL|LEG/mL, LGE/mL, LGE/ml|||
-|logiu/mL|L.IU/ml, L.IU/mL, LIU/mL, LIU/ml, Log IU/m, Log IU/mL, Log IU/ｍL, LOG IU/mL, LOGIU/mL, LogIU/mL, LogIU/ml, LoglU/mL|||
-|logu/mL|Log U/mL, LogU/ml, LOGU/ML, LogU/mL||【特記事項あり】|
+|logiu/mL|L.IU/ml, L.IU/mL, LIU/mL, LIU/ml, Log IU/m, Log IU/mL, Log IU/ｍL, LOG IU/mL, LOGIU/mL, LogIU/mL, LogIU/ml, LoglU/mL, Log　IU/mL|||
+|logu/mL|Log U/mL, LogU/ml, LOGU/ML, LogU/mL, logU/ml||【特記事項あり】|
 |m|m|+||
 |m(arb\_u)/mL|MAU/ML, mAU/ml, mAU/mL, mAu/ml|+||
 |maeq/mL|Meq／mL, Meq/ml|+|【特記事項あり】|
@@ -120,11 +120,11 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |min|min, min., 分|+||
 |min sec|分 秒, 分　秒, "分,秒", 分、秒, 分．秒, 分・秒, 分･秒, 分秒|||
 |miu/L|mlu/l|+||
-|miu/mL|m IU/ml, mIU/ml, ｍＩＵ/ml, ｍIU/ml, mIU／mL, mIU/mL, MIU/ml, mlU/ml, mlU/mL|+||
+|miu/mL|m IU/ml, mIU/ml, ｍＩＵ/ml, ｍIU/ml, mIU／mL, mIU/mL, MIU/ml, mlU/ml, mlU/mL, ｍＩＵ/m|+||
 |mL|cc, CC, ml, ｍｌ, ｍＬ, mL|+||
 |mL/d|mL/day|+||
 |mL/dL|ml/dl|+||
-|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分|+|JLAC10が8A025000009891929、8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】|
+|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分, ml／min|+|JLAC10が8A025000009891929、8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】|
 |mL/min(bsa)|mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡"|+|【特記事項あり】|
 |mm|mm, ＭＭ, mm/1H, mm/h, mm/hr, mm/hr., mm/2h|+||
 |mm(hg)|mmHg, Torr|+||
@@ -133,10 +133,9 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mmol/mol|mmol/mol, mmoｌ/moL|+|【特記事項あり】|
 |mmol/mol(creat)|mmol/mol･CRE, Mﾓﾙ/ﾓﾙ.CRE, ｍﾓﾙ/ﾓﾙC|+||
 |molecules/cell|molecules/, molecules/cell|||
-|mosm/kg\_h2o|mOsm/kg, mosm/ｋg, mOsm/Kg, mOsm/Kg･, mOsm/Kg･H2O, mOsm/Kg・H2O, mOsm/kg･H2O, mOSM/KgH, mOsm/kgH20, mOsm/kgH2O, MOSM/KGH2O, mOsm/KgH2O|+|【特記事項あり】|
-|mosm/L|mOms/L|+|【特記事項あり】|
+|mosm/kg\_h2o|MOSM/KGH2O, mOSM/KgH, mOSM/l, mOsm/Kg, mOsm/KgH2O, mOsm/Kg・H2O, mOsm/Kg･, mOsm/Kg･H2O, mOsm/L, mOsm/kg, mOsm/kgH20, mOsm/kgH2O, mOsm/kg・H2O, mOsm/kg･H2O, mOsm/l, mOsm/ｌ, mOsm／L, mosm/kg\_h2o, mosm/l, mosm/ｋg|+|【特記事項あり】|
 |mu/dL|mU/dl, mU／dL, MU/DL, mU/dL|+||
-|mu/mL|mU/ml, mU/mL|+||
+|mu/mL|mU/ml, mU/mL, mU／mL|+||
 |neq/L|nEq/l|+||
 |ng/(24.hr)|ng/24h|+||
 |ng/(mL.hr)|ng/ml/h, ng/mL/h, NG/ML/HR, ng/ml/hr, ng/mL/HR, ng/mL/hr|+||
@@ -146,7 +145,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |ng/g|ng/g湿重|+||
 |ng/g(creat)|ng/g.Cre, ng/g･Cr, ng/g・Cr, ng/g･CRE, NG/G･CREA, ng/gCRE|+||
 |ng/L|ng/L, ng／L, ng/l|+||
-|ng/mg(creat)|ng/mg.Cr, NG/MG.CRE, ng/mg･c, ng/mg・cr, ng/mg･Cr, ng/mg･CRE, ng/mg-Cr|+||
+|ng/mg(creat)|ng/mg.Cr, NG/MG.CRE, ng/mg･c, ng/mg・cr, ng/mg･Cr, ng/mg･CRE, ng/mg-Cr, ng/mg・Cre|+||
 |ng/mL|ng./ml, ng/m, ng/ml, ｎg/ml, ng/mｌ, ng/ｍｌ, ｎｇ/ml, ｎｇ/ｍｌ, ng／mL, ng／ｍL, ng/mL, NG/ML, ng/mＬ, ｎｇ/ｍＬ, ng／ml, ng/ml以下|+||
 |nmol/(L.hr)|nmol/l/h|+||
 |nmol/(mg(prot).hr)|nmol/mg　protein/時, nmol/mg protein/時間, nmol/mgp, NMOL/MGP/H, nmol/mgp/h, nmol/mgprotein/h|||
@@ -154,7 +153,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |nmol/dL|nmol/dl|+||
 |nmol/L|nM/l, nM/L, nmol/l, ｎｍｏｌ／Ｌ, nmol／L, nmol/L, NMOL/L, nmoL/L, nﾓﾙ/l, ｎﾓﾙ/l, nﾓﾙ/L, Nﾓﾙ/L|+||
 |nmol/mL|nmol/mL, nmol/ml, nmoL/mL, ｎﾓﾙ/ml|+||
-|nmol/mmol(creat)|nM/mM Cr, nM/mM.Cr, nM/mM.CR, nM/mM･CR, nM/mM･Cr, nM/mMCr, nM/mMCRE, NM/MMCRE, nmol/mmo, nmol/mmol・CRE, nmol/mmol･CRE, nmol/mmolC, nmol/mnol･CRE, ｎﾓﾙ/ｍﾓ, ｎﾓﾙ/mﾓﾙ, Nﾓﾙ/MﾓﾙC, Nﾓﾙ/MﾓﾙCRE|+||
+|nmol/mmol(creat)|nM/mM Cr, nM/mM.Cr, nM/mM.CR, nM/mM･CR, nM/mM･Cr, nM/mMCr, nM/mMCRE, NM/MMCRE, nmol/mmo, nmol/mmol・CRE, nmol/mmol･CRE, nmol/mmolC, nmol/mnol･CRE, ｎﾓﾙ/ｍﾓ, ｎﾓﾙ/mﾓﾙ, Nﾓﾙ/MﾓﾙC, Nﾓﾙ/MﾓﾙCRE, nm/mmcr.|+||
 |nmol/nmol(creat)|nmol/nmol/・CRE|+||
 |nmolBCeq/L|nM BCE, nM BCE/L, nMBCE/l, nMBCE/L, nmbde/l, nmol BCE/L, nmolBC/L, nMOLBCE/, nmolBCE/, NMOLBCE/L, nmolBCE/L, NﾓﾙBCE/L|||
 |nmolBCeq/mmol(creat)|nM BCE/m, nM BCE/mM･Cre, nMBCE, NMBCE, nMBCE/mM, nMBCE/mM・Cre, nMBCE/mM･Cre, nMBCE/mMCr, NMBCE/MMCR, nmol BCE, nmol BCE/mmol･Cr, nmolBCE/mmol･CRE, nmolBCE/mmol・CRE|||
@@ -184,7 +183,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |type|DQﾛｰｶｽ, ｶﾀ, ガタ, ﾀｲﾌﾟ, 型||【特記事項あり】|
 |u/d|U/day, Ｕ/日, U／日|+||
 |u/g(creat)|U/g.Cr, U/g・Cr, U／g・Cr, U/g･Cr, U/g・Cre, U/g･CRE|+||
-|u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃|+||
+|u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃, U/L/37℃|+||
 |u/mg(creat)|U/mg･Cr|+||
 |u/mL|U/ml, Ｕ/ＭＬ, Ｕ／ｍｌ, U／mL, Ｕ／mL, U/ML, U/mL, Ｕ/ｍＬ, U/mＬ, μ/ml|+|【特記事項あり】|
 |uA/mL|UA/ML, UA/ml, UA/mL, Ua/ml, Ua/mL|||
@@ -199,7 +198,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |ug/g(creat)|MCG/G CRE, MCG/GCRE, ug/gCr, μg/g.CR, μg/g.Cre, μg/g・Cr, μｇ/ｇ・Cr, μg/g･CR, μg/g･CRE, μg/g・CRE, μg/g・Crn, μg/gC, μg/gCr, μｇ/ｇCr, μg/g-Cr, μg/gcre, μg/gCRE, μg/gCre|+||
 |ug/kg|μg/kg|+||
 |ug/L|MCG/L, ug/l, ug/L, μg/l, μg/Ｌ, μｇ/L, μg／L, μg/L|+|【特記事項あり】|
-|ug/mg(creat)|MCG/MG.CRE, μg/mg.C, μg/mg.Cr, μg/mg.CRE, μg/mg･C, μg/mg･Cr, μg/mg・Cr, μg/mg･CRE, μg/mgCr|+||
+|ug/mg(creat)|MCG/MG.CRE, μg/mg.C, μg/mg.Cr, μg/mg.CRE, μg/mg･C, μg/mg･Cr, μg/mg・Cr, μg/mg･CRE, μg/mgCr, μg/mgcr|+||
 |ug/min|MCG/MIN, μg/分, μg／分|+||
 |ug/mL|MCG/ML, micg/ml, mlcg/ml, ug/mL, ug/ml, μg/ml, μg/ｍL, μｇ/ml, μｇ/ｍｌ, μg／mL, μg/mL, μg/mＬ|+||
 |ug/mmol|μg/mmol|+||
@@ -224,19 +223,20 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 
 |ASCII単位|表示用単位の例|備考|
 |----|----|----|
-|(knk\_u)|U, Ｕ|JLAC10が3A025000002329201(TTT)、 3A030000002329201(ZTT)の場合のみ『(knk\_u)』とする。|
+|(knk\_u)|U, Ｕ, 単位|JLAC10が3A025000002329201(TTT)、 3A030000002329201(ZTT)の場合のみ『(knk\_u)』とする。|
 |.10*2/uL|×10^2, ×10^2/, x10^2|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
-|.10*3/uL|×10^3, ×10^3/, x10^3|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
+|.10*3/uL|×10^3, ×10^3/, x10^3, x10＾3/|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
 |.10*4/uL|×10^4, ×10^4/, x10^4|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
-|.10*6/mL|×10^6, 10^6|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
-|copies/10\*6cells|copy, Kｺﾋﾟｰ/ml, ｺﾋﾟ-, ｺﾋﾟｰ|JLAC10が5F201144002386201、5F201144102386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。|
-|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー|『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144009986201、5F194144109986201(CMV定量)、5F201144009986201、5F201144109986201(EBV定量)、5F190144009986201、5F190144109986201(HSV定量)、5F193144009986201、5F193144109986201(VZV定量)、5F212144009986201、5F212144109986201(HHV定量)、5F150144009986201、5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10\*6cells』を意味する場合もあるので個別に確認すること。|
+|.10*6/mL|×10^6, 10^6, x10＾6/|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
+|.10*6/uL|×10^6, 10^6, x10＾6/|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
+|copies/10\*6cells|copy, Kｺﾋﾟｰ/ml, ｺﾋﾟ-, ｺﾋﾟｰ|JLAC10が5F201144002386201, 5F201144102386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。|
+|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー, コピー/テスト, コピ-/テスト|『ｺﾋﾟ-/ﾃｽﾄ』, 『ｺﾋﾟｰ/ﾃｽﾄ』はJLAC10が8C125996201987501, 8C125996204687501(major bcr-abl定量:リアルタイムRT-PCR法)の場合のみ、『コピー』はJLAC10が5F194144000186201, 5F194144001986201, 5F194144004186201, 5F194144007086201, 5F194144009986201, 5F194144109986201(CMV定量)、5F201144001986201, 5F201144002386201, 5F201144004186201, 5F201144007086201, 5F201144009986201, 5F201144109986201(EBV定量)、5F190144001986201, 5F190144004186201, 5F190144007086201, 5F190144009986201, 5F190144109986201(HSV定量)、5F193144001986201, 5F193144004186201, 5F193144009986201, 5F193144109986201(VZV定量)、5F212144001986201, 5F212144002386201, 5F212144004186201, 5F212144007086201, 5F212144009986201, 5F212144109986201(HHV定量)、5F150144000186201, 5F150144001586201, 5F150144006686201, 5F150144009986201, 5F150144109986201(ADV定量)の場合のみ『copies/ug』とする。病院によって『copies/10*6cells』を意味する場合もあるので個別に確認すること。|
 |group|型|JLAC10が5F3601406023???14(HCV血清型)の場合のみ『group』とする。|
 |logu/mL|Log|JLAC10が5F0181410023???01(B型肝炎ウイルスコア関連抗原定量)の場合のみ『logu/mL』とする。|
-|maeq/mL|mEq/ml|JLAC10が5F0151440023???01、5F0151441023???01(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。|
-|mL/min(bsa)|ML/MIN, ml/min/|JLAC10が8A066000002391901(推算GFRcys)の場合のみ『mL/min(bsa)』とする。|
-|mmol/mol|mmol/mL|JLAC10が3D045000002220401、3D0450000022???01(HbA1c IFCC値) の場合のみ『mmol/mol』とする。|
-|mosm/kg\_h2o|mOsm／L, mOsm/l, mOsm/L, mOSM/l, mOsm, mosm/l, mOsm/ｌ|JLAC10が3H045000002390201、3H045000000190201(浸透圧) の場合のみ『mosm/kg\_h2o』とする。|
+|maeq/mL|mEq/ml|JLAC10が5F0151440023???01, 5F0151441023???01(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。|
+|mL/min(bsa)|ML/MIN, ml/min/, ml/min|JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。|
+|mmol/mol|mmol/mL|JLAC10が3D045000002220401, 3D0450000022???01(HbA1c IFCC値) の場合のみ『mmol/mol』とする。|
+|mosm/kg\_h2o|mOsm|JLAC10が3H045000000190201, 3H045000002390201, 3H045000004090201, 3H045000000490201(浸透圧) の場合のみ『mosm/kg\_h2o』とする。|
 |u/mL|M|JLAC10が5G5310000022???01(HIT-IgG抗体)の場合のみ『u/mL』とする。|
 |ug/L|μ|JLAC10が5C120000002305301(Ⅰ型プロコラーゲン-N末端プロペプチド)の場合のみ『ug/L』とする。|
 |umol/mL|μＭ|JLAC10が3M7250000023???01(メトトレキサート)の場合のみ『umol/mL』とする。|
