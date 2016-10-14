@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/09/13
+更新日: 2016/10/14
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -91,7 +91,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |iu/dL|IU/dl, IU/dL|+||
 |iu/g(hgb)|IU/g･Hb, IU/gHb|+||
 |iu/hr|IU/h|+||
-|iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ, IU／Ｌ|+||
+|iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ, IU／Ｌ, IU/L/37゜|+||
 |iu/mL|IU/ml, IU/ｍL, ＩＵ/ｍＬ, IU／mL, IU/mL, IU/mＬ|+||
 |kg|kg, ｋｇ, Kg|+||
 |kiu/mL|KIU/ml, KIU/mL, KIU/ML, kIU/ml|+||
