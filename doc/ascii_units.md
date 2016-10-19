@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2016/09/13
+更新日: 2016/10/14
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -46,7 +46,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |.10copies/mL|×10 ｺﾋﾟ|||
 |/(15.10\*4(wbc))|個/1.5X10の5乗WBC, 個/15万W||JLAC10が5F194142201917451(pp65抗原(C7ＨＲＰ)[サイトメガロウイルス])の場合のみ『/(15.10\*4(wbc))』とする。|
 |/(hpf)|/1HPF, /HPF, /ＨＰＦ, /HPF(×400), HPF, 個/HPF, /1-5個/H, /ＨPF, /1-5HPF, /6-9HPF, /H|+||
-|/(lpf)|/1LPF, /LPF, /LPF(×100), LPF, /100LPF, /100, 個/LPF, 個/10LPF, /L|+||
+|/(lpf)|/1LPF, /LPF, /LPF(×100), LPF, /100LPF, /100, 個/LPF, 個/10LPF, /L, 個/1LP|+||
 |/(wf)|/ＷF, WF, 個/WF|+||
 |/3uL|/3, /3　μｌ, /3/mm^3, /3/μl, /3/μL, /3μl, /3μL, 個/3, ／3μL|||
 |/mL|/1mL, /ml|+||
@@ -91,7 +91,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |iu/dL|IU/dl, IU/dL|+||
 |iu/g(hgb)|IU/g･Hb, IU/gHb|+||
 |iu/hr|IU/h|+||
-|iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ, IU／Ｌ|+||
+|iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ, IU／Ｌ, IU/L/37゜|+||
 |iu/mL|IU/ml, IU/ｍL, ＩＵ/ｍＬ, IU／mL, IU/mL, IU/mＬ|+||
 |kg|kg, ｋｇ, Kg|+||
 |kiu/mL|KIU/ml, KIU/mL, KIU/ML, kIU/ml|+||
@@ -125,7 +125,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mL|cc, CC, ml, ｍｌ, ｍＬ, mL|+||
 |mL/d|mL/day|+||
 |mL/dL|ml/dl, mL/dL|+||
-|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分, ml／min|+|JLAC10が8A025000009891929、8A025000009827101(24時間クレアチニンクリアランス)の場合のみ『mL/min』とする。【特記事項あり】|
+|mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分, ml／min|+|JLAC10が8A025000009891929、8A025000009827101(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】|
 |mL/min(bsa)|mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡"|+|【特記事項あり】|
 |mm|mm, ＭＭ, mm/1H, mm/h, mm/hr, mm/hr., mm/2h, ｍｍ|+||
 |mm(hg)|mmHg, Torr|+||
