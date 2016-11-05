@@ -188,17 +188,17 @@ ASCII単位	表示用単位の例	ISO	備考
 /(hpf)	/1-5HPF	+	
 /(hpf)	/6-9HPF	+	
 /(hpf)	/H	+	
-/(lpf)	/1LPF	+	
-/(lpf)	/LPF	+	
-/(lpf)	/LPF(×100)	+	
-/(lpf)	LPF	+	
-/(lpf)	/100LPF	+	
-/(lpf)	/100	+	
-/(lpf)	個/LPF	+	
-/(lpf)	個/10LPF	+	
-/(lpf)	/L	+	
-/(lpf)	個/1LP	+	
-/(lpf)	/LP	+	
+/(lpf)	/1LPF	+	【特記事項あり】
+/(lpf)	/LPF	+	【特記事項あり】
+/(lpf)	/LPF(×100)	+	【特記事項あり】
+/(lpf)	LPF	+	【特記事項あり】
+/(lpf)	/100LPF	+	【特記事項あり】
+/(lpf)	/100	+	JLAC10が1A105????????????の場合のみ『/(lpf)』とする。
+/(lpf)	個/LPF	+	【特記事項あり】
+/(lpf)	個/10LPF	+	【特記事項あり】
+/(lpf)	/L	+	【特記事項あり】
+/(lpf)	個/1LP	+	【特記事項あり】
+/(lpf)	/LP	+	【特記事項あり】
 /(wf)	/ＷF	+	
 /(wf)	WF	+	
 /(wf)	個/WF	+	
@@ -786,13 +786,13 @@ nu/mL	nU/ml	+
 pcs	ｺ		
 pcs	コ		
 pcs	個		
-pcs/10*2(wbc)	/100		
-pcs/10*2(wbc)	/100WBC		
-pcs/10*2(wbc)	/100個		
-pcs/10*2(wbc)	100WBC		
-pcs/10*2(wbc)	ｺ/100WBC		
-pcs/10*2(wbc)	個/WBC100		
-pcs/10*2(wbc)	/100wbc		
+pcs/10*2(wbc)	/100		JLAC10が1A105????????????以外の場合のみ『pcs/10\*2(wbc)』とする。
+pcs/10*2(wbc)	/100WBC		【特記事項あり】
+pcs/10*2(wbc)	/100個		【特記事項あり】
+pcs/10*2(wbc)	100WBC		【特記事項あり】
+pcs/10*2(wbc)	ｺ/100WBC		【特記事項あり】
+pcs/10*2(wbc)	個/WBC100		【特記事項あり】
+pcs/10*2(wbc)	/100wbc		【特記事項あり】
 permil	△13cパー		
 permil	△13cﾊﾟｰﾐﾙ		
 permil	‰		
