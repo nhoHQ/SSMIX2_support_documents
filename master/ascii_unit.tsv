@@ -194,6 +194,7 @@ ASCII単位	表示用単位の例	ISO	備考
 /(hpf)	/HF	+	
 /(hpf)	/2-3HPF	+	
 /(hpf)	/4-5HPF	+	
+/(hpf)	/HP	+	
 /(lpf)	/1LPF	+	【特記事項あり】
 /(lpf)	/LPF	+	【特記事項あり】
 /(lpf)	/LPF(×100)	+	【特記事項あり】
@@ -211,6 +212,7 @@ ASCII単位	表示用単位の例	ISO	備考
 /(wf)	WF	+	
 /(wf)	個/WF	+	
 /(wf)	/WF	+	
+/(wf)	個/全	+	
 /3uL	/3		
 /3uL	/3　μｌ		
 /3uL	/3/mm^3		
@@ -220,6 +222,7 @@ ASCII単位	表示用単位の例	ISO	備考
 /3uL	/3μL		
 /3uL	個/3		
 /3uL	／3μL		
+/3uL	/3/mm3		
 /mL	/1mL	+	
 /mL	/ml	+	
 /uL	/MCL	+	
@@ -437,6 +440,7 @@ LC	100LC
 LC	LC		
 LC	LC(ﾙﾐｶｳﾝﾄ)		
 LC	ﾙﾐｶｳﾝﾄ		
+LC	ルミカウント		
 LC(class)	100LC(ｸﾗｽ)		
 logcopies/mL	CL/ml		
 logcopies/mL	LC/ml		
@@ -605,6 +609,7 @@ mL/min(bsa)	mL/min/1.73m^2	+	【特記事項あり】
 mL/min(bsa)	mL/min/1.73m2	+	【特記事項あり】
 mL/min(bsa)	ml/分/1.73㎡	+	【特記事項あり】
 mL/min(bsa)	"ｍｌ/分・1,73㎡"	+	【特記事項あり】
+mL/min(bsa)	ml/min/m*2	+	【特記事項あり】
 mL/min(bsa)	ML/MIN	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。
 mL/min(bsa)	ml/min/	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。
 mm	mm	+	
@@ -618,11 +623,13 @@ mm	ｍｍ	+
 mm(hg)	mmHg	+	
 mm(hg)	Torr	+	
 mm_h2o	mmH2O	+	
+mmol/d	mmol/day	+	
 mmol/L	m mol/L	+	
 mmol/L	mm/l	+	
 mmol/L	mmol/l	+	
 mmol/L	mmol／L	+	
 mmol/L	mmol/L	+	
+mmol/L	mモル/l	+	
 mmol/mol	mmol/mol	+	【特記事項あり】
 mmol/mol	mmoｌ/moL	+	【特記事項あり】
 mmol/mol	mmol/mL	+	JLAC10が3D045000001920401、3D0450000019???01(HbA1c IFCC値) の場合のみ『mmol/mol』とする。
@@ -677,6 +684,7 @@ ng/10*7cells	ng/10MコPLT
 ng/10*7cells	ng/10M個		
 ng/10*7cells	ng/10x7C		
 ng/10*7cells	ng/千万		
+ng/10*7cells	ng/10^7cel		
 ng/d	ng/day	+	
 ng/dL	ng/dl	+	
 ng/dL	ng／dL	+	
@@ -748,6 +756,7 @@ nmol/mL	nmol/ml	+
 nmol/mL	nmoL/mL	+	
 nmol/mL	ｎﾓﾙ/ml	+	
 nmol/mL	nMOL/mL	+	
+nmol/mL	nモル/ml	+	
 nmol/mmol(creat)	nM/mM Cr	+	
 nmol/mmol(creat)	nM/mM.Cr	+	
 nmol/mmol(creat)	nM/mM.CR	+	
@@ -808,18 +817,19 @@ pcs/10*2(wbc)	100WBC		【特記事項あり】
 pcs/10*2(wbc)	ｺ/100WBC		【特記事項あり】
 pcs/10*2(wbc)	個/WBC100		【特記事項あり】
 pcs/10*2(wbc)	/100wbc		【特記事項あり】
-permil	△13cパー		
-permil	△13cﾊﾟｰﾐﾙ		
-permil	‰		
-permil	‰(ﾊﾟｰﾐﾙ		
-permil	‰(ﾊﾟｰﾐﾙ)		
-permil	0/00		
-permil	PER MIL		
-permil	ﾊﾟｰﾐﾙ		
-permil	パーミル		
-permil	ﾊﾟｰﾐﾙ△1		
-permil	ﾊﾟｰﾐﾙΔ1		
-permil	ﾊﾟ-ﾐﾙ		
+permil	△13cパー		【特記事項あり】
+permil	△13cﾊﾟｰﾐﾙ		【特記事項あり】
+permil	‰		【特記事項あり】
+permil	‰(ﾊﾟｰﾐﾙ		【特記事項あり】
+permil	‰(ﾊﾟｰﾐﾙ)		【特記事項あり】
+permil	0/00		【特記事項あり】
+permil	PER MIL		【特記事項あり】
+permil	ﾊﾟｰﾐﾙ		【特記事項あり】
+permil	パーミル		【特記事項あり】
+permil	ﾊﾟｰﾐﾙ△1		【特記事項あり】
+permil	ﾊﾟｰﾐﾙΔ1		【特記事項あり】
+permil	ﾊﾟ-ﾐﾙ		【特記事項あり】
+permil	Ｐ		JLAC10が6Z100000009820351、6Z100000009827351（13C尿素呼気試験）に限り『permil』とする。
 pg	pg	+	
 pg	Pg	+	
 pg/dL	pg/dL	+	
@@ -862,6 +872,7 @@ pmol/L	pmol/l	+
 pmol/L	pMOL/l	+	
 pmol/L	Pﾓﾙ/L	+	
 pmol/L	pﾓﾙ/l	+	
+pmol/L	Pモル/L	+	
 pmol/mg(creat)	pmol/mg･Cr	+	
 pmol/mg(creat)	pmol/mg･CR	+	
 pmol/mL	pmol/mL	+	
