@@ -20,6 +20,7 @@
 * doctor_info.md ADT-01(担当医の変更/担当医の取り消し)
 * exponential_notation.md(指数表記)
 * exception_case.md(例外事例)
+* unspecified_icd10.md(ICD-10不明病名)
 
 ##masterフォルダ内の構成
 * convert_to_sn.ptn 定性結果・不等号の変換用正規表現パターンファイル
