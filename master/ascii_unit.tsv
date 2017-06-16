@@ -288,6 +288,7 @@ copies/10*6cells	copy		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場
 copies/10*6cells	Kｺﾋﾟｰ/ml		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
 copies/10*6cells	ｺﾋﾟ-		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
 copies/10*6cells	ｺﾋﾟｰ		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	コピ-		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
 copies/assay	ｺﾋﾟ-/ｱﾂｾ		
 copies/assay	ｺﾋﾟ-/ｱﾂｾｲ		
 copies/assay	ｺﾋﾟｰ/assay		
