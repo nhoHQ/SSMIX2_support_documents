@@ -295,6 +295,7 @@ copies/assay	ｺﾋﾟ-/ｱﾂｾｲ
 copies/assay	ｺﾋﾟｰ/assay		
 copies/assay	ｺﾋﾟｰ/ｱｯｾ		
 copies/assay	ｺﾋﾟｰ/ｱｯｾｲ		
+copies/assay	コピ-/アッセイ		
 copies/mL	copy/ML		
 copies/mL	copy/mL		
 copies/mL	CP/ml		
@@ -379,6 +380,7 @@ g/g(creat)	ｇ/ｇ・CRE	+
 g/g(creat)	g/g・CRE	+	
 g/g(creat)	g/gCre	+	
 g/g(creat)	g/gcre	+	
+g/g(creat)	g/gCr	+	
 g/kg	g/kg	+	
 g/L	g/l	+	
 g/L	g/L	+	
