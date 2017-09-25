@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2017/08/25
+更新日: 2017/09/25
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -54,9 +54,9 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |/(hpf)|/1HPF, /HPF, /ＨＰＦ, /HPF(×400), HPF, 個/HPF, /1-5個/H, /ＨPF, /1-5HPF, /6-9HPF, /H, /HF, /2-3HPF, /4-5HPF, /HP|+||
 |/(lpf)|/1LPF, /LPF, /LPF(×100), LPF, /100LPF, /100, 個/LPF, 個/10LPF, /L, 個/1LP, /LP, /10LP, 個/100LPF, /10LPF|+|【特記事項あり】|
 |/(wf)|/ＷF, WF, 個/WF, /WF, 個/全|+||
-|/3uL|/3, /3　μｌ, /3/mm^3, /3/μl, /3/μL, /3μl, /3μL, 個/3, ／3μL, /3/mm3|||
+|/3uL|/3, /3　μｌ, /3/mm^3, /3/μl, /3/μL, /3μl, /3μL, 個/3, ／3μL, /3/mm3, ／３|||
 |/mL|/1mL, /ml|+||
-|/uL|/MCL, /mm^3, /mm3, /ul, /μl, /μｌ, /μL, 1/mm3, Leu/μl, mm^3, μＬ, μl, 個/mm3, 個/uL, 個/μl, 個／μL, 個/μL|+||
+|/uL|/MCL, /mm^3, /mm3, /ul, /μl, /μｌ, /μL, 1/mm3, Leu/μl, mm^3, μＬ, μl, 個/mm3, 個/uL, 個/μl, 個／μL, 個/μL, ／ｍｍ３|+||
 |age|才|||
 |bag|bag|||
 |cel|℃, 度|+||
@@ -86,7 +86,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |g/(5.hr)|g/5時間|+||
 |g/d|g/day, ｇ/day, G/DAY, g／日, g/Day|+||
 |g/dL|g/dl, g/ｄｌ, g／dL, g/ｄL, g/dＬ, g/dL|+||
-|g/g(creat)|G/G CREA, g/g.Cr, g/g・Cr, g/g･Cr, ｇ/ｇ・CRE, g/g・CRE, g/gCre, g/gcre, g/gCr|+||
+|g/g(creat)|G/G CREA, g/g.Cr, g/g・Cr, g/g･Cr, ｇ/ｇ・CRE, g/g・CRE, g/gCre, g/gcre, g/gCr, g/g・Cre|+||
 |g/kg|g/kg|+||
 |g/L|g/l, g/L|+||
 |group|ｸﾞﾙｰﾌﾟ, グループ, ｸﾞﾙ-ﾌﾟ||【特記事項あり】|
@@ -128,7 +128,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |min|min, min., 分|+||
 |min sec|分 秒, 分　秒, "分,秒", 分、秒, 分．秒, 分・秒, 分･秒, 分秒|||
 |miu/L|mlu/l|+||
-|miu/mL|m IU/ml, mIU/ml, ｍＩＵ/ml, ｍIU/ml, mIU／mL, mIU/mL, MIU/ml, mlU/ml, mlU/mL, ｍＩＵ/m, MIU/ML, miu/ml|+||
+|miu/mL|m IU/ml, mIU/ml, ｍＩＵ/ml, ｍIU/ml, mIU／mL, mIU/mL, MIU/ml, mlU/ml, mlU/mL, ｍＩＵ/m, MIU/ML, miu/ml, mＩU/mL|+||
 |mL|cc, CC, ml, ｍｌ, ｍＬ, mL, ML|+||
 |mL/d|mL/day|+||
 |mL/dL|ml/dl, mL/dL|+||
@@ -154,8 +154,8 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |ng/g|ng/g湿重|+||
 |ng/g(creat)|ng/g.Cre, ng/g･Cr, ng/g・Cr, ng/g･CRE, NG/G･CREA, ng/gCRE, ng/g.cre, ng/g･cr|+||
 |ng/L|ng/L, ng／L, ng/l|+||
-|ng/mg(creat)|ng/mg.Cr, NG/MG.CRE, ng/mg･c, ng/mg・cr, ng/mg･Cr, ng/mg･CRE, ng/mg-Cr, ng/mg・Cre|+||
-|ng/mL|ng./ml, ng/m, ng/ml, ｎg/ml, ng/mｌ, ng/ｍｌ, ｎｇ/ml, ｎｇ/ｍｌ, ng／mL, ng／ｍL, ng/mL, NG/ML, ng/mＬ, ｎｇ/ｍＬ, ng／ml, ng/ml以下, nｇ/ｍL|+||
+|ng/mg(creat)|ng/mg.Cr, NG/MG.CRE, ng/mg･c, ng/mg・cr, ng/mg･Cr, ng/mg･CRE, ng/mg-Cr, ng/mg・Cre, ng/mg・C|+||
+|ng/mL|ng./ml, ng/m, ng/ml, ｎg/ml, ng/mｌ, ng/ｍｌ, ｎｇ/ml, ｎｇ/ｍｌ, ng／mL, ng／ｍL, ng/mL, NG/ML, ng/mＬ, ｎｇ/ｍＬ, ng／ml, ng/ml以下, nｇ/ｍL, ｎg/dl|+||
 |nmol/(L.hr)|nmol/l/h|+||
 |nmol/(mg(prot).hr)|nmol/mg　protein/時, nmol/mg protein/時間, nmol/mgp, NMOL/MGP/H, nmol/mgp/h, nmol/mgprotein/h|||
 |nmol/(mL.hr)|nmol/mL/hr/37℃, nmol/mLh|+||
@@ -174,7 +174,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |pg|pg, Pg|+||
 |pg/dL|pg/dL|+||
 |pg/mg(creat)|pg/mg cre, pg/mg.CR, pg/mg.Cre, PG/MG.CRE, pg/mg･Cr, pg/mg･CRE, pg/mg・Crn, pg/mgCr, pg/mg-Cr, pg/mgCr., pg/mgCRE, PG-MG.CR, pg/mg.CRE, pg/mg･CR|+||
-|pg/mL|pg/ml, pg/ｍｌ, ｐｇ／ｍｌ, ｐｇ/ml, pg／mL, PG/ML, pg/mL, pg/mＬ, PG/ml, Pg/mL, pg/mL(参考, pg/mL(参考値), pg/ml以下, ＰＧ／ＭＬ|+||
+|pg/mL|pg/ml, pg/ｍｌ, ｐｇ／ｍｌ, ｐｇ/ml, pg／mL, PG/ML, pg/mL, pg/mＬ, PG/ml, Pg/mL, pg/mL(参考, pg/mL(参考値), pg/ml以下, ＰＧ／ＭＬ, ｐg/mｌ|+||
 |ph|ｐｈ|+||
 |pmol/dL|pmol/dL, PMOL/DL, pMOL/dL, pmol/dl|+||
 |pmol/L|pM, pmol/L, pmol/l, pMOL/l, Pﾓﾙ/L, pﾓﾙ/l, Pモル/L|+||
@@ -193,7 +193,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |u/d|U/day, Ｕ/日, U／日|+||
 |u/g(creat)|U/g.Cr, U/g・Cr, U／g・Cr, U/g･Cr, U/g・Cre, U/g･CRE|+||
 |u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃, U/L/37℃|+||
-|u/mg(creat)|U/mg･Cr|+||
+|u/mg(creat)|U/mg･Cr, μg/mg・C|+||
 |u/mL|U/ml, Ｕ/ＭＬ, Ｕ／ｍｌ, U／mL, Ｕ／mL, U/ML, U/mL, Ｕ/ｍＬ, U/mＬ, μ/ml, u/ml|+|【特記事項あり】|
 |uA/mL|UA/ML, UA/ml, UA/mL, Ua/ml, Ua/mL|||
 |ueq/L|uEq/L, μEq/L, μEq/l|+||
@@ -209,7 +209,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |ug/L|MCG/L, ug/l, ug/L, μg/l, μg/Ｌ, μｇ/L, μg／L, μg/L|+|【特記事項あり】|
 |ug/mg(creat)|MCG/MG.CRE, μg/mg.C, μg/mg.Cr, μg/mg.CRE, μg/mg･C, μg/mg･Cr, μg/mg・Cr, μg/mg･CRE, μg/mgCr, μg/mgcr|+||
 |ug/min|MCG/MIN, μg/分, μg／分|+||
-|ug/mL|MCG/ML, micg/ml, mlcg/ml, ug/mL, ug/ml, μg/ml, μg/ｍL, μｇ/ml, μｇ/ｍｌ, μg／mL, μg/mL, μg/mＬ, μg/ML|+||
+|ug/mL|MCG/ML, micg/ml, mlcg/ml, ug/mL, ug/ml, μg/ml, μg/ｍL, μｇ/ml, μｇ/ｍｌ, μg／mL, μg/mL, μg/mＬ, μg/ML, μg/mｌ|+||
 |ug/mmol|μg/mmol|+||
 |ug/mmol(creat)|MCG/MMOLCR, μg/mmol・CRE, μg/mﾓﾙC|+||
 |uiu/mL|MCIU/ML, uIU/mL, ulU/mL, μIU/mL, μIU／mL, μIU/ml, μIU/mＬ, μlU/mL, uIU/ml|+||
