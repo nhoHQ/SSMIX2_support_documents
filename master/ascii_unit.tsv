@@ -90,6 +90,8 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*2/uL	x10^2/μ	+	【特記事項あり】
 .10*2/uL	10^2/μｌ	+	【特記事項あり】
 .10*2/uL	x10^2/μl	+	【特記事項あり】
+.10*2/uL	10*2/μl	+	【特記事項あり】
+.10*2/uL	x10^2/μl	+	【特記事項あり】
 .10*2copies/mL	×100 ｺﾋ		
 .10*3(cfu)/mL	10^3CFU/ml	+	
 .10*3/uL	*10^3/μl	+	【特記事項あり】
@@ -146,12 +148,15 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*4/uL	万/μl	+	【特記事項あり】
 .10*4/uL	x10^4/μ	+	【特記事項あり】
 .10*4/uL	x10^4/μl	+	【特記事項あり】
+.10*4/uL	10*4/μl	+	【特記事項あり】
+.10*4/uL	x10^4/μl	+	【特記事項あり】
 .10*5(cfu)/mL	10^5CFU/ml	+	
 .10*5/mL	×10＾5/ｍL	+	
 .10*5/mL	×100万/	+	
 .10*5/mL	10^5/ml	+	
 .10*5/mL	X100000/	+	
 .10*5/mL	×10^5/m	+	
+.10*5/mL	×10＾5/ｍｌ	+	
 .10*6(cfu)/mL	10^6CFU/ml	+	
 .10*6/bag	10^6/bag		
 .10*6/kg	10^6/kg	+	
@@ -438,6 +443,7 @@ iu/L	IU/L37ﾟC	+
 iu/L	lU/Ｌ	+	
 iu/L	IU／Ｌ	+	
 iu/L	IU/L/37゜	+	
+iu/L	IU/l/37゜C	+	
 iu/mL	IU/ml	+	
 iu/mL	IU/ｍL	+	
 iu/mL	ＩＵ/ｍＬ	+	
@@ -488,6 +494,7 @@ logcopies/mL	Logコピ-/
 logcopies/mL	lc/ml		
 logcopies/mL	Logコピー/mL		
 logcopies/mL	LOGコピー/mL		
+logcopies/mL	Log コピー/mL		
 logeq/mL	LEG/mL		
 logeq/mL	LGE/mL		
 logeq/mL	LGE/ml		
@@ -781,6 +788,7 @@ nmol/L	nﾓﾙ/L	+
 nmol/L	Nﾓﾙ/L	+	
 nmol/L	Nm/l	+	
 nmol/L	nMOL/L	+	
+nmol/mg(creat)	nmol/mg・CRE	+	
 nmol/mL	nmol/mL	+	
 nmol/mL	nmol/ml	+	
 nmol/mL	nmoL/mL	+	
@@ -847,6 +855,7 @@ pcs/10*2(wbc)	100WBC		【特記事項あり】
 pcs/10*2(wbc)	ｺ/100WBC		【特記事項あり】
 pcs/10*2(wbc)	個/WBC100		【特記事項あり】
 pcs/10*2(wbc)	/100wbc		【特記事項あり】
+pcs/uL	ヶ/μl		
 permil	△13cパー		【特記事項あり】
 permil	△13cﾊﾟｰﾐﾙ		【特記事項あり】
 permil	‰		【特記事項あり】
@@ -1082,6 +1091,7 @@ uiu/mL	μIU/ml	+
 uiu/mL	μIU/mＬ	+	
 uiu/mL	μlU/mL	+	
 uiu/mL	uIU/ml	+	
+uiu/mL	μIU/ｍｌ	+	
 umol/(24.hr)	μmol/24	+	
 umol/d	MCMOL/DAY	+	
 umol/d	umol/day	+	
