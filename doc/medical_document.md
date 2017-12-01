@@ -202,9 +202,7 @@ JSPEED情報については、Additional Documentセクションに記載する�
  <code code="77599-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ADDITIONAL
 DOCUMENTATION" />
  <title>Jspeed DOCUMENT</title>
- <text>
- 00001234,3,43,03/1974,1,0,0,0,0,1,0,....,"JPN1.00"
- </text>
+ <text>"医療機関名","","2018/01/01","2018/01/0109:01","医療機関名","123-4567","東京都",,,,,,,,,,,,1,,,,,,,"ID1",,45,,3,3,1,0,0,0,0,0,0,1,0,....,"JPN1.00"</text>
 </section>
 ```
 
