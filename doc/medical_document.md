@@ -1,5 +1,5 @@
 # 医師記録等
-更新日:2017/08/25
+更新日:2017/12/01
 ## 趣旨
 本事業では、各社のSS-MIX2モジュールの拡張ストレージへの出力機能を利用し、以下の情報を出力することを求めている。その際、SS-MIX2 拡張ストレージ構成の説明と構築ガイドライン Ver.1.2d（以下、ガイドライン）に記載している仕様に対応していること。また、トランザクションストレージ、インデックスデータベースも同時に生成すること。
 
@@ -96,60 +96,107 @@ P27 6.3.11.検査・診療等行為 "documentationOf/ServiceEvent" によると�
 
 表 text内データ記述仕様
 
-|Field No|Title|日本語名称|値||説明|
-|---|---|---|---|---|---|
-|1|ID||||Free text (A unique alphanumeric code recommended.)|
-|2|MDSa||||1:<1 2:1=<, <5 3:5=<, <65  4:65=< 本プロジェクトにおいては下記のデータ入力時にチェックボックス等で選択させた場合にデータをセットする|
-|3|Age||||年齢　本プロジェクトにおいては患者基本情報の情報から取得してデータをセットする|
-|4|M/Y|Month or Year|||MM/YYYY (M:Month Y:Year)　本プロジェクトにおいては患者基本情報の情報から取得してデータをセットする|
-|5|MDS1|Male|||1:Yes 0:No|
-|6|MDS2|Female non-pregnant|||1:Yes 0:No|
-|7|MDS3|Female pregnant|||1:Yes 0:No|
-|8|MDS4|Major head / spine injury|||1:Applicable 0:Not Applicable|
-|9|MDS5|Major torso injury|||1:Applicable 0:Not Applicable|
-|10|MDS6|Major extremity injury|||1:Applicable 0:Not Applicable|
-|11|MDS7|Moderate injury|||1:Applicable 0:Not Applicable|
-|12|MDS8|Minor injury|||1:Applicable 0:Not Applicable|
-|13|MDS9|Acute respiratory infection|||1:Applicable 0:Not Applicable|
-|14|MDS10|Acute watery diarrhea|||1:Applicable 0:Not Applicable|
-||MDS11|Acute bloody diarrhea|||1:Applicable 0:Not Applicable|
-||MDS12|Acute jaundice syndrome|||1:Applicable 0:Not Applicable|
-||MDS13|Measles suspected|||1:Applicable 0:Not Applicable|
-||MDS14|Meningitis suspected|||1:Applicable 0:Not Applicable|
-||MDS15|Tetanus suspected|||1:Applicable 0:Not Applicable|
-||MDS16|Acute flaccid paralysis|||1:Applicable 0:Not Applicable|
-||MDS17|Acute haemorrhagic fever|||1:Applicable 0:Not Applicable|
-||MDS18|Fever of unknown origin|||1:Applicable 0:Not Applicable|
-||MDS19|Surgical emergency (Non-trauma)|||1:Applicable 0:Not Applicable|
-||MDS20|Medical emergency|||1:Applicable 0:Not Applicable|
-||MDS21|Skin disease|||1:Applicable 0:Not Applicable|
-||MDS22|Acute mental health and psychosocial problem|||1:Applicable 0:Not Applicable|
-||MDS23|Obstetric complicated|||1:Applicable 0:Not Applicable|
-||MDS24|Severe Acute Malnutrition (SAM) *|||1:Applicable 0:Not Applicable|
-||MDS25|Other diagnosis, not specified above|||1:Applicable 0:Not Applicable|
-||MDS26|Major procedure except limb amputation and obsteric|||1:Applicable 0:Not Applicable|
-||MDS27|Minor procedure|||1:Applicable 0:Not Applicable|
-||MDS28|Limb amputation excluding digits *|||1:Applicable 0:Not Applicable|
-||MDS29|Normal Vaginal Delivery (NVD)|||1:Applicable 0:Not Applicable|
-||MDS30|Caesarean section|||1:Applicable 0:Not Applicable|
-||MDS31|Obstetrics others|||1:Applicable 0:Not Applicable|
-||MDS32|Discharge without F/U|||1:Applicable 0:Not Applicable|
-||MDS33|Discharge with F/U|||1:Applicable 0:Not Applicable|
-||MDS34|Admission|||1:Applicable 0:Not Applicable|
-||MDS35|Referral / Transfer *|||1:Applicable 0:Not Applicable|
-||MDS36|Left against medical advice|||1:Applicable 0:Not Applicable|
-||MDS37|Dead on arrival|||1:Applicable 0:Not Applicable|
-||MDS38|Death within facility *|||1:Applicable 0:Not Applicable|
-||MDS39|Requiring long term rehabilitation *|||1:Applicable 0:Not Applicable|
-||MDS40|Directly related to disaster|||1:Applicable 0:Not Applicable|
-||MDS41|Indirectly related to disaster|||1:Applicable 0:Not Applicable|
-||MDS42|Not related to disaster|||1:Applicable 0:Not Applicable|
-||MDS43|Vulnerable child|||1:Applicable 0:Not Applicable|
-||MDS44|Vulnerable adult |||1:Applicable 0:Not Applicable|
-||MDS45|Sexual Gender Based Violence (SGBV)|||1:Applicable 0:Not Applicable|
-||MDS46|Violence (non-SGBV)|||1:Applicable 0:Not Applicable|
-|60|MDS Version|J-Speed(MDS)バージョン番号|||"JPN1.00"とする|
-
+|項番|項目|値|例|
+|-|-|-|-|
+|a|医療機関名称（災害医療チーム派遣元医療機関・組織）|文字列|"医療機関名"|
+|b|災害医療チーム名称|文字列|""|
+|c1|報告対象診療日|文字列 "yyyy/mm/dd"|"2018/01/01"|
+|c2|本データ報告日時（データ作成完了時刻）|文字列 "yyyy/mm/ddhh:mm"(24h)|"2018/01/0109:01"|
+|d1|今回報告の診療場所（名称）|文字列|"医療機関名"|
+|d2|郵便番号|文字列 "nnn-nnnn"|"123-4567"|
+|d3|施設住所|文字列|"東京都"|
+|d4|Geo-tag|文字列 "[-]d.d, [-]d.d" 緯度経度WGS84|"12.3456, -98.7654"|
+|e1|明日の診療場所−同一地区で継続|数値 1:該当 0:非該当||
+|e2|明日の診療場所−別地区で継続|数値 1:該当 0:非該当||
+|e3|明日の診療場所−終了|数値 1:該当 0:非該当||
+|e4|明日の診療場所−未定|数値 1:該当 0:非該当||
+|f|携帯電話番号（報告者への連絡方法）|文字列||
+|g|電子メールアドレス（報告者）|文字列||
+|h1|派遣元地理区分−被災地元|数値 1:該当 0:非該当||
+|h2|派遣元地理区分−被災地域外・県内|数値 1:該当 0:非該当||
+|h3|派遣元地理区分−被災県外|数値 1:該当 0:非該当||
+|h4|派遣元地理区分−被災海外|数値 1:該当 0:非該当||
+|h5|医療機関|数値 1:該当 0:非該当|1|
+|i1|派遣元組織区分−DMAT|数値 1:該当 0:非該当||
+|i2|派遣元組織区分−国立病院機構|数値 1:該当 0:非該当|1|
+|i3|派遣元組織区分−日赤|数値 1:該当 0:非該当||
+|i4|派遣元組織区分−JMAT|数値 1:該当 0:非該当||
+|i5|派遣元組織区分−その他|数値 1:該当 0:非該当||
+|i5t|派遣元区分−その他（  ）|文字列||
+|i6|医療機関|文字列||
+|ID|ID No.|文字列 アルファベット文字と数字で構成された一意性のあるもの推奨||
+|health_event|主病名|文字列||
+|Age_year|年齢|数値||
+|Age_moon|月齢|数値 0歳症例のみ||
+|JPN+a|年齢カテゴリ(J-SPEED)|数値 1:1歳未満 2:1歳以上9歳未満 3:9歳以上75歳未満 4:75歳以上||
+|MDSa|年齢カテゴリ(MDS)|数値 1:1歳未満 2:1歳以上5歳未満 3:5歳以上65歳未満 4:65歳以上||
+|JPN+1|性別:男性|数値 1:該当 0:非該当||
+|JPN+2|性別:女性（妊娠なし）|数値 1:該当 0:非該当||
+|JPN+3|性別:女性（妊婦）|数値 1:該当 0:非該当||
+|JPN+4|中等症（トリアージ黄色以上・自立歩行不能）|数値 1:該当 0:非該当||
+|JPN+5|搬送必要性あり|数値 1:該当 0:非該当||
+|JPN+6|今回再診|数値 1:該当 0:非該当||
+|JPN+7|頭頸・脊椎の重症外傷（入院または全身麻酔下手術要）|数値 1:該当 0:非該当||
+|JPN+8|体幹の重症外傷（入院または全身麻酔下手術要）|数値 1:該当 0:非該当||
+|JPN+9|四肢の重症外傷（入院または全身麻酔下手術要）|数値 1:該当 0:非該当||
+|JPN+10|外傷（中等症）加療に局所麻酔必要|数値 1:該当 0:非該当||
+|JPN+11|外傷（軽症）加療に麻酔不要|数値 1:該当 0:非該当||
+|JPN+12|創傷|数値 1:該当 0:非該当||
+|JPN+13|骨折|数値 1:該当 0:非該当||
+|JPN+14|熱傷|数値 1:該当 0:非該当||
+|JPN+15|溺水|数値 1:該当 0:非該当||
+|JPN+16|クラッシュ症候群|数値 1:該当 0:非該当||
+|JPN+17|人工透析ニーズ|数値 1:該当 0:非該当||
+|JPN+18|外傷以外の緊急の外科的医療ニーズ|数値 1:該当 0:非該当||
+|JPN+19|感染症以外の緊急の内科的医療ニーズ|数値 1:該当 0:非該当||
+|JPN+20|発熱|数値 1:該当 0:非該当||
+|JPN+21|急性呼吸器感染症|数値 1:該当 0:非該当||
+|JPN+22|消化器感染症、食中毒|数値 1:該当 0:非該当||
+|JPN+23|麻疹疑い|数値 1:該当 0:非該当||
+|JPN+24|破傷風疑い|数値 1:該当 0:非該当||
+|JPN+25|急性血性下痢症|数値 1:該当 0:非該当||
+|JPN+26|急性黄疸症候群|数値 1:該当 0:非該当||
+|JPN+27|髄膜炎疑い|数値 1:該当 0:非該当||
+|JPN+28|急性弛緩性麻痺|数値 1:該当 0:非該当||
+|JPN+29|急性出血熱|数値 1:該当 0:非該当||
+|JPN+30|深部静脈血栓症/肺・脳・冠動脈塞栓症疑い|数値 1:該当 0:非該当||
+|JPN+31|高血圧症|数値 1:該当 0:非該当||
+|JPN+32|気管支喘息発作|数値 1:該当 0:非該当||
+|JPN+33|産科疾患|数値 1:該当 0:非該当||
+|JPN+34|皮膚疾患（外傷・熱傷以外）|数値 1:該当 0:非該当||
+|JPN+35|災害ストレス関連諸症状|数値 1:該当 0:非該当||
+|JPN+36|緊急のメンタル・ケアニーズ|数値 1:該当 0:非該当||
+|JPN+37|緊急の栄養支援ニーズ|数値 1:該当 0:非該当||
+|JPN+38|緊急の介護/看護ケアニーズ|数値 1:該当 0:非該当||
+|JPN+39|緊急の飲料水・食料支援ニーズ|数値 1:該当 0:非該当||
+|JPN+40|治療中断|数値 1:該当 0:非該当||
+|JPN+41|高侵襲処置（全身麻酔または入院が必要な処置）|数値 1:該当 0:非該当||
+|JPN+42|低侵襲外科処置（全身麻酔・入院ともに不要な処置）|数値 1:該当 0:非該当||
+|JPN+43|四肢切断（指切断を除く）|数値 1:該当 0:非該当||
+|JPN+44|正常経腟分娩|数値 1:該当 0:非該当||
+|JPN+45|帝王切開|数値 1:該当 0:非該当||
+|JPN+46|その他の産科処置|数値 1:該当 0:非該当||
+|JPN+47|再診の必要性あり|数値 1:該当 0:非該当||
+|JPN+48|入院（自施設）|数値 1:該当 0:非該当||
+|JPN+49|紹介|数値 1:該当 0:非該当||
+|JPN+50|診療継続拒否|数値 1:該当 0:非該当||
+|JPN+51|受診時死亡|数値 1:該当 0:非該当||
+|JPN+52|加療中の死亡|数値 1:該当 0:非該当||
+|JPN+53|長期リハビリテーションの必要性|数値 1:該当 0:非該当||
+|JPN+54|直接的関連あり（災害による外傷等）|数値 1:該当 0:非該当||
+|JPN+55|間接的（災害に伴う環境変化による健康障害）|数値 1:該当 0:非該当||
+|JPN+56|関連なし（悪性腫瘍・生活習慣病等）|数値 1:該当 0:非該当||
+|JPN+57|社会的保護を要する小児(孤児等)|数値 1:該当 0:非該当||
+|JPN+58|社会的保護を要する成人高齢者（要介護者等）|数値 1:該当 0:非該当||
+|JPN+59|性暴力|数値 1:該当 0:非該当||
+|JPN+60|暴力 (性暴力以外)|数値 1:該当 0:非該当||
+|JPN+61|(Added Item 1)|数値 1:該当 0:非該当||
+|JPN+62|(Added Item 2)|数値 1:該当 0:非該当||
+|JPN+63|(Added Item 3)|数値 1:該当 0:非該当||
+|JPN+64|(Added Item 4)|数値 1:該当 0:非該当||
+|JPN+65|(Added Item 5)|数値 1:該当 0:非該当||
+|JPN+66|(Added Item 6)|数値 1:該当 0:非該当||
+|Ver|Version|文字列 "JPN1.00"固定|"JPN1.00"|
 
 *XMLサンプル
 ```
