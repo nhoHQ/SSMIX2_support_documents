@@ -87,6 +87,46 @@ P27 6.3.11.検査・診療等行為 "documentationOf/ServiceEvent" によると�
 
 タイミングの粒度は日以上であれば良い。
 
+#### /ClinicalDocument/codeの属性値
+
+/ClinicalDocument/codeの属性値はデータ種別に対応する値を出力すること。
+
+* 経過記録
+
+外来・入院含む
+
+```
+<code code="11506-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="経過記録"/>
+```
+
+外来・入院が別の場合
+
+```
+<code code="34108-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="外来診療録"/>
+```
+
+```
+<code code="34112-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="入院診療録"/>
+```
+
+* 退院時サマリー
+
+```
+<code code="18842-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="退院時サマリー"/>
+```
+
+* 診療情報提供書
+
+```
+<code code="MD0020730" codeSystem="1.2.392.200119.5.3.1" codeSystemName="JMIX" displayName="診療情報提供書"/>
+```
+
+* 災害時JSPEED記録
+
+```
+<code code="74465-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="災害時JSPEED記録"/>
+```
+
 ### BODY部
 
 #### 診療情報提供書
