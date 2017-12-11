@@ -260,7 +260,7 @@ JSPEED情報については、Additional Documentセクションに記載する�
 |JPN+64|(Added Item 4)|数値 1:該当 0:非該当||
 |JPN+65|(Added Item 5)|数値 1:該当 0:非該当||
 |JPN+66|(Added Item 6)|数値 1:該当 0:非該当||
-|Ver|Version|文字列 "JPN1.00"固定|"JPN1.00"|
+|Ver|Version|文字列 "JPN+1.00"固定|"JPN+1.00"|
 
 * XMLサンプル
 
@@ -270,7 +270,7 @@ JSPEED情報については、Additional Documentセクションに記載する�
  <code code="77599-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ADDITIONAL
 DOCUMENTATION" />
  <title>Jspeed DOCUMENT</title>
- <text>"医療機関名","","2018/01/01","2018/01/0109:01","医療機関名","123-4567","東京都",,,,,,,,,,,,1,,,,,,,"ID1",,45,,3,3,1,0,0,0,0,0,0,1,0,....,"JPN1.00"</text>
+ <text>"医療機関名","","2018/01/01","2018/01/0109:01","医療機関名","123-4567","東京都",,,,,,,,,,,,1,,,,,,,"ID1",,45,,3,3,1,0,0,0,0,0,0,1,0,....,"JPN+1.00"</text>
 </section>
 ```
 
