@@ -189,6 +189,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*6/uL	x10＾6/	+	病院によっては他の単位を意味する場合もあるので個別に確認すること。
 .10*6/uL	x10^6/μL	+	【特記事項あり】
 .10*6/uL	×10^6/	+	病院によっては他の単位を意味する場合もあるので個別に確認すること。
+.10*6/uL	Ｘ10＾6	+	病院によっては他の単位を意味する場合もあるので個別に確認すること。
 .10*7(cfu)/mL	10^7CFU/ml	+	
 .10*8/kg	10^8/kg	+	
 .10*9/bag	10^9/bag		
@@ -227,6 +228,8 @@ ASCII単位	表示用単位の例	ISO	備考
 /(lpf)	/10LP	+	【特記事項あり】
 /(lpf)	個/100LPF	+	【特記事項あり】
 /(lpf)	/10LPF	+	【特記事項あり】
+/(lpf)	/20L	+	【特記事項あり】
+/(lpf)	/5L	+	【特記事項あり】
 /(wf)	/ＷF	+	
 /(wf)	WF	+	
 /(wf)	個/WF	+	
@@ -297,11 +300,12 @@ copies/10*6cells	ｺﾋﾟｰ/10^6cells		【特記事項あり】
 copies/10*6cells	コピー/10^6cells		【特記事項あり】
 copies/10*6cells	ｺﾋﾟｰ/106ce		【特記事項あり】
 copies/10*6cells	ｺﾋﾟｰ/106cells		【特記事項あり】
-copies/10*6cells	copy		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
-copies/10*6cells	Kｺﾋﾟｰ/ml		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
-copies/10*6cells	ｺﾋﾟ-		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
-copies/10*6cells	ｺﾋﾟｰ		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
-copies/10*6cells	コピ-		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	copy		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	Kｺﾋﾟｰ/ml		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	ｺﾋﾟ-		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	ｺﾋﾟｰ		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	コピ-		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	コピー/10\S\		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
 copies/assay	ｺﾋﾟ-/ｱﾂｾ		
 copies/assay	ｺﾋﾟ-/ｱﾂｾｲ		
 copies/assay	ｺﾋﾟｰ/assay		
@@ -343,6 +347,7 @@ copies/ug	ｺﾋﾟｰ/μgDN		【特記事項あり】
 copies/ug	ｺﾋﾟｰ/μgRNA		【特記事項あり】
 copies/ug	ｺﾋﾟｰ/μ		【特記事項あり】
 copies/ug	コピ-/μgRNA		【特記事項あり】
+copies/ug	コピー/テスト		【特記事項あり】
 cp	CP		
 cpm	CPM		
 cpm	ＣＰＭ		
@@ -581,6 +586,8 @@ mg/g(creat)	mg/g-Cr.	+
 mg/g(creat)	mg/gCRE	+	
 mg/g(creat)	mg/g．CR	+	
 mg/g(creat)	MG/G.CRE	+	
+mg/g(creat)	mg/G・Cr	+	
+mg/g(creat)	mg/g・Cre	+	
 mg/kg	mg/kg	+	
 mg/L	mg/l	+	
 mg/L	ｍg/l	+	
@@ -590,6 +597,7 @@ mg/L	mg／L	+
 mg/L	ｍg/L	+	
 mg/L	MG/L	+	
 mg/L	mg/L	+	
+mg/L	mg/ｌ	+	
 mg/mL	mg/ml	+	
 mg/mL	MG/ML	+	
 mg/mL	mg/mL	+	
@@ -629,6 +637,7 @@ mL	ML	+
 mL/d	mL/day	+	
 mL/dL	ml/dl	+	
 mL/dL	mL/dL	+	
+mL/dL	mL/ｄｌ	+	
 mL/min	ml/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
 mL/min	ｍL/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
 mL/min	mL/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
@@ -901,6 +910,7 @@ pg/mL	pg/mL(参考値)	+
 pg/mL	pg/ml以下	+	
 pg/mL	ＰＧ／ＭＬ	+	
 pg/mL	ｐg/mｌ	+	
+pg/mL	pｇ/ml	+	
 ph	ｐｈ	+	
 pmol/dL	pmol/dL	+	
 pmol/dL	PMOL/DL	+	
@@ -1050,6 +1060,7 @@ ug/L	μｇ/L	+	【特記事項あり】
 ug/L	μg／L	+	【特記事項あり】
 ug/L	μg/L	+	【特記事項あり】
 ug/L	μ	+	JLAC10が5C120000002305301(Ⅰ型プロコラーゲン-N末端プロペプチド)の場合のみ『ug/L』とする。
+ug/L	μg/ｌ	+	【特記事項あり】
 ug/mg(creat)	MCG/MG.CRE	+	
 ug/mg(creat)	μg/mg.C	+	
 ug/mg(creat)	μg/mg.Cr	+	
@@ -1175,4 +1186,5 @@ vol%	vol%
 単位なし	新単位		
 単位なし			
 単位なし	ｺﾒﾝﾄ参照		
-
+単位なし	なし		
+単位なし	無し		
