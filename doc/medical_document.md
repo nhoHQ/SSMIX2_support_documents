@@ -267,9 +267,8 @@ JSPEED情報については、Additional Documentセクションに記載する�
 ```
 <section>
  <templateId root="2.16.840.1.113883.10.20.35.2.1" />
- <code code="77599-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ADDITIONAL
-DOCUMENTATION" />
- <title>Jspeed DOCUMENT</title>
+ <code code="77599-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ADDITIONAL DOCUMENTATION" />
+ <title>Jspeed DOCUMENTATION</title>
  <text>"医療機関名","","2018/01/01","2018/01/0109:01","医療機関名","123-4567","東京都",,,,,,,,,,,,1,,,,,,,"ID1",,45,,3,3,1,0,0,0,0,0,0,1,0,....,"JPN+1.00"</text>
 </section>
 ```
