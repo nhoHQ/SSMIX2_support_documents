@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2018/02/19
+更新日: 2018/05/15
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -100,7 +100,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |iu/g(hgb)|IU/g･Hb, IU/gHb|+||
 |iu/hr|IU/h|+||
 |iu/L|IU/l, IU/ｌ, IU／L, IU/L, IU/l/37, IU/L/37, IU/L/37 ℃, IU/L/37℃, IU/l/37℃, IU/L･37℃, IU/l37℃, IU/L37ﾟC, lU/Ｌ, IU／Ｌ, IU/L/37゜, IU/l/37゜C|+||
-|iu/mL|IU/ml, IU/ｍL, ＩＵ/ｍＬ, IU／mL, IU/mL, IU/mＬ, ＩＵ／ｍｌ|+||
+|iu/mL|IU/ml, IU/ｍL, ＩＵ/ｍＬ, IU／mL, IU/mL, IU/mＬ, ＩＵ／ｍｌ, IU/ML|+||
 |kg|kg, ｋｇ, Kg|+||
 |kiu/mL|KIU/ml, KIU/mL, KIU/ML, kIU/ml|+||
 |L|L|+||
@@ -198,7 +198,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃, U/L/37℃|+||
 |u/mg(creat)|U/mg･Cr, μg/mg・C|+||
 |u/mL|U/ml, Ｕ/ＭＬ, Ｕ／ｍｌ, U／mL, Ｕ／mL, U/ML, U/mL, Ｕ/ｍＬ, U/mＬ, μ/ml, u/ml|+|【特記事項あり】|
-|uA/mL|UA/ML, UA/ml, UA/mL, Ua/ml, Ua/mL|||
+|uA/mL|UA/ML, UA/ml, UA/mL, Ua/ml, Ua/mL, ua/ml|||
 |ueq/L|uEq/L, μEq/L, μEq/l|+||
 |ug|μg|+||
 |ug/(24.hr)|μg/24h|+||
