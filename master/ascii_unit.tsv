@@ -9,6 +9,7 @@ ASCII単位	表示用単位の例	ISO	備考
 %	活性%	+	
 %	陽性％	+	
 %	抑制率%	+	
+%	Weight%	+	
 (arb_u)/mL	AU/ml	+	
 (arb_u)/mL	AU／mL	+	
 (arb_u)/mL	AU/mL	+	
@@ -25,6 +26,7 @@ ASCII単位	表示用単位の例	ISO	備考
 (beth_u)/mL	ﾍﾞｾｽﾀﾞU/mL		
 (beth_u)/mL	ﾍﾟｾｽﾀﾞU/ml		
 (bsa)	cm2	+	
+(bsa)	m\S\2	+	
 (cfu)/mL	CFU/ml	+	
 (cfu)/mL	CFU	+	
 (end_u)/mL	EU		
@@ -116,6 +118,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*3/uL	x10＾3/	+	【特記事項あり】
 .10*3/uL	x10^3/ul	+	【特記事項あり】
 .10*3/uL	x10^3/μL	+	【特記事項あり】
+.10*3/uL	10＾3/μL	+	【特記事項あり】
 .10*4(cfu)/mL	10^4CFU/ml	+	
 .10*4/mL	×10^4個/ml	+	
 .10*4/mL	万/ml	+	
@@ -155,6 +158,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*4/uL	x10^4/μl	+	【特記事項あり】
 .10*4/uL	x10^4/uL	+	【特記事項あり】
 .10*4/uL	X10*4/μl	+	【特記事項あり】
+.10*4/uL	10＾4/uL	+	【特記事項あり】
 .10*5(cfu)/mL	10^5CFU/ml	+	
 .10*5/mL	×10＾5/ｍL	+	
 .10*5/mL	×100万/	+	
@@ -301,6 +305,7 @@ COI	CutOffInde
 COI	c.o.i		
 colonies	コロニー		
 colonies	col		
+copies	コピー		【特記事項あり】
 copies/10*4cells	ｺﾋﾟｰ/1万		
 copies/10*6cells	10^6cell		【特記事項あり】
 copies/10*6cells	ｺﾋﾟｰ/10^6cells		【特記事項あり】
@@ -646,12 +651,12 @@ mL/d	mL/day	+
 mL/dL	ml/dl	+	
 mL/dL	mL/dL	+	
 mL/dL	mL/ｄｌ	+	
-mL/min	ml/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
-mL/min	ｍL/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
-mL/min	mL/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
-mL/min	mL/分	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
-mL/min	ml/分	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
-mL/min	ml／min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	ml/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000009891929（クレアチニンクリアランス）、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	ｍL/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000009891929（クレアチニンクリアランス）、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	mL/min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000009891929（クレアチニンクリアランス）、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	mL/分	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000009891929（クレアチニンクリアランス）、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	ml/分	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000009891929（クレアチニンクリアランス）、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
+mL/min	ml／min	+	JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000009891929（クレアチニンクリアランス）、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。【特記事項あり】
 mL/min(bsa)	mL/min/1	+	【特記事項あり】
 mL/min(bsa)	ml/min/1.7	+	【特記事項あり】
 mL/min(bsa)	ml/min/1.73m^2	+	【特記事項あり】
@@ -662,6 +667,7 @@ mL/min(bsa)	"ｍｌ/分・1,73㎡"	+	【特記事項あり】
 mL/min(bsa)	ml/min/m*2	+	【特記事項あり】
 mL/min(bsa)	ML/MIN	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。
 mL/min(bsa)	ml/min/	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。
+mL/min(bsa)	ml/min	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。
 mL/min(bsa)	ml/min/1.73m*2	+	【特記事項あり】
 mm	mm	+	
 mm	ＭＭ	+	
@@ -830,6 +836,7 @@ nmol/mmol(creat)	ｎﾓﾙ/mﾓﾙ	+
 nmol/mmol(creat)	Nﾓﾙ/MﾓﾙC	+	
 nmol/mmol(creat)	Nﾓﾙ/MﾓﾙCRE	+	
 nmol/mmol(creat)	nm/mmcr.	+	
+nmol/mmol(creat)	nmol BCE/mmolCr	+	
 nmol/nmol(creat)	nmol/nmol/・CRE	+	
 nmolBCeq/L	nM BCE		
 nmolBCeq/L	nM BCE/L		
@@ -872,6 +879,7 @@ pcs/10*2(wbc)	100WBC		【特記事項あり】
 pcs/10*2(wbc)	ｺ/100WBC		【特記事項あり】
 pcs/10*2(wbc)	個/WBC100		【特記事項あり】
 pcs/10*2(wbc)	/100wbc		【特記事項あり】
+pcs/10*2(wbc)	6ナ^個/100WBC		【特記事項あり】
 pcs/uL	ヶ/μl		
 permil	△13cパー		【特記事項あり】
 permil	△13cﾊﾟｰﾐﾙ		【特記事項あり】
@@ -1005,9 +1013,11 @@ uA/mL	UA/mL
 uA/mL	Ua/ml		
 uA/mL	Ua/mL		
 uA/mL	ua/ml		
+uA/mL	IUA/mL		
 ueq/L	uEq/L	+	
 ueq/L	μEq/L	+	
 ueq/L	μEq/l	+	
+ueq/L	uEq/l	+	
 ug	μg	+	
 ug/(24.hr)	μg/24h	+	
 ug/(dL.hr)	μg/dl/h	+	
@@ -1135,6 +1145,7 @@ umol/L	μﾓﾙ/l	+	【特記事項あり】
 umol/L	μモル/L	+	【特記事項あり】
 umol/L	μﾓﾙ/L	+	【特記事項あり】
 umol/L	μM	+	EPS（JLAC10定義なし）の場合のみ『umol/L』とする。
+umol/L	umol/l	+	【特記事項あり】
 umol/mg(creat)	MCMOL/MGCR	+	
 umol/mg(creat)	μmol/mg	+	
 umol/mg(creat)	μmol/mg.C	+	
