@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2018/09/20
+更新日: 2018/11/02
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -199,7 +199,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |u/d|U/day, Ｕ/日, U／日|+||
 |u/g(creat)|U/g.Cr, U/g・Cr, U／g・Cr, U/g･Cr, U/g・Cre, U/g･CRE|+||
 |u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃, U/L/37℃|+||
-|u/mg(creat)|U/mg･Cr, μg/mg・C|+||
+|u/mg(creat)|U/mg･Cr|+||
 |u/mL|U/ml, Ｕ/ＭＬ, Ｕ／ｍｌ, U／mL, Ｕ／mL, U/ML, U/mL, Ｕ/ｍＬ, U/mＬ, μ/ml, u/ml|+|【特記事項あり】|
 |uA/mL|UA/ML, UA/ml, UA/mL, Ua/ml, Ua/mL, ua/ml, IUA/mL|||
 |ueq/L|uEq/L, μEq/L, μEq/l, uEq/l|+||
@@ -213,7 +213,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |ug/g(creat)|MCG/G CRE, MCG/GCRE, ug/gCr, μg/g.CR, μg/g.Cre, μg/g・Cr, μｇ/ｇ・Cr, μg/g･CR, μg/g･CRE, μg/g・CRE, μg/g・Crn, μg/gC, μg/gCr, μｇ/ｇCr, μg/g-Cr, μg/gcre, μg/gCRE, μg/gCre, μg/g.CRE|+||
 |ug/kg|μg/kg|+||
 |ug/L|MCG/L, ug/l, ug/L, μg/l, μg/Ｌ, μｇ/L, μg／L, μg/L, μg/ｌ|+|【特記事項あり】|
-|ug/mg(creat)|MCG/MG.CRE, μg/mg.C, μg/mg.Cr, μg/mg.CRE, μg/mg･C, μg/mg･Cr, μg/mg・Cr, μg/mg･CRE, μg/mgCr, μg/mgcr|+||
+|ug/mg(creat)|MCG/MG.CRE, μg/mg.C, μg/mg.Cr, μg/mg.CRE, μg/mg･C, μg/mg･Cr, μg/mg・Cr, μg/mg･CRE, μg/mgCr, μg/mgcr, μg/mg・C|+||
 |ug/min|MCG/MIN, μg/分, μg／分|+||
 |ug/mL|MCG/ML, micg/ml, mlcg/ml, ug/mL, ug/ml, μg/ml, μg/ｍL, μｇ/ml, μｇ/ｍｌ, μg／mL, μg/mL, μg/mＬ, μg/ML, μg/mｌ|+||
 |ug/mmol|μg/mmol|+||
