@@ -547,6 +547,7 @@ logiu/mL	LogIU/mL
 logiu/mL	LogIU/ml		
 logiu/mL	LoglU/mL		
 logiu/mL	Log　IU/mL		
+logiu/mL	Ｌ．ＩＵ		
 logu/mL	Log U/mL		【特記事項あり】
 logu/mL	LogU/ml		【特記事項あり】
 logu/mL	LOGU/ML		【特記事項あり】
@@ -597,6 +598,7 @@ mg/dL	mg/dＬ	+
 mg/dL	MG/DL	+	
 mg/dL	㎎/dl	+	
 mg/dL	mg／dl	+	
+mg/dL	ｍｇ／ｄ	+	
 mg/g(creat)	mg/g ・CRE	+	
 mg/g(creat)	mg/g Cr	+	
 mg/g(creat)	mg/g.cr	+	
@@ -630,6 +632,7 @@ mg/L	ｍg/L	+
 mg/L	MG/L	+	
 mg/L	mg/L	+	
 mg/L	mg/ｌ	+	
+mg/L	ｍｇ／Ｌ	+	
 mg/mL	mg/ml	+	
 mg/mL	MG/ML	+	
 mg/mL	mg/mL	+	
@@ -659,6 +662,7 @@ miu/mL	ｍＩＵ/m	+
 miu/mL	MIU/ML	+	
 miu/mL	miu/ml	+	
 miu/mL	mＩU/mL	+	
+miu/mL	ｍＩＵ／	+	
 mL	cc	+	
 mL	CC	+	
 mL	ml	+	
@@ -688,6 +692,7 @@ mL/min(bsa)	ML/MIN	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391
 mL/min(bsa)	ml/min/	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。
 mL/min(bsa)	ml/min	+	JLAC10が8A065000002391901(推算GFRcreat)、8A066000002391901(推算GFRcys)、8A067000002391901(推算GFRcreat(小児))、8A068000002391901(推算GFRcys(小児))の場合のみ『mL/min(bsa)』とする。
 mL/min(bsa)	ml/min/1.73m*2	+	【特記事項あり】
+mL/min(bsa)	mL/min/1.732	+	【特記事項あり】
 mm	mm	+	
 mm	ＭＭ	+	
 mm	mm/1H	+	
@@ -807,6 +812,7 @@ ng/mL	ｎｇ/ｍＬ	+
 ng/mL	ng／ml	+	
 ng/mL	ng/ml以下	+	
 ng/mL	nｇ/ｍL	+	
+ng/mL	ｎｇ／ｍ	+	
 nmol/(L.hr)	nmol/l/h	+	
 nmol/(mg(prot).hr)	nmol/mg　protein/時		
 nmol/(mg(prot).hr)	nmol/mg protein/時間		
@@ -953,6 +959,7 @@ pg/mL	ｐg/mｌ	+
 pg/mL	pｇ/ml	+	
 pg/mL	ρg/ml	+	
 pg/mL	ｐｇ／ｍL	+	
+pg/mL	ｐｇ／ｍ	+	
 ph	ｐｈ	+	
 pmol/dL	pmol/dL	+	
 pmol/dL	PMOL/DL	+	
@@ -1035,6 +1042,7 @@ u/mL	μ/ml	+	【特記事項あり】
 u/mL	M	+	JLAC10が5G5310000022???01(HIT-IgG抗体)の場合のみ『u/mL』とする。
 u/mL	u/ml	+	【特記事項あり】
 u/mL	(U/mL)	+	【特記事項あり】
+u/mL	Ｕ／ｍＬ	+	【特記事項あり】
 uA/mL	UA/ML		
 uA/mL	UA/ml		
 uA/mL	UA/mL		
@@ -1137,6 +1145,7 @@ ug/mL	μg/mL	+
 ug/mL	μg/mＬ	+	
 ug/mL	μg/ML	+	
 ug/mL	μg/mｌ	+	
+ug/mL	μｇ／ｍ	+	
 ug/mmol	μg/mmol	+	
 ug/mmol(creat)	MCG/MMOLCR	+	
 ug/mmol(creat)	μg/mmol・CRE	+	
@@ -1175,6 +1184,7 @@ umol/L	μモル/L	+	【特記事項あり】
 umol/L	μﾓﾙ/L	+	【特記事項あり】
 umol/L	μM	+	EPS（JLAC10定義なし）の場合のみ『umol/L』とする。
 umol/L	umol/l	+	【特記事項あり】
+umol/L	μｍｏｌ	+	【特記事項あり】
 umol/mg(creat)	MCMOL/MGCR	+	
 umol/mg(creat)	μmol/mg	+	
 umol/mg(creat)	μmol/mg.C	+	
