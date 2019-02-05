@@ -333,12 +333,14 @@ copies/10*6cells	ｺﾋﾟｰ		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定�
 copies/10*6cells	コピ-		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
 copies/10*6cells	コピー/10\S\		JLAC10が5F201144002386201(EBｳｲﾙｽDNA定量)、5F210144001986201(HHV-6)、5F201144001986201(EBｳｲﾙｽDNA定量)の場合のみ『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
 copies/10*6cells	コピー/cells		JLAC10が5F194144004186201(サイトメガロウイルス　ウイルスDNA)の場合に限り『copies/10\*6cells』とする。病院によって『copies/ug』を意味する場合もあるので個別に確認すること。
+copies/10*6cells	コピ/10^6セル		【特記事項あり】
 copies/assay	ｺﾋﾟ-/ｱﾂｾ		
 copies/assay	ｺﾋﾟ-/ｱﾂｾｲ		
 copies/assay	ｺﾋﾟｰ/assay		
 copies/assay	ｺﾋﾟｰ/ｱｯｾ		
 copies/assay	ｺﾋﾟｰ/ｱｯｾｲ		
 copies/assay	コピ-/アッセイ		
+copies/assay	CP／アッセイ		
 copies/mL	copy/ML		
 copies/mL	copy/mL		
 copies/mL	CP/ml		
@@ -375,6 +377,7 @@ copies/ug	ｺﾋﾟｰ/μgRNA		【特記事項あり】
 copies/ug	ｺﾋﾟｰ/μ		【特記事項あり】
 copies/ug	コピ-/μgRNA		【特記事項あり】
 copies/ug	コピ/μgRNA		【特記事項あり】
+copies/ug	コピ/μgDNA	【特記事項あり】
 cp	CP		
 cpm	CPM		
 cpm	ＣＰＭ		
@@ -387,6 +390,7 @@ fL	ｆｌ	+
 fL	fＬ	+	
 fL	FL	+	
 fL	fL	+	
+fL	ｆL	+	
 fmol/(mg(prot).hr)	fmol/mg･pr		
 fmol/(mg(prot).hr)	fmol/mgP		
 fmol/(mg(prot).hr)	fmol/mg-p		
@@ -548,6 +552,7 @@ logiu/mL	LogIU/ml
 logiu/mL	LoglU/mL		
 logiu/mL	Log　IU/mL		
 logiu/mL	Ｌ．ＩＵ		
+logiu/mL	Log IU/ml		
 logu/mL	Log U/mL		【特記事項あり】
 logu/mL	LogU/ml		【特記事項あり】
 logu/mL	LOGU/ML		【特記事項あり】

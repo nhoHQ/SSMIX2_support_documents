@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2018/12/27
+更新日: 2019/02/05
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -71,16 +71,16 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |colonies|コロニー, cfu, col|||
 |copies|コピー||【特記事項あり】|
 |copies/10\*4cells|ｺﾋﾟｰ/1万|||
-|copies/10\*6cells|10^6cell, ｺﾋﾟｰ/10^6cells, コピー/10^6cells, ｺﾋﾟｰ/106ce, ｺﾋﾟｰ/106cells, コピ-, コピー/cells||【特記事項あり】|
-|copies/assay|ｺﾋﾟ-/ｱﾂｾ, ｺﾋﾟ-/ｱﾂｾｲ, ｺﾋﾟｰ/assay, ｺﾋﾟｰ/ｱｯｾ, ｺﾋﾟｰ/ｱｯｾｲ, コピ-/アッセイ|||
+|copies/10\*6cells|10^6cell, ｺﾋﾟｰ/10^6cells, コピー/10^6cells, ｺﾋﾟｰ/106ce, ｺﾋﾟｰ/106cells, コピ-, コピー/cells,コピ/10^6セル||【特記事項あり】|
+|copies/assay|ｺﾋﾟ-/ｱﾂｾ, ｺﾋﾟ-/ｱﾂｾｲ, ｺﾋﾟｰ/assay, ｺﾋﾟｰ/ｱｯｾ, ｺﾋﾟｰ/ｱｯｾｲ, コピ-/アッセイ, CP／アッセイ|||
 |copies/mL|copy/ML, copy/mL, CP/ml, CP／mL, cp/mL, ｺﾋﾟ-/mL, ｺﾋﾟ-/ml, コピー/ml, ｺﾋﾟｰ/ml, コピｰ/ml, ｺﾋﾟｰ/mL, コピー/mL, CP/mL|||
-|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー, コピ-, コピー/μg RNA, c/μgRNA, コピー/μgRNA, コピー/μ, /μgRNA, copy/μgR, コピー/μg, ｺﾋﾟ-/MCGRNA, ｺﾋﾟ-/μg, ｺﾋﾟｰ/μg, ｺﾋﾟｰ/μg RNA, ｺﾋﾟｰ/μgDN, ｺﾋﾟｰ/μgRNA, ｺﾋﾟｰ/μ, コピ-/μgRNA, コピー/テスト, コピ-/テスト, コピ/μgRNA||【特記事項あり】|
+|copies/ug|ｺﾋﾟ-/ﾃｽﾄ, ｺﾋﾟｰ/ﾃｽﾄ, コピー, コピ-, コピー/μg RNA, c/μgRNA, コピー/μgRNA, コピー/μ, /μgRNA, copy/μgR, コピー/μg, ｺﾋﾟ-/MCGRNA, ｺﾋﾟ-/μg, ｺﾋﾟｰ/μg, ｺﾋﾟｰ/μg RNA, ｺﾋﾟｰ/μgDN, ｺﾋﾟｰ/μgRNA, ｺﾋﾟｰ/μ, コピ-/μgRNA, コピー/テスト, コピ-/テスト, コピ/μgRNA, コピ/μgDNA||【特記事項あり】|
 |cp|CP|||
 |cpm|CPM, ＣＰＭ, cpm|||
 |delta(ph)|ΔpH|||
 |eiu|EIU|||
 |EV|EV|||
-|fL|fl, ｆｌ, fＬ, FL, fL|+||
+|fL|fl, ｆｌ, fＬ, FL, fL, ｆL|+||
 |fmol/(mg(prot).hr)|fmol/mg･pr, fmol/mgP, fmol/mg-p|||
 |fmol/L|f mol/l, fmol/l, FMOL/L, FMOL/l, fﾓﾙ/l, fﾓﾙ/L, fmol/L|+||
 |fmol/mL|fmol/mL, ｆmol/ml|+||
@@ -113,7 +113,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |LC(class)|100LC(ｸﾗｽ)|||
 |logcopies/mL|CL/ml, LC/ml, LC/mL, Log ｺﾋﾟｰ/ml, Log/ml, LogCopy/ml, LogCopy/mL, Logcopy/ml, LogCP/mL, LOGｺﾋﾟ-/, logｺﾋﾟ-/, logｺﾋﾟ/m, LOGｺﾋﾟ-/mL, Logｺﾋﾟ-/mL, Logｺﾋﾟｰ/, Logｺﾋﾟ-/, Logコピー/m, LOGｺﾋﾟｰ/ml, Logｺﾋﾟｰ/mL, Logｺﾋﾟｰ/ml, Logコピ-/, lc/ml, Logコヒ゜-/, Logコピー/mL, LOGコピー/mL, Log コピー/mL|||
 |logeq/mL|LEG/mL, LGE/mL, LGE/ml|||
-|logiu/mL|L.IU/ml, L.IU/mL, LIU/mL, LIU/ml, Log IU/m, Log IU/mL, Log IU/ｍL, LOG IU/mL, LOGIU/mL, LogIU/mL, LogIU/ml, LoglU/mL, Log　IU/mL, Ｌ．ＩＵ|||
+|logiu/mL|L.IU/ml, L.IU/mL, LIU/mL, LIU/ml, Log IU/m, Log IU/mL, Log IU/ｍL, LOG IU/mL, LOGIU/mL, LogIU/mL, LogIU/ml, LoglU/mL, Log　IU/mL, Ｌ．ＩＵ, Log IU/ml|||
 |logu/mL|Log U/mL, LogU/ml, LOGU/ML, LogU/mL, logU/ml||【特記事項あり】|
 |m|m|+||
 |m(arb\_u)/mL|MAU/ML, mAU/ml, mAU/mL, mAu/ml, ｍAU/ｍｌ|+||
