@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2019/02/05
+更新日: 2019/02/20
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -20,7 +20,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |(gpl_u)/mL|GPL|||
 |(hb)|bpm|+||
 |(jdf\_u)|JDF UNIT, JDF UNITS, JDFU, JDFunits|||
-|(knk\_u)|K.U, K.U., KU, K-U, U(Kunkel), K単位, k-U|+|【特記事項あり】|
+|(knk\_u)|K.U, K.U., KU, K-U, U(Kunkel), K単位, k-U, K/U|+|【特記事項あり】|
 |(mpa.sec)|mPa.s|||
 |(ppb)|ppb|+||
 |(rpr\_u)|R.U, R.U., RU|||
@@ -56,13 +56,14 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |/(hpf)|/1HPF, /HPF, /ＨＰＦ, /HPF(×400), HPF, 個/HPF, /1-5個/H, /ＨPF, /1-5HPF, /6-9HPF, /H, /HF, /2-3HPF, /4-5HPF, /HP, hpf|+||
 |/(lpf)|/1LPF, /LPF, /LPF(×100), LPF, /100LPF, /100, 個/LPF, 個/10LPF, /L, 個/1LP, /LP, /10LP, 個/100LPF, /10LPF, /20L, /5L, lpf|+|【特記事項あり】|
 |/(wf)|/ＷF, WF, 個/WF, /WF, 個/全|+||
-|/3uL|/3, /3　μｌ, /3/mm^3, /3/μl, /3/μL, /3μl, /3μL, 個/3, ／3μL, /3/mm3, ／３, /3/uL|||
+|/3uL|/3, /3　μｌ, /3/mm^3, /3/μl, /3/μL, /3μl, /3μL, 個/3, ／3μL, /3/mm3, ／３, /3/uL, /3μｌ|||
 |/mL|/1mL, /ml|+||
 |/uL|/MCL, /mm^3, /mm3, /ul, /μl, /μｌ, /μL, 1/mm3, Leu/μl, mm^3, μＬ, μl, 個/mm3, 個/uL, 個/μl, 個／μL, 個/μL, ／ｍｍ３|+||
 |age|才|||
 |bag|bag|||
 |CAI|CAI|||
 |cel|℃, 度|+||
+|cells/uL|Cells/μL|||
 |ch50/mL|CH50/mL, CH50／mL, CH50/ml, CH50U/ml|||
 |class|ｸﾗｽ, クラス, ｸﾗｽ0|||
 |cm|cm, ｃｍ|+||
@@ -137,7 +138,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mL/d|mL/day|+||
 |mL/dL|ml/dl, mL/dL, mL/ｄｌ|+||
 |mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分, ml／min, mL/min|+|【特記事項あり】|
-|mL/min(bsa)|mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡", ml/min/m*2, ml/min/1.73m*2, mL/min/1.732|+|【特記事項あり】|
+|mL/min(bsa)|mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡", ml/min/m*2, ml/min/1.73m*2, mL/min/1.732, ml/min/1.73m*2|+|【特記事項あり】|
 |mm|mm, ＭＭ, mm/1H, mm/h, mm/hr, mm/hr., mm/2h, ｍｍ|+||
 |mm(hg)|mmHg, Torr|+||
 |mm\_h2o|mmH2O|+||
