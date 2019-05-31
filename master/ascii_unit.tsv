@@ -412,11 +412,11 @@ fmol/L	fﾓﾙ/L	+
 fmol/L	fmol/L	+	
 fmol/mL	fmol/mL	+	
 fmol/mL	ｆmol/ml	+	
-Fu/mL	FU/mL		
-Fu/mL	ＦU/mL		
-Fu/mL	FU／mL		
-Fu/mL	FU/ml		
-Fu/mL	ＦＵ／ｍ		
+Fu/mL	FU/mL		【特記事項あり】
+Fu/mL	ＦU/mL		【特記事項あり】
+Fu/mL	FU／mL		【特記事項あり】
+Fu/mL	FU/ml		【特記事項あり】
+Fu/mL	ＦＵ／ｍ		【特記事項あり】
 g	g	+	
 g/(24.hr)	g/24h	+	
 g/(5.hr)	g/5時間	+	
@@ -545,25 +545,25 @@ logcopies/mL	lc/ml
 logcopies/mL	Logコピー/mL		
 logcopies/mL	LOGコピー/mL		
 logcopies/mL	Log コピー/mL		
-logeq/mL	LEG/mL		
-logeq/mL	LGE/mL		
-logeq/mL	LGE/ml		
-logiu/mL	L.IU/ml		
-logiu/mL	L.IU/mL		
-logiu/mL	LIU/mL		
-logiu/mL	LIU/ml		
-logiu/mL	Log IU/m		
-logiu/mL	Log IU/mL		
-logiu/mL	Log IU/ｍL		
-logiu/mL	LOG IU/mL		
-logiu/mL	LOGIU/mL		
-logiu/mL	LogIU/mL		
-logiu/mL	LogIU/ml		
-logiu/mL	LoglU/mL		
-logiu/mL	Log　IU/mL		
-logiu/mL	Ｌ．ＩＵ		
-logiu/mL	Log IU/ml		
-logiu/mL	Ｌ．ＩＵ		
+logeq/mL	LEG/mL		【特記事項あり】
+logeq/mL	LGE/mL		【特記事項あり】
+logeq/mL	LGE/ml		【特記事項あり】
+logiu/mL	L.IU/ml		【特記事項あり】
+logiu/mL	L.IU/mL		【特記事項あり】
+logiu/mL	LIU/mL		【特記事項あり】
+logiu/mL	LIU/ml		【特記事項あり】
+logiu/mL	Log IU/m		【特記事項あり】
+logiu/mL	Log IU/mL		【特記事項あり】
+logiu/mL	Log IU/ｍL		【特記事項あり】
+logiu/mL	LOG IU/mL		【特記事項あり】
+logiu/mL	LOGIU/mL		【特記事項あり】
+logiu/mL	LogIU/mL		【特記事項あり】
+logiu/mL	LogIU/ml		【特記事項あり】
+logiu/mL	LoglU/mL		【特記事項あり】
+logiu/mL	Log　IU/mL		【特記事項あり】
+logiu/mL	Ｌ．ＩＵ		【特記事項あり】
+logiu/mL	Log IU/ml		【特記事項あり】
+logiu/mL	Ｌ．ＩＵ		【特記事項あり】
 logu/mL	Log U/mL		【特記事項あり】
 logu/mL	LogU/ml		【特記事項あり】
 logu/mL	LOGU/ML		【特記事項あり】
@@ -601,20 +601,20 @@ mg/d	mg/day	+
 mg/d	mg/DAY	+	
 mg/d	mg／日	+	
 mg/d	mg日	+	
-mg/dL	Eu/dl	+	
-mg/dL	Eu/dL	+	
-mg/dL	E単位/dl	+	
-mg/dL	md/dl	+	
-mg/dL	mg/dL	+	
-mg/dL	ｍｇ/ｄｌ	+	
-mg/dL	ｍｇ／ｄｌ	+	
-mg/dL	mg／dL	+	
-mg/dL	mg/dl	+	
-mg/dL	mg/dＬ	+	
-mg/dL	MG/DL	+	
-mg/dL	㎎/dl	+	
-mg/dL	mg／dl	+	
-mg/dL	ｍｇ／ｄ	+	
+mg/dL	Eu/dl	+	【特記事項あり】
+mg/dL	Eu/dL	+	【特記事項あり】
+mg/dL	E単位/dl	+	【特記事項あり】
+mg/dL	md/dl	+	【特記事項あり】
+mg/dL	mg/dL	+	【特記事項あり】
+mg/dL	ｍｇ/ｄｌ	+	【特記事項あり】
+mg/dL	ｍｇ／ｄｌ	+	【特記事項あり】
+mg/dL	mg／dL	+	【特記事項あり】
+mg/dL	mg/dl	+	【特記事項あり】
+mg/dL	mg/dＬ	+	【特記事項あり】
+mg/dL	MG/DL	+	【特記事項あり】
+mg/dL	㎎/dl	+	【特記事項あり】
+mg/dL	mg／dl	+	【特記事項あり】
+mg/dL	ｍｇ／ｄ	+	【特記事項あり】
 mg/g(creat)	mg/g ・CRE	+	
 mg/g(creat)	mg/g Cr	+	
 mg/g(creat)	mg/g.cr	+	
@@ -665,20 +665,20 @@ min sec	分・秒
 min sec	分･秒		
 min sec	分秒		
 miu/L	mlu/l	+	
-miu/mL	m IU/ml	+	
-miu/mL	mIU/ml	+	
-miu/mL	ｍＩＵ/ml	+	
-miu/mL	ｍIU/ml	+	
-miu/mL	mIU／mL	+	
-miu/mL	mIU/mL	+	
-miu/mL	MIU/ml	+	
-miu/mL	mlU/ml	+	
-miu/mL	mlU/mL	+	
-miu/mL	ｍＩＵ/m	+	
-miu/mL	MIU/ML	+	
-miu/mL	miu/ml	+	
-miu/mL	mＩU/mL	+	
-miu/mL	ｍＩＵ／	+	
+miu/mL	m IU/ml	+	【特記事項あり】
+miu/mL	mIU/ml	+	【特記事項あり】
+miu/mL	ｍＩＵ/ml	+	【特記事項あり】
+miu/mL	ｍIU/ml	+	【特記事項あり】
+miu/mL	mIU／mL	+	【特記事項あり】
+miu/mL	mIU/mL	+	【特記事項あり】
+miu/mL	MIU/ml	+	【特記事項あり】
+miu/mL	mlU/ml	+	【特記事項あり】
+miu/mL	mlU/mL	+	【特記事項あり】
+miu/mL	ｍＩＵ/m	+	【特記事項あり】
+miu/mL	MIU/ML	+	【特記事項あり】
+miu/mL	miu/ml	+	【特記事項あり】
+miu/mL	mＩU/mL	+	【特記事項あり】
+miu/mL	ｍＩＵ／	+	【特記事項あり】
 mL	cc	+	
 mL	CC	+	
 mL	ml	+	
@@ -813,24 +813,24 @@ ng/mg(creat)	ng/mg･CRE	+
 ng/mg(creat)	ng/mg-Cr	+	
 ng/mg(creat)	ng/mg・Cre	+	
 ng/mg(creat)	ng/mg・C	+	
-ng/mL	ng./ml	+	
-ng/mL	ng/m	+	
-ng/mL	ng/ml	+	
-ng/mL	ｎg/ml	+	
-ng/mL	ng/mｌ	+	
-ng/mL	ng/ｍｌ	+	
-ng/mL	ｎｇ/ml	+	
-ng/mL	ｎｇ/ｍｌ	+	
-ng/mL	ng／mL	+	
-ng/mL	ng／ｍL	+	
-ng/mL	ng/mL	+	
-ng/mL	NG/ML	+	
-ng/mL	ng/mＬ	+	
-ng/mL	ｎｇ/ｍＬ	+	
-ng/mL	ng／ml	+	
-ng/mL	ng/ml以下	+	
-ng/mL	nｇ/ｍL	+	
-ng/mL	ｎｇ／ｍ	+	
+ng/mL	ng./ml	+	【特記事項あり】
+ng/mL	ng/m	+	【特記事項あり】
+ng/mL	ng/ml	+	【特記事項あり】
+ng/mL	ｎg/ml	+	【特記事項あり】
+ng/mL	ng/mｌ	+	【特記事項あり】
+ng/mL	ng/ｍｌ	+	【特記事項あり】
+ng/mL	ｎｇ/ml	+	【特記事項あり】
+ng/mL	ｎｇ/ｍｌ	+	【特記事項あり】
+ng/mL	ng／mL	+	【特記事項あり】
+ng/mL	ng／ｍL	+	【特記事項あり】
+ng/mL	ng/mL	+	【特記事項あり】
+ng/mL	NG/ML	+	【特記事項あり】
+ng/mL	ng/mＬ	+	【特記事項あり】
+ng/mL	ｎｇ/ｍＬ	+	【特記事項あり】
+ng/mL	ng／ml	+	【特記事項あり】
+ng/mL	ng/ml以下	+	【特記事項あり】
+ng/mL	nｇ/ｍL	+	【特記事項あり】
+ng/mL	ｎｇ／ｍ	+	【特記事項あり】
 nmol/(L.hr)	nmol/l/h	+	
 nmol/(mg(prot).hr)	nmol/mg　protein/時		
 nmol/(mg(prot).hr)	nmol/mg protein/時間		
@@ -958,38 +958,38 @@ pg/mg(creat)	pg/mgCRE	+
 pg/mg(creat)	PG-MG.CR	+	
 pg/mg(creat)	pg/mg.CRE	+	
 pg/mg(creat)	pg/mg･CR	+	
-pg/mL	pg/ml	+	
-pg/mL	pg/ｍｌ	+	
-pg/mL	ｐｇ／ｍｌ	+	
-pg/mL	ｐｇ/ml	+	
-pg/mL	pg／mL	+	
-pg/mL	PG/ML	+	
-pg/mL	pg/mL	+	
-pg/mL	pg/mＬ	+	
-pg/mL	PG/ml	+	
-pg/mL	Pg/mL	+	
-pg/mL	pg/mL(参考	+	
-pg/mL	pg/mL(参考値)	+	
-pg/mL	pg/ml以下	+	
-pg/mL	ＰＧ／ＭＬ	+	
-pg/mL	ｐg/mｌ	+	
-pg/mL	pｇ/ml	+	
-pg/mL	ρg/ml	+	
-pg/mL	ｐｇ／ｍL	+	
-pg/mL	ｐｇ／ｍ	+	
+pg/mL	pg/ml	+	【特記事項あり】
+pg/mL	pg/ｍｌ	+	【特記事項あり】
+pg/mL	ｐｇ／ｍｌ	+	【特記事項あり】
+pg/mL	ｐｇ/ml	+	【特記事項あり】
+pg/mL	pg／mL	+	【特記事項あり】
+pg/mL	PG/ML	+	【特記事項あり】
+pg/mL	pg/mL	+	【特記事項あり】
+pg/mL	pg/mＬ	+	【特記事項あり】
+pg/mL	PG/ml	+	【特記事項あり】
+pg/mL	Pg/mL	+	【特記事項あり】
+pg/mL	pg/mL(参考	+	【特記事項あり】
+pg/mL	pg/mL(参考値)	+	【特記事項あり】
+pg/mL	pg/ml以下	+	【特記事項あり】
+pg/mL	ＰＧ／ＭＬ	+	【特記事項あり】
+pg/mL	ｐg/mｌ	+	【特記事項あり】
+pg/mL	pｇ/ml	+	【特記事項あり】
+pg/mL	ρg/ml	+	【特記事項あり】
+pg/mL	ｐｇ／ｍL	+	【特記事項あり】
+pg/mL	ｐｇ／ｍ	+	【特記事項あり】
 ph	ｐｈ	+	
 pmol/dL	pmol/dL	+	
 pmol/dL	PMOL/DL	+	
 pmol/dL	pMOL/dL	+	
 pmol/dL	pmol/dl	+	
-pmol/L	pM	+	
-pmol/L	pmol/L	+	
-pmol/L	pmol/l	+	
-pmol/L	pMOL/l	+	
-pmol/L	Pﾓﾙ/L	+	
-pmol/L	pﾓﾙ/l	+	
-pmol/L	Pモル/L	+	
-pmol/L	ｐｍｏｌ	+	
+pmol/L	pM	+	【特記事項あり】
+pmol/L	pmol/L	+	【特記事項あり】
+pmol/L	pmol/l	+	【特記事項あり】
+pmol/L	pMOL/l	+	【特記事項あり】
+pmol/L	Pﾓﾙ/L	+	【特記事項あり】
+pmol/L	pﾓﾙ/l	+	【特記事項あり】
+pmol/L	Pモル/L	+	【特記事項あり】
+pmol/L	ｐｍｏｌ	+	【特記事項あり】
 pmol/mg(creat)	pmol/mg･Cr	+	
 pmol/mg(creat)	pmol/mg･CR	+	
 pmol/mL	pmol/mL	+	
@@ -1150,21 +1150,21 @@ ug/mg(creat)	μg/mg・CRE	+
 ug/min	MCG/MIN	+	
 ug/min	μg/分	+	
 ug/min	μg／分	+	
-ug/mL	MCG/ML	+	
-ug/mL	micg/ml	+	
-ug/mL	mlcg/ml	+	
-ug/mL	ug/mL	+	
-ug/mL	ug/ml	+	
-ug/mL	μg/ml	+	
-ug/mL	μg/ｍL	+	
-ug/mL	μｇ/ml	+	
-ug/mL	μｇ/ｍｌ	+	
-ug/mL	μg／mL	+	
-ug/mL	μg/mL	+	
-ug/mL	μg/mＬ	+	
-ug/mL	μg/ML	+	
-ug/mL	μg/mｌ	+	
-ug/mL	μｇ／ｍ	+	
+ug/mL	MCG/ML	+	【特記事項あり】
+ug/mL	micg/ml	+	【特記事項あり】
+ug/mL	mlcg/ml	+	【特記事項あり】
+ug/mL	ug/mL	+	【特記事項あり】
+ug/mL	ug/ml	+	【特記事項あり】
+ug/mL	μg/ml	+	【特記事項あり】
+ug/mL	μg/ｍL	+	【特記事項あり】
+ug/mL	μｇ/ml	+	【特記事項あり】
+ug/mL	μｇ/ｍｌ	+	【特記事項あり】
+ug/mL	μg／mL	+	【特記事項あり】
+ug/mL	μg/mL	+	【特記事項あり】
+ug/mL	μg/mＬ	+	【特記事項あり】
+ug/mL	μg/ML	+	【特記事項あり】
+ug/mL	μg/mｌ	+	【特記事項あり】
+ug/mL	μｇ／ｍ	+	【特記事項あり】
 ug/mmol	μg/mmol	+	
 ug/mmol(creat)	MCG/MMOLCR	+	
 ug/mmol(creat)	μg/mmol・CRE	+	
