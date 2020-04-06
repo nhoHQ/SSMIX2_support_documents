@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2020/01/29
+更新日: 2020/04/06
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -16,7 +16,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |(beth\_u)/mL|B.E/ml, B.U/ml, BU/ml, BU／mL, BU/mL, ﾍﾞｾｽﾀﾞU/, ﾍﾞｾｽﾀﾞU/ml, ベセスダU/mL, ﾍﾞｾｽﾀﾞU/ML, ﾍﾞｾｽﾀﾞU/mL, ﾍﾟｾｽﾀﾞU/ml|||
 |(bsa)|cm2, m\S\2|+||
 |(cfu)/mL|CFU/ml, CFU, CFU/mL|+||
-|(end\_u)/mL|EU, EU/ml, EU/mL, Eu/mL, eu/ml, EU/ｍL|||
+|(end\_u)/mL|EU, EU/ml, EU/mL, Eu/mL, eu/ml, EU/ｍL||JLAC10が5E0460000??????01, 5E0470000??????01, 5E0480000??????01の場合に限る。|
 |(gpl_u)/mL|GPL|||
 |(hb)|bpm|+||
 |(jdf\_u)|JDF UNIT, JDF UNITS, JDFU, JDFunits|||
@@ -126,7 +126,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mg/(24.hr)|mg/24H, mg/24h|+||
 |mg/(kg.hr)|mg/kg/h, mg/kg/時|+||
 |mg/d|mg/day, mg/DAY, mg／日, mg日|+||
-|mg/dL|Eu/dl, Eu/dL, E単位/dl, md/dl, mg/dL, ｍｇ/ｄｌ, ｍｇ／ｄｌ, mg／dL, mg/dl, mg/dＬ, MG/DL, ㎎/dl, mg／dl, ｍｇ／ｄ|+|【特記事項あり】|
+|mg/dL|Eu/dl, Eu/dL, E単位/dl, md/dl, mg/dL, ｍｇ/ｄｌ, ｍｇ／ｄｌ, mg／dL, mg/dl, mg/dＬ, MG/DL, ㎎/dl, mg／dl, ｍｇ／ｄ, eu/dL|+|【特記事項あり】|
 |mg/g(creat)|mg/g ・CRE, mg/g Cr, mg/g.cr, mg/g.Cr, mg/g.Cre, mg/g.cre, mg/g.CRE, mg/g･Cr, mg/g・Cr, mg/g･cr, mg/g･CRE, mg/g・CRE, mg/g･cre, MG/G･CREA, mg/gCr, mg/g-Cr, mg/g-Cr., mg/gCRE, mg/g．CR, MG/G.CRE, mg/G・Cr, mg/g・Cre, mg/g*C|+||
 |mg/kg|mg/kg|+||
 |mg/L|mg/l, ｍg/l, ㎎／Ｌ, ｍｇ/L, mg／L, ｍg/L, MG/L, mg/L, mg/ｌ, ｍｇ／Ｌ|+||
@@ -259,6 +259,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分, ml／min|JLAC10が8A025000009891929(24時間クレアチニンクリアランス)、8A020000009891929（クレアチニンクリアランス）、8A020000002391929（クレアチニンクリアランス）の場合のみ『mL/min』とする。|
 |maeq/mL|mEq/ml, MEQ/ML, MEQ/ml, MEq/ml, Meq/mL, meq/ml|JLAC10が5F015144002384401(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。|
 |mg/dL|ｍｇ／ｄ|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
+|mg/dL|Eu/dl, Eu/dL, E単位/dl|JLAC10が1A9900000??????73の場合のみ『mg/dL』とする。|
 |miu/mL|ｍＩＵ／|病院によっては他の単位を意味する場合もあるので個別に確認すること。|
 |mmol/mol|mmol/mL|JLAC10が3D045000001920401、3D0450000019???01(HbA1c IFCC値)の場合のみ『mmol/mol』とする。|
 |mosm/kg\_h2o|mOsm|JLAC10が3H045000000190201、3H045000002390201、3H045000004090201、3H045000000490201(浸透圧)の場合のみ『mosm/kg\_h2o』とする。|
