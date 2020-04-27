@@ -429,6 +429,7 @@ g/d	ｇ/day	+
 g/d	G/DAY	+	
 g/d	g／日	+	
 g/d	g/Day	+	
+g/d	g/日	+	
 g/dL	g/dl	+	
 g/dL	g/ｄｌ	+	
 g/dL	g／dL	+	
@@ -475,6 +476,7 @@ inh%	INH%	+
 inh%	ＩＮＨ％	+	
 inh%	Inh%	+	
 inh%	inh%	+	
+inh%	INH(%)	+	
 iu/d	IU/day	+	
 iu/dL	IU/dl	+	
 iu/dL	IU/dL	+	
@@ -549,6 +551,7 @@ logcopies/mL	lc/ml
 logcopies/mL	Logコピー/mL		
 logcopies/mL	LOGコピー/mL		
 logcopies/mL	Log コピー/mL		
+logcopies/mL	Log コピ-/mL		
 logeq/mL	LEG/mL		【特記事項あり】
 logeq/mL	LGE/mL		【特記事項あり】
 logeq/mL	LGE/ml		【特記事項あり】
@@ -605,6 +608,7 @@ mg/d	mg/day	+
 mg/d	mg/DAY	+	
 mg/d	mg／日	+	
 mg/d	mg日	+	
+mg/d	MG/DAY	+	
 mg/dL	Eu/dl	+	【特記事項あり】
 mg/dL	Eu/dL	+	【特記事項あり】
 mg/dL	E単位/dl	+	【特記事項あり】
@@ -715,6 +719,7 @@ mL/min(bsa)	ml/min/1.73m*2	+	【特記事項あり】
 mL/min(bsa)	mL/min/1.732	+	【特記事項あり】
 mL/min(bsa)	ml/min/1.73m*2	+	【特記事項あり】
 mL/min(bsa)	mL/min/1.7	+	【特記事項あり】
+mL/min(bsa)	ml/分/1.73m2	+	【特記事項あり】
 mm	mm	+	
 mm	ＭＭ	+	
 mm	mm/1H	+	
@@ -763,6 +768,7 @@ mosm/kg_h2o	mosm/l	+
 mosm/kg_h2o	mosm/ｋg	+	
 mosm/kg_h2o	m0sm/kg	+	
 mosm/kg_h2o	mOsm	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201, 3H045000000490201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
+mosm/kg_h2o	MOSM/L	+	
 mu/dL	mU/dl	+	
 mu/dL	mU／dL	+	
 mu/dL	MU/DL	+	
@@ -1051,6 +1057,7 @@ u/L	U／L	+
 u/L	U/L	+	
 u/L	U/l/37℃	+	
 u/L	U/L/37℃	+	
+u/L	Ｕ/Ｌ	+	
 u/mg(creat)	U/mg･Cr	+	
 u/mL	U/ml	+	【特記事項あり】
 u/mL	Ｕ/ＭＬ	+	【特記事項あり】
@@ -1088,6 +1095,7 @@ ug/d	μg/DAY	+
 ug/d	μg/日	+	
 ug/d	μg／日	+	
 ug/d	μg/da	+	
+ug/d	μg/Day	+	
 ug/dL	mcg/dl	+	
 ug/dL	MCG/DL	+	
 ug/dL	ug/dl	+	

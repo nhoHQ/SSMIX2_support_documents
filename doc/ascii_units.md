@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2020/04/06
+更新日: 2020/04/27
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -91,7 +91,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |g|g|+||
 |g/(24.hr)|g/24h|+||
 |g/(5.hr)|g/5時間|+||
-|g/d|g/day, ｇ/day, G/DAY, g／日, g/Day|+||
+|g/d|g/day, ｇ/day, G/DAY, g／日, g/Day, g/日|+||
 |g/dL|g/dl, g/ｄｌ, g／dL, g/ｄL, g/dＬ, g/dL, ｇ/ｄL|+||
 |g/g(creat)|G/G CREA, g/g.Cr, g/g・Cr, g/g･Cr, ｇ/ｇ・CRE, g/g・CRE, g/gCre, g/gcre, g/gCr, g/g・Cre, g/g*c|+||
 |g/kg|g/kg|+||
@@ -100,7 +100,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |hr|hours, 時間|+||
 |hr min|時　分, 時、分|||
 |index|G.I, GI, INDEX, Index, INDEX値, index値, INDX, M.I, MI, ndex, index|||
-|inh%|%INH, IH%, INH%, ＩＮＨ％, Inh%, inh%|+||
+|inh%|%INH, IH%, INH%, ＩＮＨ％, Inh%, inh%, INH(%)|+||
 |iu/d|IU/day|+||
 |iu/dL|IU/dl, IU/dL|+||
 |iu/g(hgb)|IU/g･Hb, IU/gHb|+||
@@ -114,7 +114,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |L/min|L/min|+||
 |LC|×100LMC, 100LC, LC, LC(ﾙﾐｶｳﾝﾄ), ﾙﾐｶｳﾝﾄ, ルミカウント|||
 |LC(class)|100LC(ｸﾗｽ)|||
-|logcopies/mL|CL/ml, LC/ml, LC/mL, Log ｺﾋﾟｰ/ml, Log/ml, LogCopy/ml, LogCopy/mL, Logcopy/ml, LogCP/mL, LOGｺﾋﾟ-/, logｺﾋﾟ-/, logｺﾋﾟ/m, LOGｺﾋﾟ-/mL, Logｺﾋﾟ-/mL, Logｺﾋﾟｰ/, Logｺﾋﾟ-/, Logコピー/m, LOGｺﾋﾟｰ/ml, Logｺﾋﾟｰ/mL, Logｺﾋﾟｰ/ml, Logコピ-/, lc/ml, Logコヒ゜-/, Logコピー/mL, LOGコピー/mL, Log コピー/mL|||
+|logcopies/mL|CL/ml, LC/ml, LC/mL, Log ｺﾋﾟｰ/ml, Log/ml, LogCopy/ml, LogCopy/mL, Logcopy/ml, LogCP/mL, LOGｺﾋﾟ-/, logｺﾋﾟ-/, logｺﾋﾟ/m, LOGｺﾋﾟ-/mL, Logｺﾋﾟ-/mL, Logｺﾋﾟｰ/, Logｺﾋﾟ-/, Logコピー/m, LOGｺﾋﾟｰ/ml, Logｺﾋﾟｰ/mL, Logｺﾋﾟｰ/ml, Logコピ-/, lc/ml, Logコヒ゜-/, Logコピー/mL, LOGコピー/mL, Log コピー/mL, Log コピ-/mL|||
 |logeq/mL|LEG/mL, LGE/mL, LGE/ml|||
 |logiu/mL|L.IU/ml, L.IU/mL, LIU/mL, LIU/ml, Log IU/m, Log IU/mL, Log IU/ｍL, LOG IU/mL, LOGIU/mL, LogIU/mL, LogIU/ml, LoglU/mL, Log　IU/mL, Ｌ．ＩＵ, Log IU/ml, Ｌ．ＩＵ||【特記事項あり】|
 |logu/mL|Log U/mL, LogU/ml, LOGU/ML, LogU/mL, logU/ml||【特記事項あり】|
@@ -125,7 +125,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |meq/L|mEg/l, mEp/l, mEq/l, mEq／L, mEq/ｌ, mEq/L, mEq/Ｌ, meq/L|+||
 |mg/(24.hr)|mg/24H, mg/24h|+||
 |mg/(kg.hr)|mg/kg/h, mg/kg/時|+||
-|mg/d|mg/day, mg/DAY, mg／日, mg日|+||
+|mg/d|mg/day, mg/DAY, mg／日, mg日, MG/DAY|+||
 |mg/dL|Eu/dl, Eu/dL, E単位/dl, md/dl, mg/dL, ｍｇ/ｄｌ, ｍｇ／ｄｌ, mg／dL, mg/dl, mg/dＬ, MG/DL, ㎎/dl, mg／dl, ｍｇ／ｄ, eu/dL|+|【特記事項あり】|
 |mg/g(creat)|mg/g ・CRE, mg/g Cr, mg/g.cr, mg/g.Cr, mg/g.Cre, mg/g.cre, mg/g.CRE, mg/g･Cr, mg/g・Cr, mg/g･cr, mg/g･CRE, mg/g・CRE, mg/g･cre, MG/G･CREA, mg/gCr, mg/g-Cr, mg/g-Cr., mg/gCRE, mg/g．CR, MG/G.CRE, mg/G・Cr, mg/g・Cre, mg/g*C|+||
 |mg/kg|mg/kg|+||
@@ -140,7 +140,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mL/d|mL/day|+||
 |mL/dL|ml/dl, mL/dL, mL/ｄｌ|+||
 |mL/min|ml/min, ｍL/min, mL/min, mL/分, ml/分, ml／min, mL/min|+|【特記事項あり】|
-|mL/min(bsa)|mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡", ml/min/m*2, ml/min/1.73m*2, mL/min/1.732, ml/min/1.73m*2, mL/min/1.7|+|【特記事項あり】|
+|mL/min(bsa)|mL/min/1, ml/min/1.7, ml/min/1.73m^2, mL/min/1.73m^2, mL/min/1.73m2, ml/分/1.73㎡, "ｍｌ/分・1,73㎡", ml/min/m*2, ml/min/1.73m*2, mL/min/1.732, ml/min/1.73m*2, mL/min/1.7, ml/分/1.73m2|+|【特記事項あり】|
 |mm|mm, ＭＭ, mm/1H, mm/h, mm/hr, mm/hr., mm/2h, ｍｍ|+||
 |mm(hg)|mmHg, Torr|+||
 |mm\_h2o|mmH2O|+||
@@ -149,7 +149,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |mmol/mol|mmol/mol, mmoｌ/moL|+|【特記事項あり】|
 |mmol/mol(creat)|mmol/mol･CRE, Mﾓﾙ/ﾓﾙ.CRE, ｍﾓﾙ/ﾓﾙC|+||
 |molecules/cell|molecules/, molecules/cell|||
-|mosm/kg\_h2o|MOSM/KGH2O, mOSM/KgH, mOSM/l, mOsm/Kg, mOsm/KgH2O, mOsm/Kg・H2O, mOsm/Kg･, mOsm/Kg･H2O, mOsm/L, mOsm/kg, mOsm/kgH20, mOsm/kgH2O, mOsm/kg・H2O, mOsm/kg･H2O, mOsm/l, mOsm/ｌ, mOsm／L, mosm/kg\_h2o, mosm/l, mosm/ｋg, m0sm/kg|+|【特記事項あり】|
+|mosm/kg\_h2o|MOSM/KGH2O, mOSM/KgH, mOSM/l, mOsm/Kg, mOsm/KgH2O, mOsm/Kg・H2O, mOsm/Kg･, mOsm/Kg･H2O, mOsm/L, mOsm/kg, mOsm/kgH20, mOsm/kgH2O, mOsm/kg・H2O, mOsm/kg･H2O, mOsm/l, mOsm/ｌ, mOsm／L, mosm/kg\_h2o, mosm/l, mosm/ｋg, m0sm/kg, MOSM/L|+|【特記事項あり】|
 |mu/dL|mU/dl, mU／dL, MU/DL, mU/dL|+||
 |mu/mL|mU/ml, mU/mL, mU／mL|+||
 |neq/L|nEq/l|+||
@@ -201,7 +201,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |type|DQﾛｰｶｽ, ｶﾀ, ガタ, ﾀｲﾌﾟ, 型||【特記事項あり】|
 |u/d|U/day, Ｕ/日, U／日|+||
 |u/g(creat)|U/g.Cr, U/g・Cr, U／g・Cr, U/g･Cr, U/g・Cre, U/g･CRE, U/g*CR|+||
-|u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃, U/L/37℃|+||
+|u/L|U/l, Ｕ／Ｌ, U/ｌ, U／L, U/L, U/l/37℃, U/L/37℃, Ｕ/Ｌ|+||
 |u/mg(creat)|U/mg･Cr|+||
 |u/mL|U/ml, Ｕ/ＭＬ, Ｕ／ｍｌ, U／mL, Ｕ／mL, U/ML, U/mL, Ｕ/ｍＬ, U/mＬ, μ/ml, u/ml, (U/mL), Ｕ／ｍＬ|+|【特記事項あり】|
 |uA/mL|UA/ML, UA/ml, UA/mL, Ua/ml, Ua/mL, ua/ml, IUA/mL|||
@@ -209,7 +209,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |ug|μg|+||
 |ug/(24.hr)|μg/24h|+||
 |ug/(dL.hr)|μg/dl/h|+||
-|ug/d|MCG/DAY, ug/day, μg/day, μｇ/day, μg/DAY, μg/日, μg／日, μg/da|+||
+|ug/d|MCG/DAY, ug/day, μg/day, μｇ/day, μg/DAY, μg/日, μg／日, μg/da, μg/Day|+||
 |ug/dL|mcg/dl, MCG/DL, ug/dl, μg/dI, μg/dl, μｇ/ｄｌ, μｇ/dl, μg／dL, μg/ｄｌ, μg/dL, μg/dＬ|+||
 |ug/dL(rbc)|MCG/DL RBC, μg/100m, μg/dL R, μg/dl R, μg/dL RBC, μg/dl･R, μg/dlRBC, μg/dLRBC, μg/dl赤, μg/dlRB|+||
 |ug/g|μg/g|+||
