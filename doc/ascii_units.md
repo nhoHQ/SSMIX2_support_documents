@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2020/04/27
+更新日: 2020/07/22
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -15,7 +15,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |(arb\_u)/mL|AU/ml, AU／mL, AU/mL, aU/ml|+||
 |(beth\_u)/mL|B.E/ml, B.U/ml, BU/ml, BU／mL, BU/mL, ﾍﾞｾｽﾀﾞU/, ﾍﾞｾｽﾀﾞU/ml, ベセスダU/mL, ﾍﾞｾｽﾀﾞU/ML, ﾍﾞｾｽﾀﾞU/mL, ﾍﾟｾｽﾀﾞU/ml|||
 |(bsa)|cm2, m\S\2|+||
-|(cfu)/mL|CFU/ml, CFU, CFU/mL|+||
+|(cfu)/mL|CFU/ml, CFU, CFU/mL, コロニー, cfu, col, colony, コロニ-|+||
 |(end\_u)/mL|EU, EU/ml, EU/mL, Eu/mL, eu/ml, EU/ｍL||JLAC10が5E0460000??????01, 5E0470000??????01, 5E0480000??????01の場合に限る。|
 |(gpl_u)/mL|GPL|||
 |(hb)|bpm|+||
@@ -71,7 +71,6 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |cm|cm, ｃｍ|+||
 |cm/s|cm/s|+||
 |COI|(-)．C.O, C.O.I, C.O.Ｉ, C.O.I., CO.Index, COI, ＣＯＩ, COl, Cut off, Cut off Index, CutOffInde, c.o.i|||
-|colonies|コロニー, cfu, col|||
 |copies|コピー||【特記事項あり】|
 |copies/10\*4cells|ｺﾋﾟｰ/1万|||
 |copies/10\*6cells|10^6cell, ｺﾋﾟｰ/10^6cells, コピー/10^6cells, ｺﾋﾟｰ/106ce, ｺﾋﾟｰ/106cells, コピ-, コピー/cells,コピ/10^6セル, コピー||【特記事項あり】|
