@@ -30,6 +30,11 @@ ASCII単位	表示用単位の例	ISO	備考
 (cfu)/mL	CFU/ml	+	
 (cfu)/mL	CFU	+	
 (cfu)/mL	CFU/mL	+	
+(cfu)/mL	コロニー	+	
+(cfu)/mL	cfu	+	
+(cfu)/mL	col	+	
+(cfu)/mL	colony	+	
+(cfu)/mL	コロニ-	+	
 (end_u)/mL	EU		
 (end_u)/mL	EU/ml		
 (end_u)/mL	EU/mL		
@@ -328,8 +333,6 @@ COI	Cut off
 COI	Cut off Index		
 COI	CutOffInde		
 COI	c.o.i		
-colonies	コロニー		
-colonies	col		
 copies	コピー		【特記事項あり】
 copies/10*4cells	ｺﾋﾟｰ/1万		
 copies/10*6cells	10^6cell		【特記事項あり】
