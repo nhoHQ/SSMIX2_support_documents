@@ -35,6 +35,7 @@ ASCII単位	表示用単位の例	ISO	備考
 (cfu)/mL	col	+	
 (cfu)/mL	colony	+	
 (cfu)/mL	コロニ-	+	
+(cfu)/mL	/ml	+	JLAC10が6B0100000???74112の場合のみ『(cfu)/mL』とする。
 (end_u)/mL	EU		
 (end_u)/mL	EU/ml		
 (end_u)/mL	EU/mL		
@@ -132,6 +133,7 @@ ASCII単位	表示用単位の例	ISO	備考
 .10*3/uL	x10^3/μL	+	【特記事項あり】
 .10*3/uL	10＾3/μL	+	【特記事項あり】
 .10*3/uL	×10^3/μL	+	【特記事項あり】
+.10*3/uL	10^3	+	病院によっては他の単位を意味する場合もあるので個別に確認すること。
 .10*4(cfu)/mL	10^4CFU/ml	+	
 .10*4/mL	×10^4個/ml	+	
 .10*4/mL	万/ml	+	
@@ -271,6 +273,8 @@ ASCII単位	表示用単位の例	ISO	備考
 /(wf)	/100LPF	+	【特記事項あり】
 /(wf)	/100	+	JLAC10が1A105????????????の場合のみ『/(wf)』とする。
 /(wf)	個/100LPF	+	【特記事項あり】
+/(wf)	/全	+	【特記事項あり】
+/(wf)	W	+	JLAC10が1A105????????????の場合のみ『/(wf)』とする。
 /3uL	/3		
 /3uL	/3　μｌ		
 /3uL	/3/mm^3		
@@ -451,6 +455,7 @@ g/g(creat)	g/gcre	+
 g/g(creat)	g/gCr	+	
 g/g(creat)	g/g・Cre	+	
 g/g(creat)	g/g*c	+	
+g/g(creat)	g/g.CRE	+	
 g/kg	g/kg	+	
 g/L	g/l	+	
 g/L	g/L	+	
@@ -555,6 +560,7 @@ logcopies/mL	Logコピー/mL
 logcopies/mL	LOGコピー/mL		
 logcopies/mL	Log コピー/mL		
 logcopies/mL	Log コピ-/mL		
+logcopies/mL	Logコピ-/mL		
 logeq/mL	LEG/mL		【特記事項あり】
 logeq/mL	LGE/mL		【特記事項あり】
 logeq/mL	LGE/ml		【特記事項あり】
@@ -595,6 +601,7 @@ maeq/mL	MEq/ml	+	JLAC10が5F015144002384401(HBV核酸定量：プローブ法)�
 maeq/mL	Meq/mL	+	JLAC10が5F015144002384401(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。
 maeq/mL	meq/ml	+	JLAC10が5F015144002384401(HBV核酸定量：プローブ法)の場合のみ『maeq/mL』とする。
 meq/d	mEq/day	+	
+mEq/d	mEq/Day	+	
 meq/L	mEg/l	+	
 meq/L	mEp/l	+	
 meq/L	mEq/l	+	
@@ -603,6 +610,7 @@ meq/L	mEq/ｌ	+
 meq/L	mEq/L	+	
 meq/L	mEq/Ｌ	+	
 meq/L	meq/L	+	
+meq/L	mEQ/L	+	
 mg/(24.hr)	mg/24H	+	
 mg/(24.hr)	mg/24h	+	
 mg/(kg.hr)	mg/kg/h	+	
@@ -650,6 +658,7 @@ mg/g(creat)	mg/G・Cr	+
 mg/g(creat)	mg/g・Cre	+	
 mg/g(creat)	mg/g*C	+	
 mg/kg	mg/kg	+	
+mg/kg	mg/Kg	+	
 mg/L	mg/l	+	
 mg/L	ｍg/l	+	
 mg/L	㎎／Ｌ	+	
@@ -723,6 +732,8 @@ mL/min(bsa)	mL/min/1.732	+	【特記事項あり】
 mL/min(bsa)	ml/min/1.73m*2	+	【特記事項あり】
 mL/min(bsa)	mL/min/1.7	+	【特記事項あり】
 mL/min(bsa)	ml/分/1.73m2	+	【特記事項あり】
+mL/min(bsa)	mL/分/1.73m^2	+	【特記事項あり】
+mL/min(bsa)	ml/分/1.73m^2	+	【特記事項あり】
 mm	mm	+	
 mm	ＭＭ	+	
 mm	mm/1H	+	
@@ -731,6 +742,7 @@ mm	mm/hr	+
 mm	mm/hr.	+	
 mm	mm/2h	+	
 mm	ｍｍ	+	
+mm	mm/1h	+	
 mm(hg)	mmHg	+	
 mm(hg)	Torr	+	
 mm_h2o	mmH2O	+	
@@ -772,6 +784,7 @@ mosm/kg_h2o	mosm/ｋg	+
 mosm/kg_h2o	m0sm/kg	+	
 mosm/kg_h2o	mOsm	+	JLAC10が3H045000000190201、3H045000002390201、3H045000004090201, 3H045000000490201(浸透圧) の場合のみ『mosm/kg_h2o』とする。
 mosm/kg_h2o	MOSM/L	+	
+mosm/kg_h2o	mOSM/KgH2O	+	
 mu/dL	mU/dl	+	
 mu/dL	mU／dL	+	
 mu/dL	MU/DL	+	
@@ -799,6 +812,7 @@ ng/10*7cells	ng/10x7C
 ng/10*7cells	ng/千万		
 ng/10*7cells	ng/10^7cel		
 ng/10*7cells	ng/10Mコ		
+ng/10*7cells	ng/10*7・pl		
 ng/d	ng/day	+	
 ng/dL	ng/dl	+	
 ng/dL	ng／dL	+	
@@ -910,6 +924,7 @@ nmolBCeq/L	nmolBCE/L
 nmolBCeq/L	NﾓﾙBCE/L		
 nmolBCeq/L	nmol BCE/l		
 nmolBCeq/L	nﾓﾙBCE/l		
+nmolBCeq/L	nMOLBCE/L		
 nmolBCeq/mmol(creat)	nM BCE/m		
 nmolBCeq/mmol(creat)	nM BCE/mM･Cre		
 nmolBCeq/mmol(creat)	nMBCE		
@@ -1140,6 +1155,7 @@ ug/g(creat)	μg/gcre	+
 ug/g(creat)	μg/gCRE	+	
 ug/g(creat)	μg/gCre	+	
 ug/g(creat)	μg/g.CRE	+	
+ug/g(creat)	μg/g．CRE	+	
 ug/kg	μg/kg	+	
 ug/L	MCG/L	+	【特記事項あり】
 ug/L	ug/l	+	【特記事項あり】
@@ -1221,6 +1237,7 @@ umol/L	μM	+	EPS（JLAC10定義なし）の場合のみ『umol/L』とする。
 umol/L	umol/l	+	【特記事項あり】
 umol/L	μｍｏｌ	+	【特記事項あり】
 umol/L	Umol/L	+	【特記事項あり】
+umol/L	μMOL/L	+	【特記事項あり】
 umol/mg(creat)	MCMOL/MGCR	+	
 umol/mg(creat)	μmol/mg	+	
 umol/mg(creat)	μmol/mg.C	+	
@@ -1285,3 +1302,5 @@ vol%	vol%
 単位なし	無し		
 単位なし	S.G.		
 単位なし	0		
+単位なし	/数		
+単位なし	/毎		
