@@ -1,5 +1,5 @@
 # 単位のASCII文字変換
-更新日: 2020/09/24
+更新日: 2020/12/18
 ## 変換の趣旨
 JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以下のように記載することとしている。
 
@@ -183,7 +183,7 @@ JAHIS 臨床検査データ交換規約 Ver.3.1では、OBX-6（単位）を以�
 |pg/dL|pg/dL|+||
 |pg/mg(creat)|pg/mg cre, pg/mg.CR, pg/mg.Cre, PG/MG.CRE, pg/mg･Cr, pg/mg･CRE, pg/mg・Crn, pg/mgCr, pg/mg-Cr, pg/mgCr., pg/mgCRE, PG-MG.CR, pg/mg.CRE, pg/mg･CR|+||
 |pg/mL|pg/ml, pg/ｍｌ, ｐｇ／ｍｌ, ｐｇ/ml, pg／mL, PG/ML, pg/mL, pg/mＬ, PG/ml, Pg/mL, pg/mL(参考, pg/mL(参考値), pg/ml以下, ＰＧ／ＭＬ, ｐg/mｌ, pｇ/ml, ρg/ml, ｐｇ／ｍL, ｐｇ／ｍ|+|【特記事項あり】|
-|ph|ｐｈ|+||
+|ph|ph, pH, Ph, PH, ｐh, ｐH, Ｐh, ＰH, pｈ, Pｈ, pＨ, PＨ, ｐｈ, ｐＨ, Ｐｈ, ＰＨ|+||
 |pmol/dL|pmol/dL, PMOL/DL, pMOL/dL, pmol/dl|+||
 |pmol/L|pM, pmol/L, pmol/l, pMOL/l, Pﾓﾙ/L, pﾓﾙ/l, Pモル/L, ｐｍｏｌ|+|【特記事項あり】|
 |pmol/mg(creat)|pmol/mg･Cr, pmol/mg･CR|+||
